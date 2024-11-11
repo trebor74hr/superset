@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-04 22:57+0400\n"
-"PO-Revision-Date: 2024-11-08 11:17+0100\n"
+"PO-Revision-Date: 2024-11-11 17:39+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hr\n"
@@ -129,11 +129,11 @@ msgstr " za dodavanje izračunatih stupaca"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:421
 msgid " to add metrics"
-msgstr " za dodavanje metrike"
+msgstr " za dodavanje mjere"
 
 #: superset-frontend/src/explore/components/DatasourcePanel/index.tsx:318
 msgid " to edit or add columns and metrics."
-msgstr " za uređivanje ili dodavanje stupaca i metrika."
+msgstr " za uređivanje ili dodavanje stupaca i mjera."
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:360
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:395
@@ -1000,7 +1000,7 @@ msgid ""
 "A time series chart that visualizes how a related metric from multiple "
 "groups vary over time. Each group is visualized using a different color."
 msgstr ""
-"Grafikon vremenske ovisnosti koji vizualizira kako povezana metrika iz više "
+"Grafikon vremenske ovisnosti koji vizualizira kako povezana mjera iz više "
 "grupa varira tijekom vremena. Svaka grupa je vizualizirana različitim bojama."
 
 #: superset/commands/report/exceptions.py:253
@@ -1179,7 +1179,7 @@ msgstr "Dodaj zapisnik"
 
 #: superset/connectors/sqla/views.py:215
 msgid "Add Metric"
-msgstr "Dodaj metriku"
+msgstr "Dodaj mjeru"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1252
 msgid "Add Report"
@@ -1243,13 +1243,13 @@ msgstr "Dodajte drugu metodu obavijesti"
 msgid "Add calculated columns to dataset in \"Edit datasource\" modal"
 msgstr ""
 "Dodajte izračunate stupce skupu podataka u modalu \"Uređivanje izvora "
-"podataka\"."
+"podataka\""
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:334
 msgid "Add calculated temporal columns to dataset in \"Edit datasource\" modal"
 msgstr ""
 "Dodajte izračunate vremenske stupce skupu podataka u modalu \"Uređivanje "
-"izvora podataka\"."
+"izvora podataka\""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberPeriodOverPeriod/controlPanel.ts:81
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberPeriodOverPeriod/controlPanel.ts:84
@@ -1318,7 +1318,7 @@ msgstr "Dodaj stavku"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/MetricsControl.jsx:333
 msgid "Add metric"
-msgstr "Dodaj metriku"
+msgstr "Dodaj mjeru"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:401
 msgid "Add metrics to dataset in \"Edit datasource\" modal"
@@ -1850,7 +1850,7 @@ msgid ""
 "around each box visualize the min, max, range, and outer 2 quartiles."
 msgstr ""
 "Također poznata kao dijagram okvira (box plot) i brkova (whisker plot), ova "
-"vizualizacija uspoređuje distribucije povezane metrike u više grupa. Okvir u "
+"vizualizacija uspoređuje distribucije povezane mjere u više grupa. Okvir u "
 "sredini naglašava srednju vrijednost, medijan i unutarnja 2 kvartila. Brkovi "
 "oko svakog okvira vizualiziraju min, maks, raspon i vanjska 2 kvartila."
 
@@ -2153,8 +2153,9 @@ msgid ""
 "An error occurred while storing your query in the backend. To avoid losing "
 "your changes, please save your query using the \"Save Query\" button."
 msgstr ""
-"Došlo je do pogreške prilikom pohranjivanja vašeg upita u pozadini. Kako "
-"biste izbjegli gubitak promjena, spremite upit pomoću gumba \"Spremi upit\"."
+"Došlo je do pogreške prilikom pohranjivanja vašeg upita u pozadinskom "
+"sustavu. Kako biste izbjegli gubitak promjena, spremite upit pomoću gumba "
+"\"Spremi upit\"."
 
 #: superset/commands/temporary_cache/exceptions.py:41
 #: superset/key_value/exceptions.py:46
@@ -2403,7 +2404,7 @@ msgstr "Primjeni"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:99
 msgid "Apply conditional color formatting to metric"
-msgstr "Primijenite uvjetno oblikovanje boje na metriku"
+msgstr "Primijenite uvjetno oblikovanje boje na mjeru"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:406
 msgid "Apply conditional color formatting to metrics"
@@ -2419,7 +2420,7 @@ msgstr "Filtriraj"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:111
 msgid "Apply metrics on"
-msgstr "Primijeni metriku na"
+msgstr "Primijeni mjeru na"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FilterScope/FilterScope.tsx:128
 msgid "Apply to all panels"
@@ -2541,7 +2542,7 @@ msgid ""
 msgstr ""
 "Površinski grafikoni slični su linijskim grafikonima po tome što "
 "predstavljaju varijable u istom mjerilu, ali površinski grafikoni slažu "
-"metriku jednu na drugu."
+"mjere jednu na drugu."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:236
 msgid "Arrow"
@@ -2699,7 +2700,7 @@ msgstr "Stupičasti grafikon (naslijeđeno)"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/index.ts:60
 msgid "Bar Charts are used to show metrics as a series of bars."
-msgstr "Stupčasti grafikoni koriste se za prikaz metrike kao nizova stupaca."
+msgstr "Stupčasti grafikoni koriste se za prikaz mjera kao nizova stupaca."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:315
 msgid "Bar Values"
@@ -2722,7 +2723,7 @@ msgstr "Stil karte osnovnog sloja. Pogledajte dokumentaciju Mapboxa: %s"
 
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:165
 msgid "Based on a metric"
-msgstr "Na temelju metrike"
+msgstr "Na temelju mjere"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:55
 msgid "Based on granularity, number of time periods to compare against"
@@ -2880,9 +2881,8 @@ msgstr "Box Plot"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:121
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:157
-#, fuzzy
 msgid "Breakdowns"
-msgstr "Raščlanjenja"
+msgstr "Lomovi"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:159
 msgid ""
@@ -3161,7 +3161,7 @@ msgstr "Vrsta izračuna"
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:32
 #: superset/viz.py:751
 msgid "Calendar Heatmap"
-msgstr "Heatmap kalendar"
+msgstr "Kalendar toplinske karte"
 
 #: superset-frontend/src/dashboard/actions/dashboardLayout.js:213
 msgid "Can not move top level tab into nested tabs"
@@ -3172,9 +3172,8 @@ msgid "Can select multiple values"
 msgstr "Može odabrati više vrijednosti"
 
 #: superset/viz.py:1270
-#, fuzzy
 msgid "Can't have overlap between Series and Breakdowns"
-msgstr "Ne smiju se preklapati Nizovi i Breakdown-i"
+msgstr "Ne smiju se preklapati Nizovi i Lomovi"
 
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:212
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.tsx:906
@@ -3732,7 +3731,7 @@ msgstr "Odaberite razdjelnik"
 
 #: superset-frontend/src/explore/controls.jsx:216
 msgid "Choose a metric for right axis"
-msgstr "Odaberite metriku za desnu os"
+msgstr "Odaberite mjeru za desnu os"
 
 #: superset-frontend/plugins/legacy-plugin-chart-chord/src/controlPanel.ts:59
 msgid "Choose a number format"
@@ -3812,8 +3811,8 @@ msgid ""
 "Choose whether a country should be shaded by the metric, or assigned a color "
 "based on a categorical color palette"
 msgstr ""
-"Odaberite hoće li zemlja biti osjenčana metrikom ili će joj se dodijeliti "
-"boja na temelju kategoričke palete boja"
+"Odaberite hoće li zemlja biti osjenčana mjerom ili će joj se dodijeliti boja "
+"na temelju kategoričke palete boja"
 
 #: superset-frontend/plugins/legacy-plugin-chart-chord/src/index.js:34
 msgid "Chord Diagram"
@@ -3850,7 +3849,7 @@ msgstr "Kružni"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:32
 msgid "Classic chart that visualizes how metrics change over time."
 msgstr ""
-"Klasični grafikon koji vizualizira kako se metrika mijenja tijekom vremena."
+"Klasični grafikon koji vizualizira kako se mjera mijenja tijekom vremena."
 
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:41
 msgid ""
@@ -3990,7 +3989,7 @@ msgstr "Zatvori karticu"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:170
 msgid "Cluster label aggregator"
-msgstr "Skupljač oznaka klastera"
+msgstr "Agregator za oznaku klastera"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:71
 msgid "Clustering Radius"
@@ -4246,7 +4245,7 @@ msgstr "Stupci za grupiranje u recima"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:269
 msgid "Combine metrics"
-msgstr "Kombinirajte metrike"
+msgstr "Kombinirajte mjere"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:297
 msgid ""
@@ -4276,7 +4275,7 @@ msgid ""
 "quickly."
 msgstr ""
 "Brzo usporedite više grafikona vremenskih nizova (kao sparkline) i povezane "
-"metrike."
+"mjere."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/timeComparison.tsx:67
 msgid "Compare results with other time periods."
@@ -4284,7 +4283,7 @@ msgstr "Usporedite rezultate s drugim vremenskim razdobljima."
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/index.js:27
 msgid "Compare the same summarized metric across multiple groups."
-msgstr "Usporedite istu sažetu metriku u više grupa."
+msgstr "Usporedite istu sažetu mjeru u više grupa."
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/index.js:28
 msgid ""
@@ -4867,7 +4866,7 @@ msgstr "Prilagođeni SQL"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:471
 msgid "Custom SQL ad-hoc metrics are not enabled for this dataset"
-msgstr "Prilagođene SQL ad-hoc metrike nisu omogućene za ovaj skup podataka"
+msgstr "Prilagođene SQL ad-hoc mjere nisu omogućene za ovaj skup podataka"
 
 #: superset/errors.py:152 superset/models/helpers.py:136
 msgid "Custom SQL fields cannot contain sub-queries."
@@ -5124,17 +5123,17 @@ msgid ""
 "might have changed, rendering the old data stake. You need to re-run the "
 "original query."
 msgstr ""
-"Podaci se ne mogu deserijalizirati iz pozadine rezultata. Format pohrane se "
-"možda promijenio, renderirajući stari udio podataka. Morate ponovno "
-"pokrenuti originalni upit."
+"Podaci se ne mogu deserijalizirati iz rezultata u pozadinskom sustavu. "
+"Format pohrane se možda promijenio, renderirajući stari udio podataka. "
+"Morate ponovno pokrenuti originalni upit."
 
 #: superset/commands/sql_lab/results.py:75
 msgid ""
 "Data could not be retrieved from the results backend. You need to re-run the "
 "original query."
 msgstr ""
-"Podaci se ne mogu dohvatiti iz pozadine rezultata. Morate ponovno pokrenuti "
-"originalni upit."
+"Podaci se ne mogu dohvatiti iz rezultata u pozadinskom sustavu. Morate "
+"ponovno pokrenuti originalni upit."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberPeriodOverPeriod/PopKPI.tsx:191
 #, python-format
@@ -5356,7 +5355,7 @@ msgstr "Potreban je skup podataka"
 
 #: superset/commands/dataset/metrics/exceptions.py:27
 msgid "Dataset metric delete failed."
-msgstr "Brisanje metrike skupa podataka nije uspjelo."
+msgstr "Brisanje mjere skupa podataka nije uspjelo."
 
 #: superset/commands/dataset/metrics/exceptions.py:23
 msgid "Dataset metric not found."
@@ -5529,7 +5528,7 @@ msgstr "Deck.gl - GeoJSON"
 
 #: superset/viz.py:2241
 msgid "Deck.gl - Heatmap"
-msgstr "Deck.gl - Heatmap"
+msgstr "Deck.gl - Toplinska karta"
 
 #: superset/viz.py:1813
 msgid "Deck.gl - Multiple Layers"
@@ -6014,9 +6013,8 @@ msgid "Details of the certification"
 msgstr "Pojedinosti o potvrdi"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:90
-#, fuzzy
 msgid "Determines how whiskers and outliers are calculated."
-msgstr "Određuje kako se izračunavaju brkovi i odstupanja."
+msgstr "Određuje kako se izračunavaju podat. brkovi i odstupanja."
 
 #: superset/views/dashboard/mixin.py:70
 msgid ""
@@ -6081,9 +6079,8 @@ msgstr ""
 "prikazu."
 
 #: superset/viz.py:1420
-#, fuzzy
 msgid "Directed Force Layout"
-msgstr "Raspored usmjerenih snaga"
+msgstr "Raspored usmjerenih silnica"
 
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/index.js:34
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:39
@@ -6105,7 +6102,6 @@ msgstr ""
 "korištenju baza podataka s vrlo širokim tablicama."
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:584
-#, fuzzy
 msgid "Disable drill to detail"
 msgstr "Onemogući raščlanjivanje do detalja"
 
@@ -6120,9 +6116,8 @@ msgid "Disabled"
 msgstr "Onemogućeno"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:587
-#, fuzzy
 msgid "Disables the drill to detail feature for this database."
-msgstr "Onemogućuje značajku raščlanjivanja do detalja za ovu bazu podataka."
+msgstr "Onemogućuje raščlanjivanje do detalja za ovu bazu podataka."
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:625
 #: superset-frontend/src/dashboard/components/Header/index.jsx:627
@@ -6156,7 +6151,7 @@ msgid ""
 "being displayed side by side for each metric."
 msgstr ""
 "Prikažite mjerne podatke jedan pored drugog unutar svakog stupca, za razliku "
-"od svakog stupca koji se prikazuje jedan pored drugog za svaku metriku."
+"od svakog stupca koji se prikazuje jedan pored drugog za svaku mjeru."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:81
 msgid ""
@@ -6211,9 +6206,8 @@ msgstr "Razdjelnik"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:84
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:241
-#, fuzzy
 msgid "Do you want a donut or a pie?"
-msgstr "Želite li krafnu ili pitu?"
+msgstr "Želite li graf krafne ili torte?"
 
 #: superset-frontend/src/features/home/RightMenu.tsx:560
 msgid "Documentation"
@@ -6225,9 +6219,8 @@ msgstr "Domena"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:81
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:238
-#, fuzzy
 msgid "Donut"
-msgstr "krafna"
+msgstr "Krafna graf"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:819
 msgid "Dotted"
@@ -6285,9 +6278,8 @@ msgid "Draw area under curves. Only applicable for line types."
 msgstr "Nacrtajte područje ispod krivulja. Primjenjivo samo za vrste linija."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:196
-#, fuzzy
 msgid "Draw line from Pie to label when labels outside?"
-msgstr "Povući liniju od torte do oznake kada su oznake vani?"
+msgstr "Povući liniju od grafa torte do oznake kada su oznake vani?"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:211
 msgid "Draw split lines for minor axis ticks"
@@ -6304,7 +6296,6 @@ msgstr "Nacrtajte razdvojene linije za manje oznake y-osi"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByMenuItems.tsx:204
 #: superset-frontend/src/components/Chart/DrillBy/DrillByMenuItems.tsx:214
-#, fuzzy
 msgid "Drill by"
 msgstr "Raščlaniti po"
 
@@ -6376,7 +6367,7 @@ msgstr "Ovdje ispustite vremenski stupac ili kliknite"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndFilterSelect.tsx:450
 msgid "Drop columns/metrics here or click"
-msgstr "Ovdje ispustite stupce/mjerke ili kliknite"
+msgstr "Ovdje ispustite stupce/mjere ili kliknite"
 
 #: superset-frontend/src/features/datasets/DuplicateDatasetModal.tsx:64
 #: superset-frontend/src/pages/DatasetList/index.tsx:487
@@ -6394,8 +6385,8 @@ msgid ""
 "Duplicate column/metric labels: %(labels)s. Please make sure all columns and "
 "metrics have a unique label."
 msgstr ""
-"Dvostruke oznake stupca/metrike: %(labels)s. Provjerite imaju li svi stupci "
-"i mjerni podaci jedinstvenu oznaku."
+"Dvostruke oznake stupca/mjere: %(labels)s. Provjerite imaju li svi stupci i "
+"mjerni podaci jedinstvenu oznaku."
 
 #: superset-frontend/src/features/datasets/DuplicateDatasetModal.tsx:61
 msgid "Duplicate dataset"
@@ -6550,9 +6541,8 @@ msgid "Edge length between nodes"
 msgstr "Duljina ruba između čvorova"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:124
-#, fuzzy
 msgid "Edge symbols"
-msgstr "Rubni simboli"
+msgstr "Simboli za rubove"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:226
 msgid "Edge width"
@@ -6616,7 +6606,7 @@ msgstr "Uredi zapisnik"
 
 #: superset/connectors/sqla/views.py:216
 msgid "Edit Metric"
-msgstr "Uredi metriku"
+msgstr "Uredi mjeru"
 
 #: superset/views/dynamic_plugins.py:61
 msgid "Edit Plugin"
@@ -6840,9 +6830,8 @@ msgid "Enable embedding"
 msgstr "Omogući ugrađivanje"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:46
-#, fuzzy
 msgid "Enable forecast"
-msgstr "Omogući prognozu"
+msgstr "Omogući predviđanje"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:49
 msgid "Enable forecasting"
@@ -6913,24 +6902,23 @@ msgid "End date must be after start date"
 msgstr "Datum završetka mora biti nakon datuma početka"
 
 #: superset/commands/database/validate.py:59
-#, fuzzy, python-format
+#, python-format
 msgid "Engine \"%(engine)s\" cannot be configured through parameters."
-msgstr "Motor \"%(engine)s\" ne može se konfigurirati putem parametara."
+msgstr ""
+"Vrsta baze podataka \"%(engine)s\" ne može se konfigurirati putem parametara."
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:532
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:536
-#, fuzzy
 msgid "Engine Parameters"
-msgstr "Parametri motora"
+msgstr "Parametri vrste baze podataka"
 
 #: superset/databases/schemas.py:339
-#, fuzzy
 msgid ""
 "Engine spec \"InvalidEngine\" does not support being configured via "
 "individual parameters."
 msgstr ""
-"Specifikacije motora \"InvalidEngine\" ne podržavaju konfiguraciju putem "
-"pojedinačnih parametara."
+"Specifikacija vrste baze podataka \"InvalidEngine\" ne podržava "
+"konfiguraciju putem pojedinačnih parametara."
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:395
 msgid "Enter CA_BUNDLE"
@@ -6941,13 +6929,12 @@ msgid "Enter Primary Credentials"
 msgstr "Unesite primarne vjerodajnice"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/TableCatalog.tsx:53
-#, fuzzy
 msgid "Enter a name for this sheet"
-msgstr "Unesite naziv za ovaj list"
+msgstr "Unesite naziv lista"
 
 #: superset-frontend/src/SqlLab/components/SqlEditorTabHeader/index.tsx:82
 msgid "Enter a new title for the tab"
-msgstr "Unesite novi naslov za karticu"
+msgstr "Unesite novi naslov kartice"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1337
 msgid "Enter alert name"
@@ -7038,9 +7025,8 @@ msgid "Error reading CSV file"
 msgstr "Pogreška pri čitanju CSV datoteke"
 
 #: superset/commands/database/uploaders/columnar_reader.py:72
-#, fuzzy
 msgid "Error reading Columnar file"
-msgstr "Pogreška pri čitanju datoteke u stupcu"
+msgstr "Pogreška pri čitanju stupčaste datoteke"
 
 #: superset/commands/database/uploaders/excel_reader.py:94
 msgid "Error reading Excel file"
@@ -7314,7 +7300,6 @@ msgid "Export to original .CSV"
 msgstr "Izvoz u izvorni .CSV"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:338
-#, fuzzy
 msgid "Export to pivoted .CSV"
 msgstr "Izvoz u pivotirani .CSV"
 
@@ -7389,13 +7374,12 @@ msgid "Extra url parameters for use in Jinja templated queries"
 msgstr "Dodatni parametri URL-a za upotrebu u upitima s predlošcima Jinja"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:271
-#, fuzzy
 msgid "Extruded"
 msgstr "Ekstrudirano"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:92
 msgid "FEB"
-msgstr "VELJAČA"
+msgstr "VELJ"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:86
 msgid "FRI"
@@ -7407,7 +7391,7 @@ msgstr "Faktor"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:338
 msgid "Factor to multiply the metric by"
-msgstr "Faktor za množenje metrike"
+msgstr "Faktor za množenje mjere"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:135
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:141
@@ -7448,7 +7432,6 @@ msgid "Failed to load chart data."
 msgstr "Učitavanje podataka grafikona nije uspjelo."
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByMenuItems.tsx:147
-#, fuzzy
 msgid "Failed to load dimensions for drill by"
 msgstr "Nije uspjelo učitavanje dimenzija za raščlanjivanje po"
 
@@ -7461,9 +7444,8 @@ msgid "Failed to save cross-filter scoping"
 msgstr "Nije uspjelo spremanje opsega unakrsnog filtra"
 
 #: superset/errors.py:150 superset/sqllab/sql_json_executer.py:190
-#, fuzzy
 msgid "Failed to start remote query on a worker."
-msgstr "Nije uspjelo pokretanje udaljenog upita na radniku."
+msgstr "Nije uspjelo pokretanje udaljenog upita na odvojenom procesu."
 
 #: superset-frontend/src/features/tags/BulkTagModal.tsx:84
 msgid "Failed to tag items"
@@ -7483,7 +7465,7 @@ msgstr "Nije uspjela provjera odabranih opcija: %s"
 #: superset-frontend/src/pages/ChartList/index.tsx:550
 #: superset-frontend/src/pages/DashboardList/index.tsx:507
 msgid "Favorite"
-msgstr "Favorit"
+msgstr "Omiljeni"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:129
 msgid "Featured"
@@ -7809,15 +7791,13 @@ msgstr ""
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:166
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:317
-#, fuzzy
 msgid "Force categorical"
-msgstr "Sila kategoričan"
+msgstr "Prisili prema kategorijama"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:83
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:157
-#, fuzzy
 msgid "Force date format"
-msgstr "Prisilni format datuma"
+msgstr "Prisili format datuma"
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:741
 msgid "Force refresh"
@@ -7888,18 +7868,16 @@ msgstr "Formula"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:190
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:265
-#, fuzzy
 msgid "Forward values"
-msgstr "Naprijed vrijednosti"
+msgstr "Proslijedi vrijednosti"
 
 #: superset-frontend/packages/superset-ui-core/src/query/extractQueryFields.ts:121
 msgid "Found invalid orderby options"
 msgstr "Pronađene nevažeće opcije redoslijeda"
 
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:75
-#, fuzzy
 msgid "Fraction digits"
-msgstr "Razlomci znamenki"
+msgstr "Decimale"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/controlPanel.ts:54
 msgid "Frequency"
@@ -7935,13 +7913,12 @@ msgstr "Dodatno prilagodite način prikaza svakog stupca"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:165
 msgid "Further customize how to display each metric"
-msgstr "Dodatno prilagodite način prikaza svake metrike"
+msgstr "Dodatno prilagodite način prikaza svake mjere"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:49
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:129
-#, fuzzy
 msgid "GROUP BY"
-msgstr "GRUPIRAJ PO"
+msgstr "GROUP BY"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/index.ts:50
 msgid "Gauge Chart"
@@ -8013,17 +7990,16 @@ msgid "Google Sheet Name and URL"
 msgstr "Naziv i URL Google tablice"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1699
-#, fuzzy
 msgid "Grace period"
-msgstr "Grace period"
+msgstr "Razdoblje tolerancije"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:40
 msgid "Graph Chart"
-msgstr "Grafički grafikon"
+msgstr "Graf"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:108
 msgid "Graph layout"
-msgstr "Izgled grafikona"
+msgstr "Izgled grafa"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:262
 msgid "Gravity"
@@ -8051,11 +8027,8 @@ msgstr "Grupiraj po"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/shared.ts:59
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:80
-#, fuzzy
 msgid "Group By, Metrics or Percentage Metrics must have a value"
-msgstr ""
-"Mjerni podaci grupiranja prema, mjernim podacima ili postocima moraju imati "
-"vrijednost"
+msgstr "Podaci o grupiranju, mjere ili postotne mjere moraju imati vrijednost"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:445
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:141
@@ -8092,7 +8065,6 @@ msgid "Hard value bounds applied for color coding."
 msgstr "Čvrste granice vrijednosti primijenjene za kodiranje bojama."
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:230
-#, fuzzy
 msgid ""
 "Hard value bounds applied for color coding. Is only relevant and applied "
 "when the normalization is applied against the whole heatmap."
@@ -8119,17 +8091,14 @@ msgstr "Redak zaglavlja"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/index.ts:34
 #: superset/viz.py:1593
-#, fuzzy
 msgid "Heatmap"
 msgstr "Toplinska karta"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/index.js:39
-#, fuzzy
 msgid "Heatmap (legacy)"
 msgstr "Toplinska karta (naslijeđeno)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:83
-#, fuzzy
 msgid "Heatmap Options"
 msgstr "Mogućnosti toplinske karte"
 
@@ -8142,7 +8111,6 @@ msgid "Height"
 msgstr "Visina"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:240
-#, fuzzy
 msgid "Height of the sparkline"
 msgstr "Visina sparklinea"
 
@@ -8185,14 +8153,12 @@ msgid "Home"
 msgstr "Početna"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/index.js:32
-#, fuzzy
 msgid "Horizon Chart"
-msgstr "Horizont Chart"
+msgstr "Horizontni grafikon"
 
 #: superset/viz.py:1655
-#, fuzzy
 msgid "Horizon Charts"
-msgstr "Horizon karte"
+msgstr "Horizontni grafikoni"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:276
 msgid "Horizontal"
@@ -8208,13 +8174,13 @@ msgstr "Horizontalno poravnanje"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:47
 msgid "Host"
-msgstr "Domaćin"
+msgstr "Poslužitelj"
 
 #: superset/db_engine_specs/base.py:2230
 #: superset/db_engine_specs/clickhouse.py:203
 #: superset/db_engine_specs/databend.py:195
 msgid "Hostname or IP address"
-msgstr "Naziv glavnog računala ili IP adresa"
+msgstr "Naziv poslužitelja ili IP adrese"
 
 #: superset/db_engine_specs/base.py:119
 msgid "Hour"
@@ -8223,11 +8189,11 @@ msgstr "Sat"
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:64
 #, python-format
 msgid "Hours %s"
-msgstr "Radno vrijeme %s"
+msgstr "Sati %s"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:978
 msgid "Hours offset"
-msgstr "Odmak sati"
+msgstr "Odmak u satima"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/EncryptedField.tsx:93
 msgid "How do you want to enter service account credentials?"
@@ -8325,10 +8291,9 @@ msgstr ""
 "redoslijedom, inače rezultate razvrstava uzlazno."
 
 #: superset/views/database/mixins.py:181
-#, fuzzy
 msgid "If selected, please set the schemas allowed for csv upload in Extra."
 msgstr ""
-"Ako je odabrano, postavite sheme dopuštene za učitavanje csv-a u Extra."
+"Ako je odabrano, postavite sheme dopuštene za učitavanje csv-a u Ekstra."
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1629
 msgid "Ignore cache when generating report"
@@ -8351,16 +8316,12 @@ msgid "Image download failed, please refresh and try again."
 msgstr "Preuzimanje slike nije uspjelo, osvježite i pokušajte ponovno."
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:415
-#, fuzzy
 msgid "Impersonate logged in user (Presto, Trino, Drill, Hive, and GSheets)"
-msgstr ""
-"Lažno predstavljanje prijavljenog korisnika (Presto, Trino, Drill, Hive i "
-"GSheets)"
+msgstr "Prijava kao drugi korisnik (Presto, Trino, Drill, Hive i GSheets)"
 
 #: superset/views/database/mixins.py:201
-#, fuzzy
 msgid "Impersonate the logged on user"
-msgstr "Lažno predstavljanje prijavljenog korisnika"
+msgstr "Prijava kao drugi korisnik"
 
 #: superset-frontend/src/components/ImportModal/index.tsx:426
 msgid "Import"
@@ -8433,9 +8394,8 @@ msgid "In"
 msgstr "U"
 
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/controlPanel.ts:56
-#, fuzzy
 msgid "Include Series"
-msgstr "Uključi seriju"
+msgstr "Uključi podat. nizove"
 
 #: superset-frontend/src/features/reports/ReportModal/index.tsx:320
 msgid "Include a description that will be sent with your report"
@@ -8447,9 +8407,8 @@ msgid "Include description to be sent with %s"
 msgstr "Uključite opis koji će se poslati s %s"
 
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/controlPanel.ts:59
-#, fuzzy
 msgid "Include series name as an axis"
-msgstr "Uključite naziv serije kao os"
+msgstr "Uključite naziv podat. niza u naziv osi"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/includeTime.ts:27
 msgid "Include time"
@@ -8489,9 +8448,8 @@ msgid "Inner Radius"
 msgstr "Unutarnji radijus"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:256
-#, fuzzy
 msgid "Inner radius of donut hole"
-msgstr "Unutarnji radijus rupe za krafnu"
+msgstr "Unutarnji radijus rupe u grafu krafne"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1615
 #: superset-frontend/src/features/reports/ReportModal/index.tsx:276
@@ -8578,24 +8536,22 @@ msgid "Invalid certificate"
 msgstr "Nevažeći certifikat"
 
 #: superset/databases/schemas.py:201
-#, fuzzy
 msgid ""
 "Invalid connection string, a valid string usually follows: backend+driver://"
 "user:password@database-host/database-name"
 msgstr ""
-"Nevažeći niz veze, važeći niz obično slijedi: backend+driver://user:"
-"password@database-host/database-name"
+"Nevažeći podaci za povezivanje, valjani podaci su obično u formatu: "
+"backend+driver://user:password@database-host/database-name"
 
 #: superset/views/database/validators.py:40
-#, fuzzy
 msgid ""
 "Invalid connection string, a valid string usually follows:'DRIVER://USER:"
 "PASSWORD@DB-HOST/DATABASE-NAME'<p>Example:'postgresql://user:password@your-"
 "postgres-db/database'</p>"
 msgstr ""
-"Nevažeći niz veze, važeći niz obično slijedi:'DRIVER://USER:PASSWORD@DB-HOST/"
-"DATABASE-NAME'<p> Primjer: 'postgresql://user:password@vaša-postgres-db/baza "
-"podataka'</p>"
+"Nevažeći podaci za povezivanje, valjani podaci su obično u formatu:’DRIVER://"
+"USER:PASSWORD@DB-HOST/DATABASE-NAME'<p> Primjer: 'postgresql://user:"
+"password@vaša-postgres-db/baza podataka'</p>"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:52
 msgid "Invalid cron expression"
@@ -8707,13 +8663,12 @@ msgstr "Je prilagođena oznaka"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:367
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:375
-#, fuzzy
 msgid "Is dimension"
-msgstr "Je li dimenzija"
+msgstr "Je dimenzija"
 
 #: superset-frontend/src/explore/constants.ts:87
 msgid "Is false"
-msgstr "Je lažan"
+msgstr "Je False"
 
 #: superset/views/base_api.py:149
 msgid "Is favorite"
@@ -8726,11 +8681,11 @@ msgstr "Može se filtrirati"
 
 #: superset-frontend/src/explore/constants.ts:78
 msgid "Is not null"
-msgstr "Nije nula"
+msgstr "Nije prazno"
 
 #: superset-frontend/src/explore/constants.ts:81
 msgid "Is null"
-msgstr "Je nula"
+msgstr "Je prazno"
 
 #: superset/views/base_api.py:177
 msgid "Is tagged"
@@ -8744,17 +8699,15 @@ msgstr "Je vremenski"
 
 #: superset-frontend/src/explore/constants.ts:86
 msgid "Is true"
-msgstr "Je istinit"
+msgstr "Je True"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:278
-#, fuzzy
 msgid "Isoband"
-msgstr "Izoband"
+msgstr "Izo-traka"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:225
-#, fuzzy
 msgid "Isoline"
-msgstr "Izolina"
+msgstr "Izo-linija"
 
 #: superset-frontend/packages/superset-ui-core/src/query/getClientErrorObject.ts:132
 msgid "Issue 1000 - The dataset is too large to query."
@@ -8828,9 +8781,8 @@ msgid "JavaScript tooltip generator"
 msgstr "JavaScript alatni generator"
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:78
-#, fuzzy
 msgid "Jinja templating"
-msgstr "Jinja šablona"
+msgstr "Jinja predložak"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:72
 msgid "July"
@@ -8875,9 +8827,8 @@ msgid "Kilometers"
 msgstr "Kilometara"
 
 #: superset-frontend/src/SqlLab/components/QueryLimitSelect/index.tsx:104
-#, fuzzy
 msgid "LIMIT"
-msgstr "OGRANIČITI"
+msgstr "LIMIT"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/labelUtils.tsx:100
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/labelUtils.tsx:129
@@ -8895,9 +8846,8 @@ msgid "Label Contents"
 msgstr "Sadržaj oznake"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:193
-#, fuzzy
 msgid "Label Line"
-msgstr "Linija oznaka"
+msgstr "Oznaka za liniju"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:49
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:116
@@ -8940,9 +8890,8 @@ msgid "Labels"
 msgstr "Oznake"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/controlPanel.ts:89
-#, fuzzy
 msgid "Labels for the marker lines"
-msgstr "Oznake za markerske linije"
+msgstr "Oznake za linije markera"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/controlPanel.ts:69
 msgid "Labels for the markers"
@@ -9013,9 +8962,8 @@ msgid "Last quarter"
 msgstr "Zadnja četvrtina"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:269
-#, fuzzy
 msgid "Last run"
-msgstr "Posljednje trčanje"
+msgstr "Zadnje pokretanje"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:40
 msgid "Last week"
@@ -9067,9 +9015,8 @@ msgstr ""
 #: superset-frontend/src/pages/ChartList/index.tsx:709
 #: superset-frontend/src/pages/DashboardList/index.tsx:632
 #: superset-frontend/src/pages/Tags/index.tsx:304
-#, fuzzy
 msgid "Least recently modified"
-msgstr "Posljednje izmjene"
+msgstr "Zadnje izmjene"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:30
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:89
@@ -9167,12 +9114,11 @@ msgstr "Povećanje postotka preciznosti"
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:219
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:379
 msgid "Light"
-msgstr "Svijetla"
+msgstr "Svijetlo"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/index.js:30
-#, fuzzy
 msgid "Light mode"
-msgstr "Svjetlosni način rada"
+msgstr "Svijetli način"
 
 #: superset-frontend/src/explore/constants.ts:72
 msgid "Like"
@@ -9206,7 +9152,6 @@ msgstr "Ograničava broj redaka koji se prikazuju."
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:261
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:276
 #: superset-frontend/src/explore/controls.jsx:354
-#, fuzzy
 msgid ""
 "Limits the number of series that get displayed. A joined subquery (or an "
 "extra phase where subqueries are not supported) is applied to limit the "
@@ -9214,11 +9159,11 @@ msgid ""
 "grouping by high cardinality column(s) though does increase the query "
 "complexity and cost."
 msgstr ""
-"Ograničava broj serija koje se prikazuju. Pridruženi podupit (ili dodatna "
-"faza u kojoj podupiti nisu podržani) primjenjuje se kako bi se ograničio "
-"broj nizova koji se dohvaćaju i prikazuju. Ova je značajka korisna pri "
-"grupiranju po stupcima visoke kardinalnosti, ali povećava složenost upita i "
-"troškove."
+"Ograničava broj podat. nizova koji se prikazuju. Pridruženi podupit (ili "
+"dodatna faza u kojoj podupiti nisu podržani) primjenjuje se kako bi se "
+"ograničio broj nizova koji se dohvaćaju i prikazuju. Ova je značajka korisna "
+"pri grupiranju po stupcima visoke kardinalnosti, ali povećava složenost "
+"upita i troškove."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:234
 msgid ""
@@ -9240,7 +9185,7 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:74
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:61
 msgid "Line"
-msgstr "Linijski"
+msgstr "Linija"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:69
 msgid "Line Chart"
@@ -9248,7 +9193,7 @@ msgstr "Linijski grafikon"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:121
 msgid "Line Style"
-msgstr "Stil Linije"
+msgstr "Stil linije"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:59
 msgid ""
@@ -9333,14 +9278,12 @@ msgid "List updated"
 msgstr "Popis ažuriran"
 
 #: superset-frontend/src/dashboard/components/CssEditor/index.tsx:133
-#, fuzzy
 msgid "Live CSS editor"
-msgstr "CSS uređivač uživo"
+msgstr "CSS uređivač (uživo)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:198
-#, fuzzy
 msgid "Live render"
-msgstr "Render uživo"
+msgstr "Prikaži uživo"
 
 #: superset-frontend/src/dashboard/components/CssEditor/index.tsx:118
 msgid "Load a CSS template"
@@ -9372,16 +9315,14 @@ msgid "Locate the chart"
 msgstr "Pronađite grafikon"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:196
-#, fuzzy
 msgid "Log Scale"
-msgstr "Log skala"
+msgstr "Logaritamska skala"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1665
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1670
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1671
-#, fuzzy
 msgid "Log retention"
-msgstr "Zadržavanje dnevnika"
+msgstr "Čuvanje zapisa dnevnika"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:194
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:197
@@ -9436,7 +9377,6 @@ msgid "Logs"
 msgstr "Dnevnici"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:818
-#, fuzzy
 msgid "Long dashed"
 msgstr "Dugo crtkano"
 
@@ -9480,9 +9420,8 @@ msgid "MAY"
 msgstr "SVI"
 
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:252
-#, fuzzy
 msgid "MINUTE"
-msgstr "MINUTA"
+msgstr "MINUTE"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:82
 msgid "MON"
@@ -9626,9 +9565,8 @@ msgid "Markers"
 msgstr "Markeri"
 
 #: superset-frontend/src/explore/controlPanels/Separator.js:32
-#, fuzzy
 msgid "Markup type"
-msgstr "Vrsta oznake"
+msgstr "Označni jezik"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:95
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:49
@@ -9643,9 +9581,8 @@ msgid "Max Bubble Size"
 msgstr "Maksimalna veličina mjehurića"
 
 #: superset-frontend/plugins/legacy-plugin-chart-event-flow/src/controlPanel.tsx:126
-#, fuzzy
 msgid "Max Events"
-msgstr "Maks događaja"
+msgstr "Najveći broj događaja"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:183
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1150
@@ -9681,9 +9618,8 @@ msgid "May"
 msgstr "Svibanj"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:85
-#, fuzzy
 msgid "Mean of values over specified period"
-msgstr "Srednje vrijednosti u određenom razdoblju"
+msgstr "Srednja vrijednost u odabranom razdoblju"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:193
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:268
@@ -9707,9 +9643,8 @@ msgstr "Srednja veličina čvora, najveći čvor će biti 4 puta veći od najman
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:192
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:267
-#, fuzzy
 msgid "Median values"
-msgstr "Srednje vrijednosti"
+msgstr "Medijani"
 
 #: superset-frontend/src/dashboard/util/headerStyleOptions.ts:30
 msgid "Medium"
@@ -9754,7 +9689,7 @@ msgstr "Metoda"
 #: superset-frontend/src/visualizations/TimeTable/TimeTable.jsx:121
 #: superset/connectors/sqla/views.py:257
 msgid "Metric"
-msgstr "U metrima"
+msgstr "Mjera"
 
 #: superset/connectors/sqla/models.py:1627 superset/models/helpers.py:1253
 #: superset/models/helpers.py:1569
@@ -9763,9 +9698,8 @@ msgid "Metric '%(metric)s' does not exist"
 msgstr "Mjerni podatak '%(metric)s' ne postoji"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1250
-#, fuzzy
 msgid "Metric Key"
-msgstr "Metrički ključ"
+msgstr "Ključ za mjeru"
 
 #: superset/jinja_context.py:804
 #, python-format
@@ -9774,36 +9708,33 @@ msgstr "Mjerni podatak ``%(metric_name)s`` nije pronađen u %(dataset_name)s."
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:32
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:30
-#, fuzzy
 msgid "Metric ascending"
-msgstr "Metrički uzlazni"
+msgstr "Mjera uzlazno"
 
 #: superset-frontend/src/explore/controls.jsx:402
 msgid "Metric assigned to the [X] axis"
-msgstr "Mjerna vrijednost dodijeljena osi [X]"
+msgstr "Mjera dodijeljena osi [X]"
 
 #: superset-frontend/src/explore/controls.jsx:410
 msgid "Metric assigned to the [Y] axis"
-msgstr "Mjerna vrijednost dodijeljena osi [Y]"
+msgstr "Mjera dodijeljena osi [Y]"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:95
-#, fuzzy
 msgid "Metric change in value from `since` to `until`"
-msgstr "Mjerna promjena vrijednosti iz \"od\" u \"do\""
+msgstr "Promjena vrijednosti mjere iz \"od\" u \"do\""
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1283
 msgid "Metric currency"
-msgstr "Mjerna valuta"
+msgstr "Valuta mjere"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:33
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:31
-#, fuzzy
 msgid "Metric descending"
-msgstr "Metrički opadajući"
+msgstr "Mjera silazno"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:109
 msgid "Metric factor change from `since` to `until`"
-msgstr "Promjena mjernog faktora iz \"od\" u \"do\""
+msgstr "Promjena faktora mjere iz \"od\" u \"do\""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:96
 msgid "Metric for node values"
@@ -9819,62 +9750,57 @@ msgid "Metric name [%s] is duplicated"
 msgstr "Naziv mjere [%s] je dupliciran"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:102
-#, fuzzy
 msgid "Metric percent change in value from `since` to `until`"
-msgstr "Mjerna postotna promjena vrijednosti od \"od\" do \"do\""
+msgstr "Promjena postotne vrijednosti mjere iz \"od\" u \"do\""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:143
 msgid "Metric that defines the size of the bubble"
-msgstr "Mjerni podatak koji definira veličinu mjehurića"
+msgstr "Mjera koji definira veličinu mjehurića"
 
 #: superset-frontend/plugins/legacy-plugin-chart-country-map/src/controlPanel.ts:84
 msgid "Metric to display bottom title"
-msgstr "Mjerni podatak za prikaz donjeg naslova"
+msgstr "Mjera za prikaz donjeg naslova"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Contour/controlPanel.ts:121
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Heatmap/controlPanel.ts:138
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/controlPanel.ts:73
 msgid "Metric used as a weight for the grid's coloring"
-msgstr "Metrička vrijednost koja se koristi kao težina za bojanje mreže"
+msgstr "Mjera koja se koristi kao težina za bojanje mreže"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:209
 msgid "Metric used to calculate bubble size"
-msgstr "Mjerna vrijednost koja se koristi za izračun veličine mjehurića"
+msgstr "Mjera koja se koristi za izračun veličine mjehurića"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Grid/controlPanel.ts:75
 msgid "Metric used to control height"
-msgstr "Mjerni podaci koji se koriste za kontrolu visine"
+msgstr "Mjera koji se koriste za kontrolu visine"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:141
-#, fuzzy
 msgid ""
 "Metric used to define how the top series are sorted if a series or cell "
 "limit is present. If undefined reverts to the first metric (where "
 "appropriate)."
 msgstr ""
-"Mjerni podatak koji se koristi za definiranje načina na koji se vrhunski "
-"nizovi sortiraju ako postoji ograničenje niza ili ćelije. Ako je "
-"nedefinirano, vraća se na prvu metriku (gdje je prikladno)."
+"Mjera koji se koristi za definiranje načina na koji se vrhunski nizovi "
+"sortiraju ako postoji ograničenje niza ili ćelije. Ako je nedefinirano, "
+"vraća se na prvu mjeru (gdje je prikladno)."
 
 #: superset-frontend/src/explore/controls.jsx:367
-#, fuzzy
 msgid ""
 "Metric used to define how the top series are sorted if a series or row limit "
 "is present. If undefined reverts to the first metric (where appropriate)."
 msgstr ""
-"Mjerni podatak koji se koristi za definiranje načina na koji se vrhunski "
-"nizovi sortiraju ako je prisutno ograničenje niza ili retka. Ako je "
-"nedefinirano, vraća se na prvu metriku (gdje je prikladno)."
+"Mjera koji se koristi za definiranje načina na koji se vrhunski nizovi "
+"sortiraju ako je prisutno ograničenje niza ili retka. Ako je nedefinirano, "
+"vraća se na prvu mjeru (gdje je prikladno)."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:55
-#, fuzzy
 msgid ""
 "Metric used to order the limit if a series limit is present. If undefined "
 "reverts to the first metric (where appropriate)."
 msgstr ""
-"Mjerni podatak koji se koristi za određivanje ograničenja ako je prisutno "
-"ograničenje serije. Ako je nedefinirano, vraća se na prvu metriku (gdje je "
-"prikladno)."
+"Mjera koji se koristi za određivanje ograničenja ako je prisutno ograničenje "
+"podat. niza. Ako je nedefinirano, vraća se na prvu mjeru (gdje je prikladno)."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:155
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1436
@@ -9883,7 +9809,7 @@ msgstr ""
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/index.tsx:54
 #: superset/connectors/sqla/views.py:213
 msgid "Metrics"
-msgstr "Mjera"
+msgstr "Mjere"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:79
 msgid "Middle"
@@ -9925,9 +9851,8 @@ msgstr "Min/maks (bez odstupanja)"
 #: superset-frontend/src/features/home/ChartTable.tsx:153
 #: superset-frontend/src/features/home/DashboardTable.tsx:164
 #: superset-frontend/src/features/home/SavedQueries.tsx:248
-#, fuzzy
 msgid "Mine"
-msgstr "Rudnik"
+msgstr "Moje"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:182
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1144
@@ -9965,7 +9890,6 @@ msgid "Minimum value"
 msgstr "Minimalna vrijednost"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:202
-#, fuzzy
 msgid "Minimum value for label to be displayed on graph."
 msgstr "Minimalna vrijednost za oznaku koja se prikazuje na grafikonu."
 
@@ -9980,14 +9904,12 @@ msgstr "Minimalna vrijednost na osi mjerača"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Scatter/controlPanel.tsx:152
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/controlPanel.tsx:152
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:202
-#, fuzzy
 msgid "Minor Split Line"
-msgstr "Manji Split Line"
+msgstr "Pomoćne razdjeljne linije"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:306
-#, fuzzy
 msgid "Minor ticks"
-msgstr "Manji krpelji"
+msgstr "Male mjer. oznake"
 
 #: superset/db_engine_specs/base.py:114
 msgid "Minute"
@@ -10080,9 +10002,8 @@ msgstr "Token MotherDuck"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:167
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:274
-#, fuzzy
 msgid "Move only"
-msgstr "Samo pomakni"
+msgstr "Samo premjesti"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/DateFunctionTooltip.tsx:43
 msgid "Moves the given set of dates by a specified interval."
@@ -10092,9 +10013,8 @@ msgstr "Pomiče zadani skup datuma za određeni interval."
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/index.ts:35
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:35
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/index.ts:47
-#, fuzzy
 msgid "Multi-Dimensions"
-msgstr "Multi-Dimensions"
+msgstr "Višedimenzijski"
 
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:37
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/index.js:40
@@ -10106,7 +10026,7 @@ msgstr "Višeslojni"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:44
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:66
 msgid "Multi-Levels"
-msgstr "Više razina"
+msgstr "Višerazinski"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/index.js:41
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/index.ts:52
@@ -10114,7 +10034,7 @@ msgstr "Više razina"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:65
 #: superset-frontend/src/visualizations/TimeTable/index.ts:33
 msgid "Multi-Variables"
-msgstr "Više varijabli"
+msgstr "Viševarijabilni"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:187
 msgid "Multiple"
@@ -10145,9 +10065,8 @@ msgid "Must choose either a chart or a dashboard"
 msgstr "Morate odabrati grafikon ili nadzornu ploču"
 
 #: superset/viz.py:1691
-#, fuzzy
 msgid "Must have a [Group By] column to have 'count' as the [Label]"
-msgstr "Mora imati stupac [Grupiraj po] da bi 'count' bio [Oznaka]"
+msgstr "Mora imati stupac [Grupiraj po] da bi 'count' postao [Oznaka]"
 
 #: superset/viz.py:1210
 msgid "Must have at least one numeric column specified"
@@ -10162,9 +10081,8 @@ msgid "Must specify a value for filters with comparison operators"
 msgstr "Morate navesti vrijednost za filtre s operatorima usporedbe"
 
 #: superset-frontend/src/explore/controlUtils/controlUtils.test.tsx:75
-#, fuzzy
 msgid "My beautiful colors"
-msgstr "Moje lijepe boje"
+msgstr "Moje omiljene boje"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopoverTrigger.tsx:41
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndColumnSelectPopoverTitle.jsx:65
@@ -10182,9 +10100,8 @@ msgid "N/A"
 msgstr "N/A"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:63
-#, fuzzy
 msgid "NOT GROUPED BY"
-msgstr "NIJE GRUPIRANO PREMA"
+msgstr "NOT GROUPED BY"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:101
 msgid "NOV"
@@ -10192,11 +10109,11 @@ msgstr "STU"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:244
 msgid "NOW"
-msgstr "SADA"
+msgstr "NOW"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:148
 msgid "NUMERIC"
-msgstr "NUMERIČKI"
+msgstr "NUMERIC"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:72
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:153
@@ -10231,7 +10148,7 @@ msgstr "NUMERIČKI"
 #: superset-frontend/src/pages/Tags/index.tsx:259
 #: superset/views/chart/mixin.py:85
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:818
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:824
@@ -10333,14 +10250,12 @@ msgid "Next"
 msgstr "Sljedeći"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:77
-#, fuzzy
 msgid "Nightingale"
-msgstr "Slavuj"
+msgstr "Nightingale"
 
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:32
-#, fuzzy
 msgid "Nightingale Rose Chart"
-msgstr "Tablica ruže slavuja"
+msgstr "Nightingale ružin grafikon"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:91
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:110
@@ -10480,7 +10395,6 @@ msgid "No filters are currently added to this dashboard."
 msgstr "Na ovu nadzornu ploču trenutno nisu dodani filtri."
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:718
-#, fuzzy
 msgid "No form settings were maintained"
 msgstr "Nisu održavane postavke obrasca"
 
@@ -10493,9 +10407,8 @@ msgid "No matching records found"
 msgstr "Nema odgovarajućih zapisa"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/controlPanel.ts:70
-#, fuzzy
 msgid "No of Bins"
-msgstr "Broj spremnika"
+msgstr "Broj odjeljaka"
 
 #: superset-frontend/src/features/home/EmptyState.tsx:37
 msgid "No recents yet"
@@ -10581,18 +10494,17 @@ msgid "No time columns"
 msgstr "Nema vremenskih stupaca"
 
 #: superset/commands/database/exceptions.py:173
-#, fuzzy
 msgid "No validator found (configured for the engine)"
-msgstr "Nije pronađen validator (konfiguriran za motor)"
+msgstr "Nije pronađen validator (konfiguriran za bazu podataka)"
 
 #: superset/commands/database/validate_sql.py:114
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "No validator named %(validator_name)s found (configured for the "
 "%(engine_spec)s engine)"
 msgstr ""
 "Nije pronađen validator pod nazivom %(validator_name)s (konfiguriran za "
-"%(engine_spec)s motor)"
+"%(engine_spec)s bazu podataka)"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:153
 msgid "Node label position"
@@ -10631,12 +10543,10 @@ msgid "None"
 msgstr "Nijedan"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:129
-#, fuzzy
 msgid "None -> Arrow"
 msgstr "Ništa -> Strelica"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:128
-#, fuzzy
 msgid "None -> None"
 msgstr "Ništa -> Ništa"
 
@@ -10647,9 +10557,8 @@ msgstr "Normalno"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:144
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:77
-#, fuzzy
 msgid "Normalize Across"
-msgstr "Normalize Across"
+msgstr "Normaliziraj u odnosu na"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:997
 msgid "Normalize column names"
@@ -10704,7 +10613,6 @@ msgid "Not null"
 msgstr "Nije null"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:67
-#, fuzzy
 msgid "Not triggered"
 msgstr "Nije pokrenuto"
 
@@ -10714,7 +10622,6 @@ msgstr "Nije ažurirano"
 
 #: superset-frontend/src/features/alerts/components/AlertStatusIcon.tsx:87
 #: superset-frontend/src/features/alerts/components/AlertStatusIcon.tsx:97
-#, fuzzy
 msgid "Nothing triggered"
 msgstr "Ništa nije pokrenuto"
 
@@ -10725,7 +10632,7 @@ msgstr "Način obavijesti"
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:359
 #: superset-frontend/src/pages/AlertReportList/index.tsx:304
 msgid "Notification method"
-msgstr "Način obavješćivanja"
+msgstr "Način obavještavanja"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:76
 msgid "November"
@@ -10741,9 +10648,8 @@ msgstr "Null vrijednosti"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:187
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:262
-#, fuzzy
 msgid "Null imputation"
-msgstr "Null imputacija"
+msgstr "Popunjavanje praznih vrijed."
 
 #: superset/datasets/filters.py:26
 msgid "Null or Empty"
@@ -10782,12 +10688,11 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:112
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:319
 msgid "Number format"
-msgstr "Format broja"
+msgstr "Format za brojeve"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:325
-#, fuzzy
 msgid "Number format string"
-msgstr "Niz formata broja"
+msgstr "Format za brojeve"
 
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:202
 msgid "Number formatting"
@@ -10818,9 +10723,8 @@ msgstr ""
 "od početka vremenskog raspona."
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:264
-#, fuzzy
 msgid "Number of periods to ratio against"
-msgstr "Broj razdoblja prema omjeru"
+msgstr "Broj razdoblja za izračun omjera"
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:1005
 msgid "Number of rows of file to read. Leave empty (default) to read all rows"
@@ -10838,17 +10742,17 @@ msgstr "Broj podijeljenih segmenata na osi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:98
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:141
-#, fuzzy
 msgid "Number of steps to take between ticks when displaying the X scale"
 msgstr ""
-"Broj koraka koje treba poduzeti između kvačica kada se prikazuje X ljestvica"
+"Broj koraka koje treba poduzeti između mjer. oznaka kada se prikazuje X "
+"ljestvica"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:114
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:159
-#, fuzzy
 msgid "Number of steps to take between ticks when displaying the Y scale"
 msgstr ""
-"Broj koraka koje treba poduzeti između kvačica kada se prikazuje Y ljestvica"
+"Broj koraka koje treba poduzeti između mjer. oznaka kada se prikazuje Y "
+"ljestvica"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:322
 msgid "Numerical range"
@@ -10868,7 +10772,7 @@ msgstr "U redu"
 #: superset-frontend/src/components/ImportModal/index.tsx:267
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1481
 msgid "OVERWRITE"
-msgstr "PREPISATI"
+msgstr "OVERWRITE"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:75
 msgid "October"
@@ -10884,9 +10788,8 @@ msgid "Offset"
 msgstr "Pomak"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:68
-#, fuzzy
 msgid "On Grace"
-msgstr "Na Grace"
+msgstr "U razd. tolerancije"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:313
 #: superset-frontend/src/pages/ChartList/index.tsx:393
@@ -10911,12 +10814,10 @@ msgstr ""
 "stupci zemljopisne širine i dužine."
 
 #: superset-frontend/src/explore/controls.jsx:245
-#, fuzzy
 msgid "One or many controls to pivot as columns"
-msgstr "Jedna ili više kontrola za pivotiranje kao stupci"
+msgstr "Jedna ili više kontrola za pivotiranje u stupcima"
 
 #: superset-frontend/src/explore/controls.jsx:162
-#, fuzzy
 msgid "One or many metrics to display"
 msgstr "Jedna ili više mjera za prikaz"
 
@@ -10933,17 +10834,14 @@ msgid "One or more columns do not exist"
 msgstr "Jedan ili više stupaca ne postoji"
 
 #: superset/commands/dataset/exceptions.py:118
-#, fuzzy
 msgid "One or more metrics already exist"
 msgstr "Jedna ili više mjera već postoji"
 
 #: superset/commands/dataset/exceptions.py:108
-#, fuzzy
 msgid "One or more metrics are duplicated"
 msgstr "Jedna ili više mjera su duplicirane"
 
 #: superset/commands/dataset/exceptions.py:98
-#, fuzzy
 msgid "One or more metrics do not exist"
 msgstr "Jedna ili više mjera ne postoje"
 
@@ -11062,8 +10960,8 @@ msgid ""
 msgstr ""
 "Upravljajte bazom podataka u asinkronom načinu, što znači da se upiti "
 "izvršavaju na udaljenim radnicima, a ne na samom web poslužitelju. Ovo "
-"pretpostavlja da imate postavku Celery Worker kao i pozadinu rezultata. Više "
-"informacija potražite u instalacijskoj dokumentaciji."
+"pretpostavlja da imate postavku Celery Worker kao i rezultata  u pozadinskom "
+"sustavu. Više informacija potražite u instalacijskoj dokumentaciji."
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:129
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:133
@@ -11071,30 +10969,29 @@ msgid "Operator"
 msgstr "Operater"
 
 #: superset/utils/pandas_postprocessing/utils.py:160
-#, fuzzy, python-format
+#, python-format
 msgid "Operator undefined for aggregator: %(name)s"
-msgstr "Operator nedefiniran za agregator: %(name)s"
+msgstr "Nedefiniran operator za agregator: %(name)s"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:400
-#, fuzzy
 msgid ""
 "Optional CA_BUNDLE contents to validate HTTPS requests. Only available on "
 "certain database engines."
 msgstr ""
-"Izborni CA_BUNDLE sadržaj za provjeru valjanosti HTTPS zahtjeva. Dostupno "
-"samo na određenim pogonima baze podataka."
+"Neobavezni CA_BUNDLE sadržaj za provjeru valjanosti HTTPS zahtjeva. Dostupno "
+"samo na određenim vrstama baze podataka."
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:331
 msgid "Optional d3 date format string"
-msgstr "Izborni d3 niz formata datuma"
+msgstr "Neobavezni d3 format datuma"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:320
 msgid "Optional d3 number format string"
-msgstr "Opcijski d3 niz formata broja"
+msgstr "Neobavezni d3 format broja"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:73
 msgid "Optional name of the data column."
-msgstr "Izborni naziv podatkovnog stupca."
+msgstr "Neobavezni naziv podatkovnog stupca."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1322
 msgid "Optional warning about use of this metric"
@@ -11180,7 +11077,6 @@ msgstr "Druge palete boja"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:225
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:382
-#, fuzzy
 msgid "Outdoors"
 msgstr "Na otvorenom"
 
@@ -11243,9 +11139,8 @@ msgstr ""
 "svake ćelije."
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:744
-#, fuzzy
 msgid "Override time grain"
-msgstr "Nadjačaj vremensko zrno"
+msgstr "Nadjačaj granulaciju vremena"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:726
 msgid "Override time range"
@@ -11266,9 +11161,9 @@ msgid "Overwrite & Explore"
 msgstr "Prepiši i istraži"
 
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:178
-#, fuzzy, python-format
+#, python-format
 msgid "Overwrite Dashboard [%s]"
-msgstr "Prebriši nadzornu ploču [%s]"
+msgstr "Prepiši nadzornu ploču [%s]"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:411
 msgid "Overwrite existing"
@@ -11279,9 +11174,8 @@ msgid "Overwrite text in the editor with a query on this table"
 msgstr "Prebrišite tekst u uređivaču upitom u ovoj tablici"
 
 #: superset/charts/filters.py:139
-#, fuzzy
 msgid "Owned Created or Favored"
-msgstr "Stvoreno u vlasništvu ili omiljeno"
+msgstr "U vlasništvu, izrađeno ili u omiljenim"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:456
 #: superset-frontend/src/pages/ChartList/index.tsx:624
@@ -11392,9 +11286,9 @@ msgstr "Roditelj"
 #: superset/commands/database/uploaders/columnar_reader.py:125
 #: superset/commands/database/uploaders/csv_reader.py:84
 #: superset/commands/database/uploaders/excel_reader.py:91
-#, fuzzy, python-format
+#, python-format
 msgid "Parsing error: %(error)s"
-msgstr "Pogreška raščlambe: %(error)s"
+msgstr "Greška u parsiranju: %(error)s"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/index.js:26
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:56
@@ -11800,8 +11694,7 @@ msgstr "Za nastavak odaberite skup podataka i vrstu grafikona"
 #, python-format
 msgid ""
 "Please specify the Dataset ID for the ``%(name)s`` metric in the Jinja macro."
-msgstr ""
-"Navedite ID skupa podataka za metriku ``%(name)s`` u makronaredbi Jinja."
+msgstr "Navedite ID skupa podataka za mjeru ``%(name)s`` u makronaredbi Jinja."
 
 #: superset/viz.py:863
 msgid "Please use 3 different metric labels"
@@ -12819,14 +12712,14 @@ msgid "Results %s"
 msgstr "Rezultati %s"
 
 #: superset/commands/sql_lab/results.py:59 superset/sql_lab.py:413
-#, fuzzy
 msgid "Results backend is not configured."
-msgstr "Pozadina rezultata nije konfigurirana."
+msgstr "Rezultati u pozadinskom sustavu nisu konfigurirani."
 
 #: superset/errors.py:129
-#, fuzzy
 msgid "Results backend needed for asynchronous queries is not configured."
-msgstr "Pozadina rezultata potrebna za asinkrone upite nije konfigurirana."
+msgstr ""
+"Rezultati u pozadinskom sustavu potrebni za asinkrone upite nisu "
+"konfigurirani."
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/DateFunctionTooltip.tsx:29
 msgid "Return to specific datetime."
@@ -12843,13 +12736,12 @@ msgstr "Obrnuta širina/dužina "
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:222
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:93
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:302
-#, fuzzy
 msgid "Rich Tooltip"
-msgstr "Bogati opis alata"
+msgstr "Opsežan Tooltip"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:180
 msgid "Rich tooltip"
-msgstr "Bogati opis alata"
+msgstr "Opsežan Tooltip"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:90
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:392
@@ -15551,7 +15443,6 @@ msgid "Text"
 msgstr "Tekst"
 
 #: superset-frontend/src/dashboard/components/gridComponents/new/NewMarkdown.jsx:31
-#, fuzzy
 msgid "Text / Markdown"
 msgstr "Tekst / Markdown"
 
@@ -15647,7 +15538,6 @@ msgid "The chart query context does not exist"
 msgstr "Kontekst upita grafikona ne postoji"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:59
-#, fuzzy
 msgid ""
 "The classic. Great for showing how much of a company each investor gets, "
 "what demographics follow your blog, or what portion of the budget goes to "
@@ -15661,7 +15551,7 @@ msgstr ""
 "koja demografija prati vaš blog ili koji dio proračuna ide vojno-"
 "industrijskom kompleksu.\n"
 "\n"
-"        Tortne dijagrame može biti teško precizno protumačiti. Ako je "
+"        Tortne grafikone može biti teško precizno protumačiti. Ako je "
 "jasnoća relativnog omjera važna, razmislite o korištenju stupčastog ili "
 "drugog tipa grafikona."
 
@@ -15670,13 +15560,12 @@ msgid "The color for points and clusters in RGB"
 msgstr "Boja za točke i klastere u RGB"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:318
-#, fuzzy
 msgid "The color of the isoband"
-msgstr "Boja izobanda"
+msgstr "Boja izo-trake"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:263
 msgid "The color of the isoline"
-msgstr "Boja izolinije"
+msgstr "Boja izo-linije"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:334
 #: superset-frontend/src/explore/controls.jsx:464
@@ -15703,7 +15592,7 @@ msgstr "Stupac je izbrisan ili preimenovan u bazi podataka."
 msgid ""
 "The country code standard that Superset should expect to find in the "
 "[country] column"
-msgstr "Standard koda države koji Superset treba očekivati u stupcu [država]."
+msgstr "Standard koda države koji Superset treba očekivati u stupcu [država]"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:406
 msgid "The dashboard has been saved"
@@ -15833,7 +15722,6 @@ msgid "The datasource is too large to query."
 msgstr "Izvor podataka je prevelik za postavljanje upita."
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:136
-#, fuzzy
 msgid "The default catalog that should be used for the connection."
 msgstr "Zadani katalog koji bi se trebao koristiti za povezivanje."
 
@@ -15842,13 +15730,12 @@ msgid "The default schema that should be used for the connection."
 msgstr "Zadana shema koja bi se trebala koristiti za vezu."
 
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:316
-#, fuzzy
 msgid ""
 "The description can be displayed as widget headers in the dashboard view. "
 "Supports markdown."
 msgstr ""
-"Opis se može prikazati kao zaglavlja widgeta u prikazu nadzorne ploče. "
-"Podržava markdown."
+"Opis se može prikazati kao zaglavlja vizualnog objekta u prikazu nadzorne "
+"ploče. Podržava Markdown."
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:108
 msgid "The distance between cells, in pixels"
@@ -15863,9 +15750,8 @@ msgstr ""
 "Postavite na -1 za zaobilaženje predmemorije."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:349
-#, fuzzy
 msgid "The encoding format of the lines"
-msgstr "Format kodiranja redaka"
+msgstr "Format kodiranja linija teksta"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:551
 msgid ""
@@ -15940,9 +15826,8 @@ msgstr ""
 "'pogleda istraživanja'"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:286
-#, fuzzy
 msgid "The lower limit of the threshold range of the Isoband"
-msgstr "Donja granica raspona praga izobanda"
+msgstr "Donja granica raspona praga izo-trake"
 
 #: superset-frontend/plugins/legacy-plugin-chart-event-flow/src/controlPanel.tsx:127
 msgid ""
@@ -15950,12 +15835,11 @@ msgid ""
 msgstr "Maksimalan broj događaja za vraćanje, ekvivalentan broju redaka"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:171
-#, fuzzy
 msgid ""
 "The maximum number of subdivisions of each group; lower values are pruned "
 "first"
 msgstr ""
-"Maksimalni broj pododjeljaka svake skupine; najprije se orezuju niže "
+"Maksimalni broj pododjeljaka svake skupine; najprije se odbacuju niže "
 "vrijednosti"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:50
@@ -16008,9 +15892,8 @@ msgid "The name of the rule must be unique"
 msgstr "Naziv pravila mora biti jedinstven"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:134
-#, fuzzy
 msgid "The number color \"steps\""
-msgstr "Boja broja \"koraci\""
+msgstr "Broj “koraka” boje"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:980
 msgid ""
@@ -16084,8 +15967,8 @@ msgid "The parameter %(parameters)s in your query is undefined."
 msgid_plural ""
 "The following parameters in your query are undefined: %(parameters)s."
 msgstr[0] "Parametar %(parameters)s u vašem upitu nije definiran."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "Sljedeći parametri u vašem upitu nisu definirani: %(parameters)s."
+msgstr[2] "Sljedeći parametri u vašem upitu nisu definirani: %(parameters)s."
 
 #: superset/db_engine_specs/postgres.py:122
 #, python-format
@@ -17028,21 +16911,23 @@ msgid ""
 msgstr ""
 "Ovaj json objekt opisuje pozicioniranje widgeta na nadzornoj ploči. "
 "Dinamički se generira prilikom podešavanja veličine i položaja widgeta "
-"korištenjem povlačenja i ispuštanja u prikazu nadzorne ploče"
+"korištenjem povlačenja-i-ispuštanja u prikazu nadzorne ploče"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Markdown.jsx:85
+#, fuzzy
 msgid "This markdown component has an error."
-msgstr ""
+msgstr "Ova komponenta označavanja ima pogrešku."
 
 #: superset-frontend/src/dashboard/components/gridComponents/Markdown.jsx:203
+#, fuzzy
 msgid ""
 "This markdown component has an error. Please revert your recent changes."
-msgstr ""
+msgstr "Ova komponenta označavanja ima pogrešku. Poništite nedavne promjene."
 
 #: superset-frontend/src/components/ErrorMessage/DatabaseErrorMessage.tsx:47
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:62
 msgid "This may be triggered by:"
-msgstr ""
+msgstr "Ovo može biti potaknuto:"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:194
 msgid ""
@@ -17050,16 +16935,21 @@ msgid ""
 "sorted) if a series or row limit is present. If not defined, it reverts to "
 "the first metric (where appropriate)."
 msgstr ""
+"Ova se mjera koristi za definiranje kriterija odabira redaka (kako su redovi "
+"sortirani) ako je prisutno ograničenje niza ili redaka. Ako nije definirano, "
+"vraća se na prvu mjeru (gdje je prikladno)."
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndMetricSelect.tsx:283
 msgid "This metric might be incompatible with current dataset"
-msgstr ""
+msgstr "Ova mjera možda nije kompatibilna s trenutnim skupom podataka"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:658
 msgid ""
 "This section allows you to configure how to use the slice\n"
 "              to generate annotations."
 msgstr ""
+"Ovaj odjeljak vam omogućuje da konfigurirate kako koristiti odsječak\n"
+"              za generiranje zabilješki."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:29
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:236
@@ -17070,10 +16960,12 @@ msgid ""
 "This section contains options that allow for advanced analytical post "
 "processing of query results"
 msgstr ""
+"Ovaj odjeljak sadrži opcije koje omogućuju naprednu analitičku naknadnu "
+"obradu rezultata upita"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:603
 msgid "This section contains validation errors"
-msgstr ""
+msgstr "Ovaj odjeljak sadrži pogreške provjere valjanosti"
 
 #: superset-frontend/src/embedded/index.tsx:112
 msgid ""
@@ -17081,44 +16973,50 @@ msgid ""
 "as intended. If you are the developer of this app, please check that the "
 "guest token is being generated correctly."
 msgstr ""
+"Ova sesija je naišla na prekid, a neke kontrole možda neće raditi kako "
+"treba. Ako ste programer ove aplikacije, provjerite generira li se token "
+"gosta ispravno."
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/DatasetPanel.tsx:234
 #: superset-frontend/src/features/datasets/AddDataset/LeftPanel/index.tsx:172
 msgid "This table already has a dataset"
-msgstr ""
+msgstr "Ova tablica već ima skup podataka"
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/DatasetPanel.tsx:224
 msgid ""
 "This table already has a dataset associated with it. You can only associate "
 "one dataset with a table.\n"
 msgstr ""
+"Ova tablica već ima povezan skup podataka. Tablici možete pridružiti samo "
+"jedan skup podataka.\n"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:88
 msgid "This value should be greater than the left target value"
-msgstr ""
+msgstr "Ova vrijednost bi trebala biti veća od lijeve ciljne vrijednosti"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:83
 msgid "This value should be smaller than the right target value"
-msgstr ""
+msgstr "Ova bi vrijednost trebala biti manja od prave ciljne vrijednosti"
 
 #: superset-frontend/src/components/Chart/ChartContextMenu/ChartContextMenu.tsx:184
 msgid "This visualization type does not support cross-filtering."
-msgstr ""
+msgstr "Ova vrsta vizualizacije ne podržava unakrsno filtriranje."
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:67
 msgid "This visualization type is not supported."
-msgstr ""
+msgstr "Ova vrsta vizualizacije nije podržana."
 
 #: superset-frontend/src/components/ErrorMessage/ParameterErrorMessage.tsx:61
+#, fuzzy
 msgid "This was triggered by:"
 msgid_plural "This may be triggered by:"
-msgstr[0] ""
+msgstr[0] "Ovo je pokrenuto:"
 msgstr[1] ""
 msgstr[2] ""
 
 #: superset-frontend/src/dashboard/components/EmbeddedModal/index.tsx:99
 msgid "This will remove your current embed configuration."
-msgstr ""
+msgstr "Ovo će ukloniti vašu trenutnu konfiguraciju za ugradnju."
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:232
 msgid "Threshold"
@@ -17126,14 +17024,15 @@ msgstr "Prag"
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:65
 msgid "Threshold alpha level for determining significance"
-msgstr ""
+msgstr "Prag alfa razine za određivanje značajnosti"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Contour/Contour.tsx:36
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourOption.tsx:75
 msgid "Threshold: "
-msgstr ""
+msgstr "Prag: "
 
 #: superset-frontend/src/pages/Home/index.tsx:344
+#, fuzzy
 msgid "Thumbnails"
 msgstr "Minijature"
 
@@ -17165,52 +17064,55 @@ msgstr "Vrijeme"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:33
 msgid "Time Column"
-msgstr ""
+msgstr "Vremenski stupac"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/timeComparison.tsx:65
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:301
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:185
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:453
 msgid "Time Comparison"
-msgstr ""
+msgstr "Usporedba vremena"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:145
 msgid "Time Format"
 msgstr "Vremenski format"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:34
+#, fuzzy
 msgid "Time Grain"
-msgstr ""
+msgstr "Vremensko zrno"
 
 #: superset/common/query_context_processor.py:554
+#, fuzzy
 msgid "Time Grain must be specified when using Time Shift."
-msgstr ""
+msgstr "Vremensko zrno mora biti navedeno kada se koristi vremenski pomak."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:35
 msgid "Time Granularity"
-msgstr ""
+msgstr "Vremenska granularnost"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:258
 msgid "Time Lag"
-msgstr ""
+msgstr "Vremenski odmak"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:32
 #: superset-frontend/src/explore/components/controls/FilterControl/utils/useDatePickerInAdhocFilter.tsx:43
 msgid "Time Range"
-msgstr ""
+msgstr "Vremenski raspon"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:269
 msgid "Time Ratio"
-msgstr ""
+msgstr "Omjer vremena"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:78
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/vendor/superset/AnnotationTypes.js:47
+#, fuzzy
 msgid "Time Series"
-msgstr ""
+msgstr "Vremenske serije"
 
 #: superset/viz.py:1129
 msgid "Time Series - Bar Chart"
-msgstr ""
+msgstr "Vremenske serije - trakasti grafikon"
 
 #: superset/viz.py:923
 msgid "Time Series - Line Chart"
@@ -17245,47 +17147,49 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:463
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:767
 msgid "Time Shift"
-msgstr ""
+msgstr "Vremenski pomak"
 
 #: superset/viz.py:705
 msgid "Time Table View"
-msgstr ""
+msgstr "Pregled vremenskog rasporeda"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:324
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:764
 #: superset-frontend/src/explore/constants.ts:132
 #: superset-frontend/src/filters/components/TimeColumn/index.ts:28
 msgid "Time column"
-msgstr ""
+msgstr "Vremenski stupac"
 
 #: superset/models/helpers.py:1699
 #, python-format
 msgid "Time column \"%(col)s\" does not exist in dataset"
-msgstr ""
+msgstr "Vremenski stupac \"%(col)s\" ne postoji u skupu podataka"
 
 #: superset-frontend/src/filters/components/TimeColumn/index.ts:29
 msgid "Time column filter plugin"
-msgstr ""
+msgstr "Dodatak za filter vremenskog stupca"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:769
 msgid "Time column to apply dependent temporal filter to"
-msgstr ""
+msgstr "Vremenski stupac na koji treba primijeniti ovisni vremenski filter"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:770
 msgid "Time column to apply time range to"
-msgstr ""
+msgstr "Vremenski stupac na koji treba primijeniti vremenski raspon"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:105
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:71
 #: superset-frontend/src/explore/controlPanels/sections.tsx:183
 msgid "Time comparison"
-msgstr ""
+msgstr "Usporedba vremena"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:768
 msgid ""
 "Time delta in natural language\n"
 "                  (example:  24 hours, 7 days, 56 weeks, 365 days)"
 msgstr ""
+"Vremenska delta u prirodnom jeziku\n"
+"                  (primjer: 24 sata, 7 dana, 56 tjedana, 365 dana)"
 
 #: superset/commands/chart/exceptions.py:66
 #, python-format
@@ -17293,42 +17197,47 @@ msgid ""
 "Time delta is ambiguous. Please specify [%(human_readable)s ago] or "
 "[%(human_readable)s later]."
 msgstr ""
+"Vremenska delta je dvosmislena. Navedite [prije %(human_readable)s] ili "
+"[%(human_readable)s kasnije]."
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:323
 #: superset-frontend/src/filters/components/Time/index.ts:27
 msgid "Time filter"
-msgstr ""
+msgstr "Vremenski filter"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:319
 msgid "Time format"
-msgstr ""
+msgstr "Format vremena"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:325
 #: superset-frontend/src/explore/constants.ts:133
 #: superset-frontend/src/filters/components/TimeGrain/index.ts:28
+#, fuzzy
 msgid "Time grain"
-msgstr ""
+msgstr "Vremensko zrno"
 
 #: superset-frontend/src/filters/components/TimeGrain/index.ts:29
+#, fuzzy
 msgid "Time grain filter plugin"
-msgstr ""
+msgstr "Dodatak filtera vremenskog zrna"
 
 #: superset/utils/pandas_postprocessing/prophet.py:118
+#, fuzzy
 msgid "Time grain missing"
-msgstr ""
+msgstr "Nedostaje vremensko zrno"
 
 #: superset-frontend/src/explore/constants.ts:134
 msgid "Time granularity"
-msgstr ""
+msgstr "Vremenska granularnost"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1691
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1705
 msgid "Time in seconds"
-msgstr ""
+msgstr "Vrijeme u sekundama"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:250
 msgid "Time lag"
-msgstr ""
+msgstr "Vremenski odmak"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:323
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1018
@@ -17339,28 +17248,30 @@ msgstr "Vremenski raspon"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:263
 msgid "Time ratio"
-msgstr ""
+msgstr "Omjer vremena"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/sections.tsx:28
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:32
 #: superset-frontend/src/explore/controlPanels/sections.tsx:69
 msgid "Time related form attributes"
-msgstr ""
+msgstr "Atributi obrasca povezani s vremenom"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationTypes.js:46
+#, fuzzy
 msgid "Time series"
-msgstr ""
+msgstr "Vremenske serije"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:48
 #: superset-frontend/src/visualizations/TimeTable/controlPanel.js:38
+#, fuzzy
 msgid "Time series columns"
-msgstr ""
+msgstr "Stupci vremenske serije"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:113
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/timeComparison.tsx:77
 #: superset-frontend/src/explore/controlPanels/sections.tsx:193
 msgid "Time shift"
-msgstr ""
+msgstr "Vremenski pomak"
 
 #: superset/commands/chart/exceptions.py:38
 #, python-format
@@ -17368,14 +17279,17 @@ msgid ""
 "Time string is ambiguous. Please specify [%(human_readable)s ago] or "
 "[%(human_readable)s later]."
 msgstr ""
+"Vremenski niz je dvosmislen. Navedite [prije %(human_readable)s] ili "
+"[%(human_readable)s kasnije]."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:42
+#, fuzzy
 msgid "Time-series Area Chart (legacy)"
-msgstr ""
+msgstr "Površinski grafikon vremenske serije (naslijeđeno)"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:36
 msgid "Time-series Bar Chart (legacy)"
-msgstr ""
+msgstr "Trakasti grafikon vremenske serije (naslijeđeno)"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:39
 msgid "Time-series Line Chart (legacy)"
@@ -17399,7 +17313,7 @@ msgstr "Greška: Isteklo vrijeme"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:364
 msgid "Timestamp format"
-msgstr ""
+msgstr "Format vremenske oznake"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1655
 #: superset-frontend/src/features/reports/ReportModal/index.tsx:349
@@ -17408,11 +17322,11 @@ msgstr "Vremenska zona"
 
 #: superset/connectors/sqla/views.py:344
 msgid "Timezone offset (in hours) for this datasource"
-msgstr ""
+msgstr "Pomak vremenske zone (u satima) za ovaj izvor podataka"
 
 #: superset-frontend/src/components/TimezoneSelector/index.tsx:129
 msgid "Timezone selector"
-msgstr ""
+msgstr "Birač vremenske zone"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/sharedControls.ts:35
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/sharedControls.ts:69
@@ -17428,23 +17342,24 @@ msgstr "Naslov"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:701
 msgid "Title Column"
-msgstr ""
+msgstr "Naslov stupca"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/DividerConfigForm.tsx:44
 msgid "Title is required"
-msgstr ""
+msgstr "Naslov je obavezan"
 
 #: superset/dashboards/filters.py:39
+#, fuzzy
 msgid "Title or Slug"
-msgstr ""
+msgstr "Naslov ili Puž"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:344
 msgid "To filter on a metric, use Custom SQL tab."
-msgstr ""
+msgstr "Za filtriranje prema mjernom podatku upotrijebite karticu Custom SQL."
 
 #: superset/views/dashboard/mixin.py:57
 msgid "To get a readable URL for your dashboard"
-msgstr ""
+msgstr "Da biste dobili čitljiv URL za svoju nadzornu ploču"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:215
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/CrossFilters/ScopingModal/ScopingTreePanel.tsx:118
@@ -17455,21 +17370,21 @@ msgstr "Opis alata"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:142
 msgid "Tooltip Contents"
-msgstr ""
+msgstr "Sadržaj opisa alata"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:203
 msgid "Tooltip sort by metric"
-msgstr ""
+msgstr "Opis alata poredaj po mjeri"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:193
 msgid "Tooltip time format"
-msgstr ""
+msgstr "Format vremena opisa alata"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:31
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:87
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:374
 msgid "Top"
-msgstr "Na Vrh"
+msgstr "Vrh"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:184
 msgid "Top left"
@@ -17492,24 +17407,24 @@ msgstr "Ukupno"
 #: superset/charts/post_processing.py:72
 #, python-format
 msgid "Total (%(aggfunc)s)"
-msgstr ""
+msgstr "Ukupno (%(aggfunc)s)"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:503
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:569
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:793
 #, python-format
 msgid "Total (%(aggregatorName)s)"
-msgstr ""
+msgstr "Ukupno (%(aggregatorName)s)"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:71
 msgid "Total value"
-msgstr ""
+msgstr "Ukupna vrijednost"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/transformProps.ts:344
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/transformProps.ts:370
 #, python-format
 msgid "Total: %s"
-msgstr ""
+msgstr "Ukupno: %s"
 
 #: superset-frontend/plugins/plugin-chart-table/src/TableChart.tsx:649
 msgid "Totals"
@@ -17517,7 +17432,7 @@ msgstr "Ukupno"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:486
 msgid "Track job"
-msgstr ""
+msgstr "Pratite posao"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/index.js:40
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:48
@@ -17529,35 +17444,37 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:65
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:64
 msgid "Transformable"
-msgstr ""
+msgstr "Transformabilan"
 
 #: superset-frontend/src/dashboard/util/backgroundStyleOptions.ts:25
 msgid "Transparent"
 msgstr "Transparentno"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:257
+#, fuzzy
 msgid "Transpose pivot"
-msgstr ""
+msgstr "Transponirati stožer"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:168
 msgid "Treat values as categorical."
-msgstr ""
+msgstr "Tretirajte vrijednosti kao kategorične."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:40
 msgid "Tree Chart"
-msgstr ""
+msgstr "Grafikon stabla"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:115
 msgid "Tree layout"
-msgstr ""
+msgstr "Raspored stabla"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:132
 msgid "Tree orientation"
-msgstr ""
+msgstr "Orijentacija stabla"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:61
+#, fuzzy
 msgid "Treemap"
-msgstr ""
+msgstr "Karta stabla"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:39
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:40
@@ -17570,7 +17487,7 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/index.ts:66
 #: superset-frontend/src/visualizations/TimeTable/index.ts:39
 msgid "Trend"
-msgstr ""
+msgstr "Trend"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:224
 msgid "Triangle"
@@ -17578,29 +17495,31 @@ msgstr "Trokut"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1458
 msgid "Trigger Alert If..."
-msgstr ""
+msgstr "Pokreni upozorenje ako..."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:224
 msgid "Truncate Axis"
-msgstr ""
+msgstr "Skrati os"
 
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:142
 msgid "Truncate Cells"
-msgstr ""
+msgstr "Skrati ćelije"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:343
 msgid "Truncate Metric"
-msgstr ""
+msgstr "Skrati mjeru"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:275
 msgid "Truncate X Axis"
-msgstr ""
+msgstr "Skrati X os"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:278
 msgid ""
 "Truncate X Axis. Can be overridden by specifying a min or max bound. Only "
 "applicable for numercal X axis."
 msgstr ""
+"Skrati X os. Može se nadjačati određivanjem minimalne ili maksimalne "
+"granice. Primjenjivo samo za numeričku X os."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:242
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:344
@@ -17610,7 +17529,7 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/controlPanel.tsx:166
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:216
 msgid "Truncate Y Axis"
-msgstr ""
+msgstr "Skrati Y os"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:245
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:347
@@ -17621,31 +17540,35 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:219
 msgid "Truncate Y Axis. Can be overridden by specifying a min or max bound."
 msgstr ""
+"Skrati Y os. Može se nadjačati određivanjem minimalne ili maksimalne granice."
 
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:143
 msgid "Truncate long cells to the \"min width\" set above"
-msgstr ""
+msgstr "Skrati dugačke ćelije na gore postavljenu \"min širinu\"."
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/DateFunctionTooltip.tsx:58
 msgid ""
 "Truncates the specified date to the accuracy specified by the date unit."
-msgstr ""
+msgstr "Skraćuje navedeni datum na točnost koju određuje jedinica datuma."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberViz.tsx:194
 msgid "Try applying different filters or ensuring your datasource has data"
 msgstr ""
+"Pokušajte primijeniti različite filtre ili provjerite ima li vaš izvor "
+"podataka"
 
 #: superset-frontend/src/components/ListView/ListView.tsx:452
 msgid "Try different criteria to display results."
-msgstr ""
+msgstr "Isprobajte različite kriterije za prikaz rezultata."
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:58
 msgid "Tuesday"
 msgstr "Utorak"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:94
+#, fuzzy
 msgid "Tukey"
-msgstr ""
+msgstr "Tukey"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:67
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:222
@@ -17666,32 +17589,32 @@ msgstr "Vrsta"
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1507
 #, python-format
 msgid "Type \"%s\" to confirm"
-msgstr ""
+msgstr "Upišite \"%s\" za potvrdu"
 
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:241
 msgid "Type a number"
-msgstr ""
+msgstr "Upišite broj"
 
 #: superset-frontend/src/components/ListView/Filters/Search.tsx:86
 msgid "Type a value"
-msgstr ""
+msgstr "Upišite vrijednost"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:375
 msgid "Type a value here"
-msgstr ""
+msgstr "Ovdje upišite vrijednost"
 
 #: superset/commands/report/exceptions.py:75
 msgid "Type is required"
-msgstr ""
+msgstr "Vrsta je obavezna"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/EncryptedField.tsx:72
 msgid "Type of Google Sheets allowed"
-msgstr ""
+msgstr "Dopuštena vrsta Google tablica"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:216
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:275
 msgid "Type of comparison, value difference or percentage"
-msgstr ""
+msgstr "Vrsta usporedbe, razlika vrijednosti ili postotak"
 
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:45
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:54
@@ -17699,7 +17622,7 @@ msgstr ""
 #: superset-frontend/src/filters/components/TimeColumn/controlPanel.ts:25
 #: superset-frontend/src/filters/components/TimeGrain/controlPanel.ts:25
 msgid "UI Configuration"
-msgstr ""
+msgstr "Konfiguracija korisničkog sučelja"
 
 #: superset-frontend/src/visualizations/TimeTable/controlPanel.js:51
 msgid "URL"
@@ -17707,36 +17630,40 @@ msgstr "URL"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/sections.tsx:70
 msgid "URL Parameters"
-msgstr ""
+msgstr "Parametri URL-a"
 
 #: superset-frontend/src/explore/controlPanels/sections.tsx:53
 msgid "URL parameters"
-msgstr ""
+msgstr "URL parametri"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:637
+#, fuzzy
 msgid "URL slug"
-msgstr ""
+msgstr "URL slug"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:542
+#, fuzzy
 msgid ""
 "Unable to add a new tab to the backend. Please contact your administrator."
 msgstr ""
+"Nije moguće dodati novu karticu u pozadinu. Molimo kontaktirajte svog "
+"administratora."
 
 #: superset/utils/date_parser.py:380
 msgid "Unable to calculate such a date delta"
-msgstr ""
+msgstr "Nije moguće izračunati takvu deltu datuma"
 
 #: superset/db_engine_specs/presto.py:730
 #, python-format
 msgid "Unable to connect to catalog named \"%(catalog_name)s\"."
-msgstr ""
+msgstr "Nije moguće povezati se s katalogom pod nazivom \"%(catalog_name)s\"."
 
 #: superset/db_engine_specs/doris.py:226 superset/db_engine_specs/mysql.py:172
 #: superset/db_engine_specs/postgres.py:150
 #: superset/db_engine_specs/starrocks.py:159
 #, python-format
 msgid "Unable to connect to database \"%(database)s\"."
-msgstr ""
+msgstr "Nije moguće povezati se s bazom podataka \"%(database)s\"."
 
 #: superset/db_engine_specs/bigquery.py:182
 msgid ""
@@ -17745,51 +17672,66 @@ msgid ""
 "Job User\" and the following permissions are set \"bigquery.readsessions."
 "create\", \"bigquery.readsessions.getData\""
 msgstr ""
+"Povezivanje nije moguće. Provjerite jesu li sljedeće uloge postavljene na "
+"računu usluge: \"BigQuery Data Viewer\", \"BigQuery Metadata Viewer\", "
+"\"BigQuery Job User\" i postavljene su sljedeće dozvole \"bigquery."
+"readsessions.create\", \"bigquery.readsessions.getData\""
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:271
 msgid "Unable to create chart without a query id."
-msgstr ""
+msgstr "Nije moguće izraditi grafikon bez ID-a upita."
 
 #: superset/key_value/exceptions.py:66
 msgid "Unable to decode value"
-msgstr ""
+msgstr "Nije moguće dekodirati vrijednost"
 
 #: superset/key_value/exceptions.py:62
 msgid "Unable to encode value"
-msgstr ""
+msgstr "Nije moguće kodirati vrijednost"
 
 #: superset/utils/date_parser.py:458
 #, python-format
 msgid "Unable to find such a holiday: [%(holiday)s]"
-msgstr ""
+msgstr "Nije moguće pronaći takav praznik: [%(holiday)s]"
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/MessageContent.tsx:69
 msgid ""
 "Unable to load columns for the selected table. Please select a different "
 "table."
 msgstr ""
+"Nije moguće učitati stupce za odabranu tablicu. Odaberite drugu tablicu."
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:508
+#, fuzzy
 msgid ""
 "Unable to migrate query editor state to backend. Superset will retry later. "
 "Please contact your administrator if this problem persists."
 msgstr ""
+"Nije moguće migrirati stanje uređivača upita u pozadinu. Superset će "
+"pokušati kasnije. Obratite se svom administratoru ako se ovaj problem "
+"nastavi pojavljivati."
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:461
+#, fuzzy
 msgid ""
 "Unable to migrate query state to backend. Superset will retry later. Please "
 "contact your administrator if this problem persists."
 msgstr ""
+"Nije moguće premjestiti stanje upita u pozadinu. Superset će pokušati "
+"kasnije. Obratite se svom administratoru ako se problem nastavi pojavljivati."
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:443
+#, fuzzy
 msgid ""
 "Unable to migrate table schema state to backend. Superset will retry later. "
 "Please contact your administrator if this problem persists."
 msgstr ""
+"Nije moguće migrirati stanje sheme tablice u pozadinu. Superset će pokušati "
+"kasnije. Obratite se svom administratoru ako se problem nastavi pojavljivati."
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:127
 msgid "Unable to retrieve dashboard colors"
-msgstr ""
+msgstr "Nije moguće dohvatiti boje nadzorne ploče"
 
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:94
 #: superset-frontend/src/SqlLab/components/ScheduleQueryButton/index.tsx:136
@@ -17798,11 +17740,11 @@ msgstr "Nedefiniran"
 
 #: superset/utils/pandas_postprocessing/rolling.py:67
 msgid "Undefined window for rolling operation"
-msgstr ""
+msgstr "Nedefiniran prozor za kotrljanje"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:580
 msgid "Undo the action"
-msgstr ""
+msgstr "Poništavanje radnje"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FilterTitleContainer.tsx:138
 msgid "Undo?"
@@ -17816,20 +17758,20 @@ msgstr "Neočekivana greška"
 #: superset/commands/database/exceptions.py:158
 #: superset/commands/database/exceptions.py:163
 msgid "Unexpected error occurred, please check your logs for details"
-msgstr ""
+msgstr "Došlo je do neočekivane pogreške, provjerite svoje zapise za detalje"
 
 #: superset-frontend/packages/superset-ui-core/src/query/getClientErrorObject.ts:77
 msgid "Unexpected error: "
-msgstr ""
+msgstr "Neočekivana pogreška: "
 
 #: superset/commands/database/uploaders/columnar_reader.py:85
 msgid "Unexpected no file extension found"
-msgstr ""
+msgstr "Neočekivano nije pronađen nastavak datoteke"
 
 #: superset/views/api.py:125
 #, python-format
 msgid "Unexpected time range: %(error)s"
-msgstr ""
+msgstr "Neočekivani vremenski raspon: %(error)s"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:86
 msgid "Unknown"
@@ -17838,25 +17780,25 @@ msgstr "Nepoznato"
 #: superset/db_engine_specs/doris.py:216
 #, python-format
 msgid "Unknown Doris server host \"%(hostname)s\"."
-msgstr ""
+msgstr "Nepoznati host poslužitelja Doris \"%(hostname)s\"."
 
 #: superset/db_engine_specs/mysql.py:162
 #, python-format
 msgid "Unknown MySQL server host \"%(hostname)s\"."
-msgstr ""
+msgstr "Nepoznati host MySQL poslužitelja \"%(hostname)s\"."
 
 #: superset/db_engine_specs/presto.py:1373
 msgid "Unknown Presto Error"
-msgstr ""
+msgstr "Nepoznata Presto pogreška"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:177
 msgid "Unknown Status"
-msgstr ""
+msgstr "Nepoznat status"
 
 #: superset/models/helpers.py:1622
 #, python-format
 msgid "Unknown column used in orderby: %(col)s"
-msgstr ""
+msgstr "Nepoznati stupac korišten u redoslijedu prema: %(col)s"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:362
 #: superset-frontend/src/SqlLab/components/AceEditorWrapper/useAnnotations.ts:54
@@ -17865,62 +17807,62 @@ msgstr "Nepoznata pogreška"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/utilities.js:843
 msgid "Unknown input format"
-msgstr ""
+msgstr "Nepoznati format unosa"
 
 #: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:193
 msgid "Unknown type"
-msgstr ""
+msgstr "Nepoznati tip"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/utils.ts:253
 msgid "Unknown value"
-msgstr ""
+msgstr "Nepoznata vrijednost"
 
 #: superset/jinja_context.py:362
 #, python-format
 msgid "Unsafe return type for function %(func)s: %(value_type)s"
-msgstr ""
+msgstr "Nesigurna povratni tip za funkciju %(func)s: %(value_type)s"
 
 #: superset/jinja_context.py:389
 #, python-format
 msgid "Unsafe template value for key %(key)s: %(value_type)s"
-msgstr ""
+msgstr "Nesigurna vrijednost predloška za ključ %(key)s: %(value_type)s"
 
 #: superset/utils/core.py:871
-#, python-format
+#, fuzzy, python-format
 msgid "Unsupported clause type: %(clause)s"
-msgstr ""
+msgstr "Nepodržana vrsta odredbe: %(clause)s"
 
 #: superset/common/query_object.py:439
 #, python-format
 msgid "Unsupported post processing operation: %(operation)s"
-msgstr ""
+msgstr "Nepodržana operacija naknadne obrade: %(operation)s"
 
 #: superset/jinja_context.py:373
 #, python-format
 msgid "Unsupported return value for method %(name)s"
-msgstr ""
+msgstr "Nepodržana povratna vrijednost za metodu %(name)s"
 
 #: superset/jinja_context.py:400
 #, python-format
 msgid "Unsupported template value for key %(key)s"
-msgstr ""
+msgstr "Nepodržana vrijednost predloška za ključ %(key)s"
 
 #: superset/utils/pandas_postprocessing/prophet.py:121
-#, python-format
+#, fuzzy, python-format
 msgid "Unsupported time grain: %(time_grain)s"
-msgstr ""
+msgstr "Nepodržano vremensko zrno: %(time_grain)s"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:148
 msgid "Untitled Dataset"
-msgstr ""
+msgstr "Skup podataka bez naslova"
 
 #: superset/views/sql_lab/views.py:91
 msgid "Untitled Query"
-msgstr ""
+msgstr "Upit bez naslova"
 
 #: superset-frontend/src/SqlLab/reducers/getInitialState.ts:59
 msgid "Untitled query"
-msgstr ""
+msgstr "Upit bez naslova"
 
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:229
 msgid "Update"
@@ -17929,11 +17871,11 @@ msgstr "Ažuriraj"
 #: superset-frontend/src/explore/components/RunQueryButton/index.tsx:54
 #: superset-frontend/src/utils/getChartRequiredFieldsMissingMessage.ts:23
 msgid "Update chart"
-msgstr ""
+msgstr "Ažurirajte grafikon"
 
 #: superset-frontend/src/components/Chart/chartReducer.ts:84
 msgid "Updating chart was stopped"
-msgstr ""
+msgstr "Ažuriranje grafikona je zaustavljeno"
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:566
 #: superset/templates/superset/import_dashboards.html:63
@@ -17942,68 +17884,69 @@ msgstr "Učitaj"
 
 #: superset-frontend/src/pages/DatabaseList/index.tsx:242
 msgid "Upload CSV"
-msgstr ""
+msgstr "Učitaj CSV"
 
 #: superset-frontend/src/features/home/RightMenu.tsx:196
 msgid "Upload CSV to database"
-msgstr ""
+msgstr "Učitaj CSV u bazu podataka"
 
 #: superset-frontend/src/pages/DatabaseList/index.tsx:262
+#, fuzzy
 msgid "Upload Columnar"
-msgstr ""
+msgstr "Učitaj u stupcu"
 
 #: superset-frontend/src/features/home/RightMenu.tsx:208
 msgid "Upload Columnar file to database"
-msgstr ""
+msgstr "Učitaj Columnar datoteku u bazu podataka"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/EncryptedField.tsx:135
 msgid "Upload Credentials"
-msgstr ""
+msgstr "Učitaj vjerodajnice"
 
 #: superset/databases/filters.py:84
 msgid "Upload Enabled"
-msgstr ""
+msgstr "Učitavanje omogućen"
 
 #: superset-frontend/src/pages/DatabaseList/index.tsx:252
 msgid "Upload Excel"
-msgstr ""
+msgstr "Učitaj Excel"
 
 #: superset-frontend/src/features/home/RightMenu.tsx:202
 msgid "Upload Excel to database"
-msgstr ""
+msgstr "Učitaj Excel u bazu podataka"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/EncryptedField.tsx:101
 msgid "Upload JSON file"
-msgstr ""
+msgstr "Učitaj JSON datoteku"
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:605
 msgid "Upload a file to a database."
-msgstr ""
+msgstr "Učitaj datoteku u bazu podataka."
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:545
 #, python-format
 msgid "Upload a file with a valid extension. Valid: [%s]"
-msgstr ""
+msgstr "Učitaj datoteku s valjanim nastavkom. Valjano: [%s]"
 
 #: superset-frontend/src/pages/DatabaseList/index.tsx:239
 msgid "Upload file to database"
-msgstr ""
+msgstr "Učitaj datoteku u bazu podataka"
 
 #: superset-frontend/src/features/databases/UploadDataModel/ColumnsPreview.tsx:46
 msgid "Upload file to preview columns"
-msgstr ""
+msgstr "Učitaj datoteku za pregled stupaca"
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:539
 msgid "Uploading a file is required"
-msgstr ""
+msgstr "Potrebno je učitavanje datoteke"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:300
 msgid "Upper Threshold"
-msgstr ""
+msgstr "Gornji prag"
 
 #: superset-frontend/src/explore/components/controls/ContourControl/ContourPopoverControl.tsx:92
 msgid "Upper threshold must be greater than lower threshold"
-msgstr ""
+msgstr "Gornji prag mora biti veći od donjeg praga"
 
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/index.tsx:52
 msgid "Usage"
@@ -18012,41 +17955,43 @@ msgstr "Upotreba"
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:742
 #, python-format
 msgid "Use \"%(menuName)s\" menu instead."
-msgstr ""
+msgstr "Umjesto toga upotrijebite izbornik \"%(menuName)s\"."
 
 #: superset-frontend/src/dashboard/util/getSliceHeaderTooltip.tsx:31
 #, python-format
 msgid "Use %s to open in a new tab."
-msgstr ""
+msgstr "Koristite %s za otvaranje u novoj kartici."
 
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:105
 #: superset-frontend/src/explore/controlUtils/controlUtils.test.tsx:114
 #: superset-frontend/src/explore/fixtures.tsx:43
+#, fuzzy
 msgid "Use Area Proportions"
-msgstr ""
+msgstr "Koristite proporcije površine"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:199
 msgid "Use a log scale"
-msgstr ""
+msgstr "Koristite logaritamsku skalu"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/controlPanel.ts:106
 msgid "Use a log scale for the X-axis"
-msgstr ""
+msgstr "Koristite logaritamsku skalu za X-os"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:251
 msgid "Use a log scale for the Y-axis"
-msgstr ""
+msgstr "Koristite logaritamsku skalu za Y-os"
 
 #: superset/db_engine_specs/base.py:2247
 #: superset/db_engine_specs/clickhouse.py:215
 #: superset/db_engine_specs/databend.py:203
 #: superset/db_engine_specs/databricks.py:57
 msgid "Use an encrypted connection to the database"
-msgstr ""
+msgstr "Koristite šifriranu vezu s bazom podataka"
 
 #: superset/db_engine_specs/base.py:2251
+#, fuzzy
 msgid "Use an ssh tunnel connection to the database"
-msgstr ""
+msgstr "Koristite ssh tunelsku vezu s bazom podataka"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:583
 #, python-format
@@ -18054,57 +17999,67 @@ msgid ""
 "Use another existing chart as a source for annotations and overlays.\n"
 "          Your chart must be one of these visualization types: [%s]"
 msgstr ""
+"Upotrijebite drugi postojeći grafikon kao izvor za zabilješke i "
+"preklapanja.\n"
+"          Vaš grafikon mora biti jedna od ovih vrsta vizualizacije: [%s]"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:86
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:160
 msgid "Use date formatting even when metric value is not a timestamp"
 msgstr ""
+"Koristite formatiranje datuma čak i kada mjerna vrijednost nije vremenska "
+"oznaka"
 
 #: superset-frontend/src/components/Datasource/DatasourceModal.tsx:302
 msgid "Use legacy datasource editor"
-msgstr ""
+msgstr "Koristite naslijeđeni uređivač izvora podataka"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:117
 msgid "Use metrics as a top level group for columns or for rows"
-msgstr ""
+msgstr "Koristite mjeru kao grupu najviše razine za stupce ili za retke"
 
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:68
 msgid "Use only a single value."
-msgstr ""
+msgstr "Koristite samo jednu vrijednost."
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:116
 msgid "Use the Advanced Analytics options below"
-msgstr ""
+msgstr "Upotrijebite opcije napredne analitike u nastavku"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/EncryptedField.tsx:137
 msgid ""
 "Use the JSON file you automatically downloaded when creating your service "
 "account."
 msgstr ""
+"Upotrijebite JSON datoteku koju ste automatski preuzeli prilikom izrade "
+"računa usluge."
 
 #: superset/templates/superset/fab_overrides/list_with_checkboxes.html:82
 msgid "Use the edit button to change this field"
-msgstr ""
+msgstr "Koristite gumb za uređivanje da biste promijenili ovo polje"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:50
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:130
 msgid "Use this section if you want a query that aggregates"
-msgstr ""
+msgstr "Koristite ovaj odjeljak ako želite upit koji agregira"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:64
+#, fuzzy
 msgid "Use this section if you want to query atomic rows"
-msgstr ""
+msgstr "Koristite ovaj odjeljak ako želite postavljati upite za atomske retke"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:126
 #: superset-frontend/src/explore/controls.jsx:206
 msgid "Use this to define a static color for all circles"
-msgstr ""
+msgstr "Koristite ovo za definiranje statične boje za sve krugove"
 
 #: superset/views/dynamic_plugins.py:48
 msgid ""
 "Used internally to identify the plugin. Should be set to the package name "
 "from the pluginʼs package.json"
 msgstr ""
+"Koristi se interno za identifikaciju dodatka. Trebalo bi se postaviti na "
+"naziv paketa iz package.json dodatka"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/index.ts:56
 msgid ""
@@ -18113,6 +18068,10 @@ msgid ""
 "and assignee, active users by age and location. Not the most visually "
 "stunning visualization, but highly informative and versatile."
 msgstr ""
+"Koristi se za sažimanje skupa podataka grupiranjem više statistika duž dvije "
+"osi. Primjeri: Brojevi prodaje po regiji i mjesecu, zadaci po statusu i "
+"opunomoćeniku, aktivni korisnici po dobi i lokaciji. Nije vizualno najljepša "
+"vizualizacija, ali vrlo informativna i svestrana."
 
 #: superset-frontend/src/features/home/RightMenu.tsx:508
 #: superset-frontend/src/pages/QueryHistoryList/index.tsx:309
@@ -18123,7 +18082,7 @@ msgstr "Korisnik"
 
 #: superset/errors.py:125
 msgid "User doesn't have the proper permissions."
-msgstr ""
+msgstr "Korisnik nema odgovarajuća dopuštenja."
 
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:56
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:90
@@ -18131,11 +18090,11 @@ msgstr ""
 #: superset-frontend/src/filters/components/TimeColumn/controlPanel.ts:36
 #: superset-frontend/src/filters/components/TimeGrain/controlPanel.ts:36
 msgid "User must select a value before applying the filter"
-msgstr ""
+msgstr "Korisnik mora odabrati vrijednost prije primjene filtra"
 
 #: superset-frontend/src/features/queries/QueryPreviewModal.tsx:156
 msgid "User query"
-msgstr ""
+msgstr "Korisnički upit"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:197
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:100
@@ -18148,6 +18107,8 @@ msgstr "Korisničko ime"
 #: superset/db_engine_specs/postgres.py:290
 msgid "Users are not allowed to set a search path for security reasons."
 msgstr ""
+"Korisnicima nije dopušteno postaviti put pretraživanja iz sigurnosnih "
+"razloga."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Contour/index.ts:28
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Heatmap/index.ts:28
@@ -18155,6 +18116,8 @@ msgid ""
 "Uses Gaussian Kernel Density Estimation to visualize spatial distribution of "
 "data"
 msgstr ""
+"Koristi Gaussovu procjenu gustoće jezgre za vizualizaciju prostorne "
+"distribucije podataka"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/index.ts:46
 msgid ""
@@ -18162,6 +18125,9 @@ msgid ""
 "of the dial represents the progress and the terminal value in the gauge "
 "represents the target value."
 msgstr ""
+"Koristi mjerač za prikaz napretka mjere prema cilju. Položaj kotačića "
+"predstavlja napredak, a krajnja vrijednost na mjeraču predstavlja ciljnu "
+"vrijednost."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/index.ts:42
 msgid ""
@@ -18170,6 +18136,10 @@ msgid ""
 "stages a value took. Useful for multi-stage, multi-group visualizing funnels "
 "and pipelines."
 msgstr ""
+"Koristi krugove za vizualizaciju toka podataka kroz različite faze sustava. "
+"Zadržite pokazivač iznad pojedinačnih putanja u vizualizaciji da biste "
+"razumjeli faze koje je vrijednost prošla. Korisno za višestupanjsko, "
+"višegrupno vizualiziranje tokova i cjevovoda."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:54
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:117
@@ -18187,72 +18157,75 @@ msgstr "Vrijednost"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:81
 msgid "Value Domain"
-msgstr ""
+msgstr "Domena vrijednosti"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:332
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:295
 msgid "Value Format"
-msgstr ""
+msgstr "Format vrijednosti"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:130
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:126
 msgid "Value and Percentage"
-msgstr ""
+msgstr "Vrijednost i postotak"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:227
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:220
 msgid "Value bounds"
-msgstr ""
+msgstr "Granice vrijednosti"
 
 #: superset-frontend/packages/superset-ui-core/src/validator/validateMaxValue.ts:23
 #, python-format
 msgid "Value cannot exceed %s"
-msgstr ""
+msgstr "Vrijednost ne može premašiti %s"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberPeriodOverPeriod/PopKPI.tsx:196
 msgid "Value difference between the time periods"
-msgstr ""
+msgstr "Razlika u vrijednosti između vremenskih razdoblja"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:161
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:290
 msgid "Value format"
-msgstr ""
+msgstr "Format vrijednosti"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DefaultValue.tsx:84
 msgid "Value is required"
-msgstr ""
+msgstr "Vrijednost je obavezna"
 
 #: superset/reports/schemas.py:340
 msgid "Value must be 0 or greater"
-msgstr ""
+msgstr "Vrijednost mora biti 0 ili veća"
 
 #: superset/reports/schemas.py:201 superset/reports/schemas.py:206
 #: superset/reports/schemas.py:211 superset/reports/schemas.py:345
 #: superset/reports/schemas.py:351
 msgid "Value must be greater than 0"
-msgstr ""
+msgstr "Vrijednost mora biti veća od 0"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:204
 msgid "Values are dependent on other filters"
-msgstr ""
+msgstr "Vrijednosti ovise o drugim filtrima"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:211
 msgid "Values dependent on"
-msgstr ""
+msgstr "Vrijednosti ovisne o"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:207
 msgid ""
 "Values selected in other filters will affect the filter options to only show "
 "relevant values"
 msgstr ""
+"Vrijednosti odabrane u drugim filtrima utjecat će na opcije filtra da "
+"prikazuju samo relevantne vrijednosti"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:39
+#, fuzzy
 msgid "Vehicle Types"
 msgstr "Vrste vozila"
 
 #: superset/connectors/sqla/views.py:161 superset/connectors/sqla/views.py:259
 msgid "Verbose Name"
-msgstr ""
+msgstr "Detaljan naziv"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:559
 #: superset-frontend/src/features/home/RightMenu.tsx:530
@@ -18261,7 +18234,7 @@ msgstr "Verzija"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:565
 msgid "Version number"
-msgstr ""
+msgstr "Broj verzije"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:275
 msgid "Vertical"
@@ -18269,11 +18242,11 @@ msgstr "Okomito"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterBarSettings/index.tsx:188
 msgid "Vertical (Left)"
-msgstr ""
+msgstr "Okomito (lijevo)"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:38
 msgid "Video game consoles"
-msgstr ""
+msgstr "Konzole za video igre"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:245
 #: superset-frontend/src/pages/AlertReportList/index.tsx:378
@@ -18284,51 +18257,51 @@ msgstr "Pregled"
 #: superset-frontend/src/features/home/DashboardTable.tsx:203
 #: superset-frontend/src/features/home/SavedQueries.tsx:264
 msgid "View All »"
-msgstr ""
+msgstr "Prikaži sve »"
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/DatasetPanel.tsx:227
 msgid "View Dataset"
-msgstr ""
+msgstr "Prikaži skup podataka"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:127
 msgid "View all charts"
-msgstr ""
+msgstr "Prikaži sve grafikone"
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:797
 msgid "View as table"
-msgstr ""
+msgstr "Prikaži kao tablicu"
 
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:334
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:374
 msgid "View in SQL Lab"
-msgstr ""
+msgstr "Pogledajte u SQL Labu"
 
 #: superset-frontend/src/SqlLab/components/TableElement/index.tsx:252
 #, python-format
 msgid "View keys & indexes (%s)"
-msgstr ""
+msgstr "Prikaži ključeve i indekse (%s)"
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:779
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:781
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:425
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:427
 msgid "View query"
-msgstr ""
+msgstr "Prikaži upit"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:170
 msgid "Viewed"
-msgstr "Pogledano"
+msgstr "Pregledano"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:115
 #, python-format
 msgid "Viewed %s"
-msgstr ""
+msgstr "Pregledano %s"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:265
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:294
 #: superset-frontend/src/explore/components/controls/ViewportControl.jsx:111
 msgid "Viewport"
-msgstr ""
+msgstr "Viewport"
 
 #: superset-frontend/src/pages/DatasetList/index.tsx:364
 #: superset-frontend/src/pages/DatasetList/index.tsx:533
@@ -18337,32 +18310,32 @@ msgstr "Virtualni"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:155
 msgid "Virtual (SQL)"
-msgstr ""
+msgstr "Virtualni (SQL)"
 
 #: superset-frontend/src/pages/DatasetList/index.tsx:296
 msgid "Virtual dataset"
-msgstr ""
+msgstr "Virtualni skup podataka"
 
 #: superset/connectors/sqla/utils.py:101 superset/models/helpers.py:1093
 msgid "Virtual dataset query cannot be empty"
-msgstr ""
+msgstr "Upit za virtualni skup podataka ne može biti prazan"
 
 #: superset/models/helpers.py:1088
 msgid "Virtual dataset query cannot consist of multiple statements"
-msgstr ""
+msgstr "Upit za virtualni skup podataka ne može se sastojati od više izjava"
 
 #: superset/connectors/sqla/models.py:1460 superset/models/helpers.py:1115
 msgid "Virtual dataset query must be read-only"
-msgstr ""
+msgstr "Upit za virtualni skup podataka mora biti samo za čitanje"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:191
 msgid "Visual Tweaks"
-msgstr ""
+msgstr "Vizualna podešavanja"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:118
 #: superset/views/chart/mixin.py:87
 msgid "Visualization Type"
-msgstr ""
+msgstr "Vrsta vizualizacije"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:57
 msgid ""
@@ -18370,6 +18343,9 @@ msgid ""
 "visualized using its own line of points and each metric is represented as an "
 "edge in the chart."
 msgstr ""
+"Vizualizirajte paralelni skup mjernih podataka u više grupa. Svaka grupa je "
+"vizualizirana pomoću vlastite linije točaka, a svaka mjera je predstavljena "
+"kao rub na grafikonu."
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/index.js:30
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/index.ts:30
@@ -18378,23 +18354,33 @@ msgid ""
 "showcasing the correlation or strength between two groups. Color is used to "
 "emphasize the strength of the link between each pair of groups."
 msgstr ""
+"Vizualizirajte povezanu mjeru u parovima grupa. Toplinske karte izvrsne su u "
+"prikazivanju korelacije ili snage između dviju skupina. Boja se koristi za "
+"naglašavanje snage veze između svakog para grupa."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Grid/index.ts:28
 msgid ""
 "Visualize geospatial data like 3D buildings, landscapes, or objects in grid "
 "view."
 msgstr ""
+"Vizualizirajte geoprostorne podatke poput 3D zgrada, krajolika ili objekata "
+"u prikazu mreže."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:31
 msgid ""
 "Visualize how a metric changes over time using bars. Add a group by column "
 "to visualize group level metrics and how they change over time."
 msgstr ""
+"Vizualizirajte kako se mjera mijenja tijekom vremena pomoću traka. Dodajte "
+"grupu po stupac kako biste vizualizirali mjeru na razini grupe i kako se "
+"mijenjaju tijekom vremena."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:36
 msgid ""
 "Visualize multiple levels of hierarchy using a familiar tree-like structure."
 msgstr ""
+"Vizualizirajte više razina hijerarhije koristeći poznatu strukturu poput "
+"stabla."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:58
 msgid ""
@@ -18402,6 +18388,9 @@ msgid ""
 "can be visualized with a different chart type (e.g. 1 using bars and 1 using "
 "a line)."
 msgstr ""
+"Vizualizirajte dvije različite serije koristeći istu x-os. Imajte na umu da "
+"se oba niza mogu vizualizirati s različitom vrstom grafikona (npr. 1 pomoću "
+"stupaca, a 1 pomoću linije)."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:28
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/index.ts:41
@@ -18410,16 +18399,21 @@ msgid ""
 "axis, Y axis, and bubble size). Bubbles from the same group can be showcased "
 "using bubble color."
 msgstr ""
+"Vizualizira mjeru u tri dimenzije podataka u jednom grafikonu (X os, Y os i "
+"veličina oblačića). Mjehurići iz iste grupe mogu se prikazati bojom "
+"mjehurića."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/index.ts:28
 msgid "Visualizes connected points, which form a path, on a map."
-msgstr ""
+msgstr "Vizualizira povezane točke koje tvore stazu na karti."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/index.ts:28
 msgid ""
 "Visualizes geographic areas from your data as polygons on a Mapbox rendered "
 "map. Polygons can be colored using a metric."
 msgstr ""
+"Vizualizira geografska područja iz vaših podataka kao poligone na prikazanoj "
+"karti Mapboxa. Poligoni se mogu obojiti pomoću mjere."
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:28
 msgid ""
@@ -18427,6 +18421,10 @@ msgid ""
 "calendar view. Gray values are used to indicate missing values and the "
 "linear color scheme is used to encode the magnitude of each day's value."
 msgstr ""
+"Vizualizira kako se mjera promijenila tijekom vremena pomoću ljestvice boja "
+"i kalendarskog prikaza. Sive vrijednosti koriste se za označavanje "
+"vrijednosti koje nedostaju, a linearna shema boja koristi se za kodiranje "
+"veličine vrijednosti svakog dana."
 
 #: superset-frontend/plugins/legacy-plugin-chart-country-map/src/index.js:29
 msgid ""
@@ -18435,12 +18433,19 @@ msgid ""
 "subdivision's value is elevated when you hover over the corresponding "
 "geographic boundary."
 msgstr ""
+"Vizualizira kako pojedinačna mjera varira u glavnim podpodjelama zemlje "
+"(države, pokrajine, itd.) na koropletnoj karti. Vrijednost svake potpodjele "
+"je povišena kada zadržite pokazivač iznad odgovarajuće geografske granice."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:28
+#, fuzzy
 msgid ""
 "Visualizes many different time-series objects in a single chart. This chart "
 "is being deprecated and we recommend using the Time-series Chart instead."
 msgstr ""
+"Vizualizira mnogo različitih objekata vremenske serije u jednom grafikonu. "
+"Ovaj grafikon je zastario i preporučujemo da umjesto njega koristite "
+"grafikon vremenske serije."
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:29
 msgid ""
@@ -18448,37 +18453,42 @@ msgid ""
 "a system. New stages in the pipeline are visualized as nodes or layers. The "
 "thickness of the bars or edges represent the metric being visualized."
 msgstr ""
+"Vizualizira tijek vrijednosti različitih grupa kroz različite faze sustava. "
+"Nove faze u cjevovodu vizualiziraju se kao čvorovi ili slojevi. Debljina "
+"stupaca ili rubova predstavlja mjeru koja se vizualizira."
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/index.ts:35
 msgid ""
 "Visualizes the words in a column that appear the most often. Bigger font "
 "corresponds to higher frequency."
 msgstr ""
+"Vizualizira riječi u stupcu koje se najčešće pojavljuju. Veći font odgovara "
+"višoj frekvenciji."
 
 #: superset/viz.py:125
 msgid "Viz is missing a datasource"
-msgstr ""
+msgstr "Viz nema izvor podataka"
 
 #: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:279
 msgid "Viz type"
-msgstr ""
+msgstr "Viz tip"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:84
 msgid "WED"
-msgstr ""
+msgstr "SRI"
 
 #: superset-frontend/src/components/Chart/Chart.jsx:253
 #, python-format
 msgid "Waiting on %s"
-msgstr ""
+msgstr "Čekanje na %s"
 
 #: superset-frontend/src/components/Chart/Chart.jsx:254
 msgid "Waiting on database..."
-msgstr ""
+msgstr "Čeka se baza podataka..."
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1050
 msgid "Want to add a new database?"
-msgstr ""
+msgstr "Želite li dodati novu bazu podataka?"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1320
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndFilterSelect.tsx:240
@@ -18488,7 +18498,7 @@ msgstr "Upozorenje"
 
 #: superset/connectors/sqla/views.py:265
 msgid "Warning Message"
-msgstr ""
+msgstr "Poruka upozorenja"
 
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:292
 msgid "Warning!"
@@ -18499,32 +18509,38 @@ msgid ""
 "Warning! Changing the dataset may break the chart if the metadata does not "
 "exist."
 msgstr ""
+"Upozorenje! Promjena skupa podataka može pokvariti grafikon ako metapodaci "
+"ne postoje."
 
 #: superset/commands/database/exceptions.py:178
 #: superset/commands/database/exceptions.py:188
 msgid "Was unable to check your query"
-msgstr ""
+msgstr "Nismo uspjeli provjeriti vaš upit"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/index.ts:63
+#, fuzzy
 msgid "Waterfall Chart"
-msgstr ""
+msgstr "Slap grafikon"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1570
 msgid ""
 "We are unable to connect to your database. Click \"See more\" for database-"
 "provided information that may help troubleshoot the issue."
 msgstr ""
+"Ne možemo se povezati s vašom bazom podataka. Kliknite \"Vidi više\" za "
+"informacije iz baze podataka koje mogu pomoći u rješavanju problema."
 
 #: superset/db_engine_specs/bigquery.py:202
 #, python-format
 msgid "We can't seem to resolve column \"%(column)s\" at line %(location)s."
 msgstr ""
+"Čini se da ne možemo riješiti stupac \"%(column)s\" u retku %(location)s."
 
 #: superset/db_engine_specs/duckdb.py:213
 #: superset/db_engine_specs/sqlite.py:108
 #, python-format
 msgid "We can't seem to resolve the column \"%(column_name)s\""
-msgstr ""
+msgstr "Čini se da ne možemo riješiti stupac \"%(column_name)s\""
 
 #: superset/db_engine_specs/postgres.py:155
 #: superset/db_engine_specs/presto.py:683
@@ -18532,20 +18548,24 @@ msgstr ""
 msgid ""
 "We can't seem to resolve the column \"%(column_name)s\" at line %(location)s."
 msgstr ""
+"Čini se da ne možemo riješiti stupac \"%(column_name)s\" u retku "
+"%(location)s."
 
 #: superset-frontend/src/visualizations/dashboardComponents/ExampleComponent/ExampleComponent.tsx:29
 #, python-format
 msgid "We have the following keys: %s"
-msgstr ""
+msgstr "Imamo sljedeće ključeve: %s"
 
 #: superset-frontend/src/features/reports/ReportModal/actions.js:136
 msgid "We were unable to active or deactivate this report."
-msgstr ""
+msgstr "Nismo uspjeli aktivirati ili deaktivirati ovo izvješće."
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:719
 msgid ""
 "We were unable to carry over any controls when switching to this new dataset."
 msgstr ""
+"Nismo uspjeli prenijeti nikakve kontrole prilikom prelaska na ovaj novi skup "
+"podataka."
 
 #: superset/db_engine_specs/redshift.py:97
 #, python-format
@@ -18553,10 +18573,13 @@ msgid ""
 "We were unable to connect to your database named \"%(database)s\". Please "
 "verify your database name and try again."
 msgstr ""
+"Nismo se mogli povezati s vašom bazom podataka pod nazivom \"%(database)s\". "
+"Provjerite naziv vaše baze podataka i pokušajte ponovno."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/index.ts:35
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/index.ts:33
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:67
+#, fuzzy
 msgid "Web"
 msgstr "Web"
 
@@ -18570,37 +18593,37 @@ msgstr "Tjedan"
 
 #: superset/db_engine_specs/base.py:128
 msgid "Week ending Saturday"
-msgstr ""
+msgstr "Tjedan koji završava u subotu"
 
 #: superset/db_engine_specs/base.py:129
 msgid "Week ending Sunday"
-msgstr ""
+msgstr "Tjedan koji završava u nedjelju"
 
 #: superset/db_engine_specs/base.py:127
 msgid "Week starting Monday"
-msgstr ""
+msgstr "Tjedan koji počinje u ponedjeljak"
 
 #: superset/db_engine_specs/base.py:126
 msgid "Week starting Sunday"
-msgstr ""
+msgstr "Tjedan koji počinje u nedjelju"
 
 #: superset-frontend/src/features/reports/ReportModal/index.tsx:127
 msgid "Weekly Report"
-msgstr ""
+msgstr "Tjedno izvješće"
 
 #: superset-frontend/src/features/reports/ReportModal/index.tsx:126
 #, python-format
 msgid "Weekly Report for %s"
-msgstr ""
+msgstr "Tjedno izvješće za %s"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:106
 msgid "Weekly seasonality"
-msgstr ""
+msgstr "Tjedna sezonalnost"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:66
-#, python-format
+#, fuzzy, python-format
 msgid "Weeks %s"
-msgstr ""
+msgstr "Tjedni %s"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Contour/controlPanel.ts:120
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Heatmap/controlPanel.ts:137
@@ -18618,8 +18641,14 @@ msgid_plural ""
 "We’re having trouble loading these results. Queries are set to timeout after "
 "%s seconds."
 msgstr[0] ""
+"Imamo problema s učitavanjem ovih rezultata. Upiti su postavljeni na čekanje "
+"nakon %s sekunde."
 msgstr[1] ""
+"Imamo problema s učitavanjem ovih rezultata. Upiti su postavljeni na čekanje "
+"nakon %s sekunde."
 msgstr[2] ""
+"Imamo problema s učitavanjem ovih rezultata. Upiti su postavljeni na čekanje "
+"nakon %s sekundi."
 
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:46
 #, python-format
@@ -18630,16 +18659,22 @@ msgid_plural ""
 "We’re having trouble loading this visualization. Queries are set to timeout "
 "after %s seconds."
 msgstr[0] ""
+"Imamo problema s učitavanjem ove vizualizacije. Upiti su postavljeni na "
+"čekanje nakon %s sekunde."
 msgstr[1] ""
+"Imamo problema s učitavanjem ove vizualizacije. Upiti su postavljeni na "
+"čekanje nakon %s sekunde."
 msgstr[2] ""
+"Imamo problema s učitavanjem ove vizualizacije. Upiti su postavljeni na "
+"čekanje nakon %s sekundi."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:133
 msgid "What should be shown as the label"
-msgstr ""
+msgstr "Što bi trebalo biti prikazano kao oznaka"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:159
 msgid "What should be shown as the tooltip label"
-msgstr ""
+msgstr "Što bi trebalo biti prikazano kao oznaka alata"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:60
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:128
@@ -18647,40 +18682,47 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:119
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:102
 msgid "What should be shown on the label?"
-msgstr ""
+msgstr "Što bi trebalo biti prikazano na oznaci?"
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:763
 msgid "What should happen if the table already exists"
-msgstr ""
+msgstr "Što bi se trebalo dogoditi ako tablica već postoji"
 
 #: superset-frontend/src/explore/controls.jsx:434
 msgid ""
 "When `Calculation type` is set to \"Percentage change\", the Y Axis Format "
 "is forced to `.1%`"
 msgstr ""
+"Kada je `Vrsta izračuna` postavljena na \"Postotna promjena\", Format osi Y "
+"je prisiljen na `.1%`"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:182
 msgid "When a secondary metric is provided, a linear color scale is used."
-msgstr ""
+msgstr "Kada je navedena sekundarna mjera, koristi se linearna ljestvica boja."
 
 #: superset/views/database/mixins.py:119
 msgid ""
 "When allowing CREATE TABLE AS option in SQL Lab, this option forces the "
 "table to be created in this schema"
 msgstr ""
+"Kada se omogući opcija CREATE TABLE AS u SQL Labu, ova opcija prisiljava da "
+"se tablica stvori u ovoj shemi"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:101
 msgid "When checked, the map will zoom to your data after each query"
-msgstr ""
+msgstr "Kada je označeno, karta će zumirati vaše podatke nakon svakog upita"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:202
 msgid "When enabled, users are able to visualize SQL Lab results in Explore."
 msgstr ""
+"Kada je omogućeno, korisnici mogu vizualizirati rezultate SQL Laba u "
+"Istraživanju."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:172
 msgid ""
 "When only a primary metric is provided, a categorical color scale is used."
 msgstr ""
+"Kada je navedena samo primarna mjera, koristi se kategorička ljestvica boja."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1135
 msgid ""
@@ -18688,12 +18730,17 @@ msgid ""
 "statement as a subquery while grouping and filtering on the generated parent "
 "queries."
 msgstr ""
+"Kada se navodi SQL, izvor podataka djeluje kao pogled. Superset će koristiti "
+"ovu izjavu kao podupit tijekom grupiranja i filtriranja generiranih "
+"nadređenih upita."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1007
 msgid ""
 "When the secondary temporal columns are filtered, apply the same filter to "
 "the main datetime column."
 msgstr ""
+"Kada su sekundarni vremenski stupci filtrirani, primijenite isti filtar na "
+"glavni stupac datuma i vremena."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:913
 msgid ""
@@ -18703,91 +18750,106 @@ msgid ""
 "Typically the intent would be to limit the scan by applying a relative time "
 "filter on a partitioned or indexed time-related field."
 msgstr ""
+"Kada koristite \"Filtre za automatsko dovršavanje\", to se može koristiti za "
+"poboljšanje izvedbe upita koji dohvaća vrijednosti. Koristite ovu opciju za "
+"primjenu predikata (klauzula WHERE) na upit odabirom različitih vrijednosti "
+"iz tablice. Obično bi namjera bila ograničiti skeniranje primjenom filtra "
+"relativnog vremena na particionirano ili indeksirano polje povezano s "
+"vremenom."
 
 #: superset/viz.py:718
 msgid "When using 'Group By' you are limited to use a single metric"
-msgstr ""
+msgstr "Kada koristite 'Grupiraj po' ograničeni ste na korištenje jedne mjere"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/constants.ts:90
 msgid "When using other than adaptive formatting, labels may overlap"
 msgstr ""
+"Kada koristite drugačije oblikovanje osim prilagodljivog, oznake se mogu "
+"preklapati"
 
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:107
 msgid "When using this option, default value can’t be set"
-msgstr ""
+msgstr "Kada koristite ovu opciju, zadana vrijednost se ne može postaviti"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:254
 msgid ""
 "Whether the progress bar overlaps when there are multiple groups of data"
-msgstr ""
+msgstr "Preklapa li se traka napretka kada postoji više grupa podataka"
 
 #: superset/connectors/sqla/views.py:372
 msgid "Whether the table was generated by the 'Visualize' flow in SQL Lab"
-msgstr ""
+msgstr "Je li tablicu generirao tijek \"Vizualizacija\" u SQL Labu"
 
 #: superset/connectors/sqla/views.py:116
 msgid ""
 "Whether this column is exposed in the `Filters` section of the explore view."
-msgstr ""
+msgstr "Je li ovaj stupac izložen u odjeljku `Filtri` pregleda istraživanja."
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:422
 msgid ""
 "Whether to align background charts with both positive and negative values at "
 "0"
 msgstr ""
+"Treba li poravnati pozadinske grafikone s pozitivnim i negativnim "
+"vrijednostima na 0"
 
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:123
 msgid "Whether to align positive and negative values in cell bar chart at 0"
 msgstr ""
+"Treba li poravnati pozitivne i negativne vrijednosti na stupičastom "
+"grafikonu ćelija na 0"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:933
 msgid "Whether to always show the annotation label"
-msgstr ""
+msgstr "Treba li uvijek prikazati oznaku zabilješke"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:188
 msgid "Whether to animate the progress and the value or just display them"
-msgstr ""
+msgstr "Želite li animirati napredak i vrijednost ili ih samo prikazati"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:320
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:277
 msgid "Whether to apply a normal distribution based on rank on the color scale"
 msgstr ""
+"Treba li primijeniti normalnu distribuciju na temelju ranga na ljestvici boja"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:174
 msgid "Whether to apply filter when items are clicked"
-msgstr ""
+msgstr "Treba li primijeniti filtar kada se klikne na stavke"
 
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:133
 msgid "Whether to colorize numeric values by if they are positive or negative"
-msgstr ""
+msgstr "Treba li obojati numeričke vrijednosti ako su pozitivne ili negativne"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:434
 msgid ""
 "Whether to colorize numeric values by whether they are positive or negative"
 msgstr ""
+"Treba li obojati numeričke vrijednosti prema tome jesu li pozitivne ili "
+"negativne"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:408
 #: superset-frontend/src/explore/components/controls/ColumnConfigControl/constants.tsx:115
 msgid "Whether to display a bar chart background in table columns"
-msgstr ""
+msgstr "Treba li prikazati pozadinu trakastog grafikona u stupcima tablice"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:58
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:44
 msgid "Whether to display a legend for the chart"
-msgstr ""
+msgstr "Treba li prikazati legendu za grafikon"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:83
 msgid "Whether to display bubbles on top of countries"
-msgstr ""
+msgstr "Treba li prikazati oblačiće na vrhu država"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:212
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:102
 msgid "Whether to display the aggregate count"
-msgstr ""
+msgstr "Treba li prikazati ukupni broj"
 
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/controlPanel.ts:49
 msgid "Whether to display the interactive data table"
-msgstr ""
+msgstr "Treba li prikazati tablicu interaktivnih podataka"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:186
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:170
@@ -18795,13 +18857,15 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:75
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:73
 msgid "Whether to display the labels."
-msgstr ""
+msgstr "Treba li prikazati oznake."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:97
 msgid ""
 "Whether to display the labels. Note that the label only displays when the 5% "
 "threshold."
 msgstr ""
+"Treba li prikazati oznake. Imajte na umu da se oznaka prikazuje samo kada je "
+"prag od 5%."
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:161
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:281
@@ -18809,109 +18873,116 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:160
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:238
 msgid "Whether to display the legend (toggles)"
-msgstr ""
+msgstr "Treba li prikazati legendu (isključuje)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:185
 msgid "Whether to display the metric name as a title"
-msgstr ""
+msgstr "Treba li prikazati naziv mjere kao naslov"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:294
 msgid "Whether to display the min and max values of the X-axis"
-msgstr ""
+msgstr "Treba li prikazati minimalne i maksimalne vrijednosti X-osi"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:102
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:113
 msgid "Whether to display the min and max values of the Y-axis"
-msgstr ""
+msgstr "Treba li prikazati minimalne i maksimalne vrijednosti Y-osi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:171
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:307
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:264
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:194
 msgid "Whether to display the numerical values within the cells"
-msgstr ""
+msgstr "Treba li prikazati numeričke vrijednosti unutar ćelija"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:262
 msgid "Whether to display the stroke"
-msgstr ""
+msgstr "Treba li prikazati potez"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:149
 msgid "Whether to display the time range interactive selector"
-msgstr ""
+msgstr "Treba li prikazati interaktivni birač vremenskog raspona"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:79
 msgid "Whether to display the timestamp"
-msgstr ""
+msgstr "Treba li prikazati vremensku oznaku"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:198
 msgid "Whether to display the tooltip labels."
-msgstr ""
+msgstr "Treba li prikazati oznake alata."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:91
 msgid "Whether to display the trend line"
-msgstr ""
+msgstr "Treba li prikazati liniju trenda"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:170
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:277
 msgid "Whether to enable changing graph position and scaling."
-msgstr ""
+msgstr "Treba li omogućiti promjenu položaja grafikona i skaliranje."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:144
 msgid "Whether to enable node dragging in force layout mode."
-msgstr ""
+msgstr "Omogućuje li se povlačenje čvora u prisilnom načinu rasporeda."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:251
 msgid "Whether to fill the objects"
-msgstr ""
+msgstr "Treba li popuniti objekte"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:90
 msgid "Whether to ignore locations that are null"
-msgstr ""
+msgstr "Treba li zanemariti lokacije koje su null"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:398
 msgid "Whether to include a client-side search box"
-msgstr ""
+msgstr "Treba li uključiti okvir za pretraživanje na strani klijenta"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:292
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:249
 msgid "Whether to include the percentage in the tooltip"
-msgstr ""
+msgstr "Treba li uključiti postotak u opis alata"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/includeTime.ts:28
 msgid "Whether to include the time granularity as defined in the time section"
 msgstr ""
+"Treba li uključiti vremensku granularnost kako je definirano u vremenskom "
+"odjeljku"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:274
 msgid "Whether to make the grid 3D"
-msgstr ""
+msgstr "Hoće li rešetka biti 3D"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/controlPanel.ts:139
 msgid "Whether to make the histogram cumulative"
-msgstr ""
+msgstr "Treba li histogram učiniti kumulativnim"
 
 #: superset/connectors/sqla/views.py:111
 msgid ""
 "Whether to make this column available as a [Time Granularity] option, column "
 "has to be DATETIME or DATETIME-like"
 msgstr ""
+"Da ovaj stupac bude dostupan kao opcija [Time Granularity], stupac mora biti "
+"DATETIME ili sličan DATETIME"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/controlPanel.ts:127
 msgid "Whether to normalize the histogram"
-msgstr ""
+msgstr "Treba li normalizirati histogram"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:906
 msgid "Whether to populate autocomplete filters options"
-msgstr ""
+msgstr "Treba li popuniti opcije filtara za samodovršavanje"
 
 #: superset/connectors/sqla/views.py:367
+#, fuzzy
 msgid ""
 "Whether to populate the filter's dropdown in the explore view's filter "
 "section with a list of distinct values fetched from the backend on the fly"
 msgstr ""
+"Treba li popuniti padajući izbornik filtra u odjeljku filtra prikaza "
+"istraživanja s popisom različitih vrijednosti dohvaćenih iz pozadine u hodu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:104
 msgid "Whether to show as Nightingale chart."
-msgstr ""
+msgstr "Hoće li se prikazati kao Nightingale grafikon."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:171
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:132
@@ -18919,37 +18990,42 @@ msgid ""
 "Whether to show extra controls or not. Extra controls include things like "
 "making mulitBar charts stacked or side by side."
 msgstr ""
+"Treba li prikazati dodatne kontrole ili ne. Dodatne kontrole uključuju "
+"stvari poput izrade višestrukih stupičastih grafikona naslaganih ili jedan "
+"pored drugog."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:203
 msgid "Whether to show minor ticks on the axis"
-msgstr ""
+msgstr "Treba li prikazati manje kvačice na osi"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:176
 msgid "Whether to show the pointer"
-msgstr ""
+msgstr "Treba li pokazati pokazivač"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:242
 msgid "Whether to show the progress of gauge chart"
-msgstr ""
+msgstr "Treba li prikazati napredak dijagrama mjerača"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:215
 msgid "Whether to show the split lines on the axis"
-msgstr ""
+msgstr "Treba li prikazati razdvojene linije na osi"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:155
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:208
 msgid "Whether to sort ascending or descending on the base Axis."
-msgstr ""
+msgstr "Treba li sortirati uzlazno ili silazeće na osnovnoj osi."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:107
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/orderBy.tsx:48
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:155
 msgid "Whether to sort descending or ascending"
-msgstr ""
+msgstr "Treba li sortirati silazno ili uzlazno"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:75
+#, fuzzy
 msgid "Whether to sort descending or ascending if a series limit is present"
 msgstr ""
+"Treba li sortirati silazno ili uzlazno ako je prisutno ograničenje serije"
 
 #: superset-frontend/plugins/legacy-plugin-chart-chord/src/controlPanel.ts:42
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:74
@@ -18963,26 +19039,29 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:41
 msgid "Whether to sort results by the selected metric in descending order."
 msgstr ""
+"Hoće li sortirati rezultate prema odabranoj mjeri silaznim redoslijedom."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:206
 msgid "Whether to sort tooltip by the selected metric in descending order."
 msgstr ""
+"Treba li poredati opis alata prema odabranoj mjeri silaznim redoslijedom."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:345
 msgid "Whether to truncate metrics"
-msgstr ""
+msgstr "Treba li skratiti mjerne podatke"
 
 #: superset-frontend/plugins/legacy-plugin-chart-country-map/src/controlPanel.ts:42
 msgid "Which country to plot the map for?"
-msgstr ""
+msgstr "Za koju državu iscrtati kartu?"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:195
+#, fuzzy
 msgid "Which relatives to highlight on hover"
-msgstr ""
+msgstr "Koje rođake istaknuti kada zadržite pokazivač"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:88
 msgid "Whisker/outlier options"
-msgstr ""
+msgstr "Whisker/outlier opcije"
 
 #: superset-frontend/src/dashboard/util/backgroundStyleOptions.ts:30
 msgid "White"
@@ -18995,58 +19074,60 @@ msgstr "Širina"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:75
 msgid "Width of the confidence interval. Should be between 0 and 1"
-msgstr ""
+msgstr "Širina intervala pouzdanosti. Trebao bi biti između 0 i 1"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:229
+#, fuzzy
 msgid "Width of the sparkline"
-msgstr ""
+msgstr "Širina svjetlucave linije"
 
 #: superset/utils/pandas_postprocessing/rolling.py:69
 msgid "Window must be > 0"
-msgstr ""
+msgstr "Prozor mora biti > 0"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts:36
 msgid "With a subheader"
-msgstr ""
+msgstr "S podnaslovom"
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/legacyPlugin/index.ts:29
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/index.ts:39
 msgid "Word Cloud"
-msgstr ""
+msgstr "Oblak riječi"
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:82
 msgid "Word Rotation"
-msgstr ""
+msgstr "Rotacija riječi"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:65
 msgid "Working"
 msgstr "Radni"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1683
-#, fuzzy
 msgid "Working timeout"
-msgstr "istek vremena za obradu"
+msgstr "Istek vremena za obradu"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/index.js:33
 #: superset/viz.py:1496
 msgid "World Map"
-msgstr ""
+msgstr "Karta svijeta"
 
 #: superset-frontend/src/SqlLab/components/ScheduleQueryButton/index.tsx:188
 msgid "Write a description for your query"
-msgstr ""
+msgstr "Napišite opis svog upita"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/index.ts:40
 msgid "Write a handlebars template to render the data"
-msgstr ""
+msgstr "Napišite predložak upravljača za prikaz podataka"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:58
+#, fuzzy
 msgid "X AXIS TITLE BOTTOM MARGIN"
-msgstr ""
+msgstr "NASLOV OS X DONJA MARGINA"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:143
+#, fuzzy
 msgid "X AXIS TITLE MARGIN"
-msgstr ""
+msgstr "NASLOVNA MARGA OSI X"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:38
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:215
@@ -19070,68 +19151,69 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:96
 #: superset-frontend/src/explore/controls.jsx:401
 msgid "X Axis"
-msgstr ""
+msgstr "X os"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:288
 msgid "X Axis Bounds"
-msgstr ""
+msgstr "Granice osi X"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:236
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:155
 msgid "X Axis Format"
-msgstr ""
+msgstr "Format osi X"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/controlPanel.ts:91
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:183
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:102
 msgid "X Axis Label"
-msgstr ""
+msgstr "Oznaka osi X"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:44
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:129
 msgid "X Axis Title"
-msgstr ""
+msgstr "Naslov osi X"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/controlPanel.ts:103
 msgid "X Log Scale"
-msgstr ""
+msgstr "X Log Skala"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:217
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:115
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:123
 msgid "X Tick Layout"
-msgstr ""
+msgstr "X Izgled kvačice"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:291
 msgid "X bounds"
-msgstr ""
+msgstr "X granice"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:153
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:206
 msgid "X-Axis Sort Ascending"
-msgstr ""
+msgstr "Poredaj po osi X uzlazno"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:100
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:190
 msgid "X-Axis Sort By"
-msgstr ""
+msgstr "X-os Poredaj po"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/mixins.tsx:39
 msgid "X-axis"
-msgstr ""
+msgstr "X-os"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:93
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:134
 msgid "XScale Interval"
-msgstr ""
+msgstr "Interval XScale"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:110
 msgid "Y 2 bounds"
-msgstr ""
+msgstr "Y 2 granice"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:215
+#, fuzzy
 msgid "Y AXIS TITLE MARGIN"
-msgstr ""
+msgstr "NASLOVNA MARGINA OSI Y"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:66
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:224
@@ -19155,11 +19237,12 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:138
 #: superset-frontend/src/explore/controls.jsx:408
 msgid "Y Axis"
-msgstr ""
+msgstr "Y os"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:275
+#, fuzzy
 msgid "Y Axis 2 Bounds"
-msgstr ""
+msgstr "Granice Y osi 2"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:259
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:256
@@ -19169,39 +19252,39 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/controlPanel.tsx:180
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:230
 msgid "Y Axis Bounds"
-msgstr ""
+msgstr "Granice osi Y"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:288
 #: superset-frontend/src/explore/controls.jsx:422
 msgid "Y Axis Format"
-msgstr ""
+msgstr "Format osi Y"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/controlPanel.ts:102
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:354
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:144
 msgid "Y Axis Label"
-msgstr ""
+msgstr "Oznaka osi Y"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:72
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:182
 msgid "Y Axis Title"
-msgstr ""
+msgstr "Naslov osi Y"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:86
 msgid "Y Axis Title Margin"
-msgstr ""
+msgstr "Margina naslova osi Y"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:101
 msgid "Y Axis Title Position"
-msgstr ""
+msgstr "Položaj naslova osi Y"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:248
 msgid "Y Log Scale"
-msgstr ""
+msgstr "Y Log Skala"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:99
 msgid "Y bounds"
-msgstr ""
+msgstr "Y granice"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:289
 msgid "Y-Axis"
@@ -19210,12 +19293,12 @@ msgstr "Os Y"
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:152
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:205
 msgid "Y-Axis Sort Ascending"
-msgstr ""
+msgstr "Sortiraj uzlazno po osi Y"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:99
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:189
 msgid "Y-Axis Sort By"
-msgstr ""
+msgstr "Y-os Sortiraj po"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/mixins.tsx:38
 msgid "Y-axis"
@@ -19223,12 +19306,12 @@ msgstr "Y os"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:298
 msgid "Y-axis bounds"
-msgstr ""
+msgstr "Granice osi Y"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:109
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:152
 msgid "YScale Interval"
-msgstr ""
+msgstr "Interval YScale"
 
 #: superset/db_engine_specs/base.py:125
 msgid "Year"
@@ -19236,16 +19319,16 @@ msgstr "Godina"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/controlPanel.ts:59
 msgid "Year (freq=AS)"
-msgstr ""
+msgstr "Godina (freq=AS)"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:87
 msgid "Yearly seasonality"
-msgstr ""
+msgstr "Godišnja sezonalnost"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:69
 #, python-format
 msgid "Years %s"
-msgstr ""
+msgstr "Godine %s"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:90
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:109
@@ -19263,23 +19346,25 @@ msgstr "Da"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/Footer/CancelConfirmationAlert.tsx:65
 msgid "Yes, cancel"
-msgstr ""
+msgstr "Da, odustani"
 
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:154
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:199
 msgid "Yes, overwrite changes"
-msgstr ""
+msgstr "Da, prebriši promjene"
 
 #: superset-frontend/src/features/tags/BulkTagModal.tsx:121
 #, python-format
 msgid "You are adding tags to %s %ss"
-msgstr ""
+msgstr "Dodajete oznake na %s %ss"
 
 #: superset-frontend/src/pages/ChartList/index.tsx:101
 msgid ""
 "You are importing one or more charts that already exist. Overwriting might "
 "cause you to lose some of your work. Are you sure you want to overwrite?"
 msgstr ""
+"Uvozite jedan ili više grafikona koji već postoje. Prepisivanjem možete "
+"izgubiti dio svog rada. Jeste li sigurni da želite prebrisati?"
 
 #: superset-frontend/src/pages/DashboardList/index.tsx:80
 msgid ""
@@ -19287,6 +19372,8 @@ msgid ""
 "might cause you to lose some of your work. Are you sure you want to "
 "overwrite?"
 msgstr ""
+"Uvozite jednu ili više nadzornih ploča koje već postoje. Prepisivanjem "
+"možete izgubiti dio svog rada. Jeste li sigurni da želite prebrisati?"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1496
 msgid ""
@@ -19294,12 +19381,16 @@ msgid ""
 "might cause you to lose some of your work. Are you sure you want to "
 "overwrite?"
 msgstr ""
+"Uvozite jednu ili više baza podataka koje već postoje. Prepisivanjem možete "
+"izgubiti dio svog rada. Jeste li sigurni da želite prebrisati?"
 
 #: superset-frontend/src/features/datasets/constants.ts:30
 msgid ""
 "You are importing one or more datasets that already exist. Overwriting might "
 "cause you to lose some of your work. Are you sure you want to overwrite?"
 msgstr ""
+"Uvozite jedan ili više skupova podataka koji već postoje. Prepisivanjem "
+"možete izgubiti dio svog rada. Jeste li sigurni da želite prebrisati?"
 
 #: superset-frontend/src/pages/SavedQueryList/index.tsx:72
 msgid ""
@@ -19307,22 +19398,27 @@ msgid ""
 "might cause you to lose some of your work. Are you sure you want to "
 "overwrite?"
 msgstr ""
+"Uvozite jedan ili više spremljenih upita koji već postoje. Prepisivanjem "
+"možete izgubiti dio svog rada. Jeste li sigurni da želite prebrisati?"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:199
 msgid "You can"
-msgstr ""
+msgstr "možete"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:211
 msgid "You can add the components in the"
-msgstr ""
+msgstr "Komponente možete dodati u"
 
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:252
+#, fuzzy
 msgid "You can add the components in the edit mode."
-msgstr ""
+msgstr "Možete dodati komponente u modu za uređivanje."
 
 #: superset-frontend/src/components/Chart/ChartContextMenu/ChartContextMenu.tsx:170
 msgid "You can also just click on the chart to apply cross-filter."
 msgstr ""
+"Također možete jednostavno kliknuti grafikon da biste primijenili unakrsni "
+"filtar."
 
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:383
 msgid ""
@@ -19331,118 +19427,130 @@ msgid ""
 "              Your filter selection will be saved and remain active until "
 "you choose to change it."
 msgstr ""
+"Možete odabrati prikaz svih grafikona kojima imate pristup ili samo onih "
+"koje posjedujete.\n"
+"              Vaš odabir filtra bit će spremljen i ostat će aktivan dok ga "
+"ne odlučite promijeniti."
 
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:207
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:230
 msgid ""
 "You can create a new chart or use existing ones from the panel on the right"
 msgstr ""
+"Možete izraditi novi grafikon ili koristiti postojeće s ploče s desne strane"
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:194
 msgid "You can preview the list of dashboards in the chart settings dropdown."
 msgstr ""
+"Možete pregledati popis nadzornih ploča u padajućem izborniku postavki "
+"grafikona."
 
 #: superset-frontend/src/components/Chart/ChartContextMenu/ChartContextMenu.tsx:191
 msgid "You can't apply cross-filter on this data point."
-msgstr ""
+msgstr "Ne možete primijeniti unakrsni filtar na ovu podatkovnu točku."
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:501
 msgid ""
 "You cannot delete the last temporal filter as it's used for time range "
 "filters in dashboards."
 msgstr ""
+"Ne možete izbrisati zadnji vremenski filtar jer se koristi za filtre "
+"vremenskog raspona na nadzornim pločama."
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Vis.js:354
 msgid "You cannot use 45° tick layout along with the time range filter"
 msgstr ""
+"Ne možete koristiti raspored kvačica od 45° zajedno s filtrom vremenskog "
+"raspona"
 
 #: superset-frontend/packages/superset-ui-core/src/query/getClientErrorObject.ts:203
 #, python-format
 msgid "You do not have permission to edit this %s"
-msgstr ""
+msgstr "Nemate dozvolu za uređivanje ovog %s"
 
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:89
 msgid "You do not have permission to edit this chart"
-msgstr ""
+msgstr "Nemate dozvolu za uređivanje ovog grafikona"
 
 #: superset-frontend/src/dashboard/actions/dashboardState.js:364
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:129
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/ColumnSelect.tsx:116
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DatasetSelect.tsx:44
 msgid "You do not have permission to edit this dashboard"
-msgstr ""
+msgstr "Nemate dozvolu za uređivanje ove nadzorne ploče"
 
 #: superset-frontend/src/components/Tags/utils.tsx:73
 msgid "You do not have permission to read tags"
-msgstr ""
+msgstr "Nemate dozvolu za čitanje oznaka"
 
 #: superset-frontend/src/dashboard/actions/dashboardState.js:156
 msgid "You do not have permissions to edit this dashboard."
-msgstr ""
+msgstr "Nemate dopuštenja za uređivanje ove nadzorne ploče."
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByModal.tsx:123
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailModal.tsx:60
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:482
 msgid "You do not have sufficient permissions to edit the chart"
-msgstr ""
+msgstr "Nemate dovoljno dopuštenja za uređivanje grafikona"
 
 #: superset/commands/chart/exceptions.py:131
 msgid "You don't have access to this chart."
-msgstr ""
+msgstr "Nemate pristup ovom grafikonu."
 
 #: superset/commands/dashboard/exceptions.py:78
 msgid "You don't have access to this dashboard."
-msgstr ""
+msgstr "Nemate pristup ovoj nadzornoj ploči."
 
 #: superset/commands/dataset/exceptions.py:191
 msgid "You don't have access to this dataset."
-msgstr ""
+msgstr "Nemate pristup ovom skupu podataka."
 
 #: superset/commands/dashboard/embedded/exceptions.py:34
 msgid "You don't have access to this embedded dashboard config."
-msgstr ""
+msgstr "Nemate pristup ovoj ugrađenoj konfiguraciji nadzorne ploče."
 
 #: superset-frontend/src/features/home/EmptyState.tsx:168
+#, fuzzy
 msgid "You don't have any favorites yet!"
-msgstr ""
+msgstr "Još nemate nijedan favorit!"
 
 #: superset/commands/temporary_cache/exceptions.py:45
 #: superset/key_value/exceptions.py:54
 msgid "You don't have permission to modify the value."
-msgstr ""
+msgstr "Nemate dozvolu za izmjenu vrijednosti."
 
 #: superset/security/manager.py:2688
 #, python-format
 msgid "You don't have the rights to alter %(resource)s"
-msgstr ""
+msgstr "Nemate prava mijenjati %(resource)s"
 
 #: superset/views/core.py:510
 msgid "You don't have the rights to alter this chart"
-msgstr ""
+msgstr "Nemate prava mijenjati ovaj grafikon"
 
 #: superset/views/core.py:646
 msgid "You don't have the rights to alter this dashboard"
-msgstr ""
+msgstr "Nemate prava mijenjati ovu nadzornu ploču"
 
 #: superset-frontend/src/components/EditableTitle/index.tsx:213
 msgid "You don't have the rights to alter this title."
-msgstr ""
+msgstr "Nemate prava mijenjati ovaj naslov."
 
 #: superset/views/core.py:516
 msgid "You don't have the rights to create a chart"
-msgstr ""
+msgstr "Nemate prava za izradu grafikona"
 
 #: superset/views/core.py:662
 msgid "You don't have the rights to create a dashboard"
-msgstr ""
+msgstr "Nemate prava za izradu nadzorne ploče"
 
 #: superset/views/core.py:290
 msgid "You don't have the rights to download as csv"
-msgstr ""
+msgstr "Nemate prava za preuzimanje kao csv"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/RemovedFilter.tsx:39
 msgid "You have removed this filter."
-msgstr ""
+msgstr "Uklonili ste ovaj filter."
 
 #: superset-frontend/src/dashboard/components/Dashboard.jsx:83
 msgid "You have unsaved changes."
@@ -19455,10 +19563,13 @@ msgid ""
 "undo subsequent actions. You may save your current state to reset the "
 "history."
 msgstr ""
+"Iskoristili ste svih %(historyLength)s mjesta za poništavanje i nećete moći "
+"u potpunosti poništiti naredne radnje. Možete spremiti svoje trenutno stanje "
+"da poništite povijest."
 
 #: superset/sql_parse.py:810
 msgid "You may have an error in your SQL statement. {message}"
-msgstr ""
+msgstr "Možda imate grešku u svojoj SQL izjavi. {message}"
 
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:313
 #: superset-frontend/src/pages/DatasetList/index.tsx:468
@@ -19466,50 +19577,58 @@ msgid ""
 "You must be a dataset owner in order to edit. Please reach out to a dataset "
 "owner to request modifications or edit access."
 msgstr ""
+"Morate biti vlasnik skupa podataka da biste uređivali. Obratite se vlasniku "
+"skupa podataka kako biste zatražili izmjene ili pristup uređivanju."
 
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:152
 msgid "You must pick a name for the new dashboard"
-msgstr ""
+msgstr "Morate odabrati naziv za novu nadzornu ploču"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.tsx:639
 msgid "You must run the query successfully first"
-msgstr ""
+msgstr "Prvo morate uspješno pokrenuti upit"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/style.tsx:53
 msgid "You need to configure HTML sanitization to use CSS"
-msgstr ""
+msgstr "Morate konfigurirati čišćenje HTML-a da biste koristili CSS"
 
 #: superset-frontend/src/explore/components/ExploreChartPanel/index.jsx:349
 msgid ""
 "You updated the values in the control panel, but the chart was not updated "
 "automatically. Run the query by clicking on the \"Update chart\" button or"
 msgstr ""
+"Ažurirali ste vrijednosti na upravljačkoj ploči, ali grafikon nije "
+"automatski ažuriran. Pokrenite upit klikom na gumb \"Ažuriraj grafikon\" ili"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:707
 msgid ""
 "You've changed datasets. Any controls with data (columns, metrics) that "
 "match this new dataset have been retained."
 msgstr ""
+"Promijenili ste skupove podataka. Zadržane su sve kontrole s podacima "
+"(stupci, mjere) koje odgovaraju ovom novom skupu podataka."
 
 #: superset-frontend/src/explore/components/ExploreChartPanel/index.jsx:342
 msgid "Your chart is not up to date"
-msgstr ""
+msgstr "Vaš grafikon nije ažuran"
 
 #: superset-frontend/src/components/Chart/Chart.jsx:320
 msgid "Your chart is ready to go!"
-msgstr ""
+msgstr "Vaš grafikon je spreman!"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:411
 msgid "Your dashboard is too large. Please reduce its size before saving it."
 msgstr ""
+"Vaša nadzorna ploča je prevelika. Smanjite njezinu veličinu prije nego što "
+"je spremite."
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:859
 msgid "Your query could not be saved"
-msgstr ""
+msgstr "Vaš upit nije moguće spremiti"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:188
 msgid "Your query could not be scheduled"
-msgstr ""
+msgstr "Vaš upit nije bilo moguće zakazati"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:894
 msgid "Your query could not be updated"
