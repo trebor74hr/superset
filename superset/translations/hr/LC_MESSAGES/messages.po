@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-06-04 22:57+0400\n"
-"PO-Revision-Date: 2024-11-11 17:39+0100\n"
+"PO-Revision-Date: 2024-11-12 16:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hr\n"
@@ -7560,7 +7560,7 @@ msgstr "Konfiguracija filtra"
 
 #: superset/templates/appbuilder/general/widgets/search.html:25
 msgid "Filter List"
-msgstr "Popis filtara"
+msgstr "Popis filtera"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:296
 msgid "Filter Settings"
@@ -10649,7 +10649,7 @@ msgstr "Null vrijednosti"
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:187
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:262
 msgid "Null imputation"
-msgstr "Popunjavanje praznih vrijed."
+msgstr "Popunjavanje praznih vrijed"
 
 #: superset/datasets/filters.py:26
 msgid "Null or Empty"
@@ -11086,7 +11086,7 @@ msgstr "Vanjski radijus"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:229
 msgid "Outer edge of Pie chart"
-msgstr "Vanjski rub kružnog grafikona"
+msgstr "Vanjski rub tortnog grafikona"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:253
 msgid "Overlap"
@@ -11299,9 +11299,8 @@ msgid "Part of a Whole"
 msgstr "Dio cjeline"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/index.js:29
-#, fuzzy
 msgid "Partition Chart"
-msgstr "Particijska tablica"
+msgstr "Particijski grafikon"
 
 #: superset/viz.py:2475
 msgid "Partition Diagram"
@@ -11414,9 +11413,8 @@ msgid "Percentages"
 msgstr "Postoci"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:248
-#, fuzzy
 msgid "Performance"
-msgstr "Izvođenje"
+msgstr "Performanse"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:74
 msgid "Period average"
@@ -11445,9 +11443,8 @@ msgstr "Osoba ili grupa koja je certificirala ovu nadzornu ploču."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:339
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1298
-#, fuzzy
 msgid "Person or group that has certified this metric"
-msgstr "Osoba ili grupa koja je certificirala ovu mjeru"
+msgstr "Osoba ili grupa koja je ovjerila ovu mjeru"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1160
 #: superset-frontend/src/pages/DatasetList/index.tsx:364
@@ -11513,17 +11510,14 @@ msgstr ""
 "zabilješki. Ako ne odaberete stupac, prikazat će se svi."
 
 #: superset-frontend/src/explore/controlPanels/Separator.js:37
-#, fuzzy
 msgid "Pick your favorite markup language"
 msgstr "Odaberite svoj omiljeni označni jezik"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:68
-#, fuzzy
 msgid "Pie Chart"
-msgstr "Okrugli grafikon (u obliku pite)"
+msgstr "Tortni grafikon"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/index.js:28
-#, fuzzy
 msgid "Pie Chart (legacy)"
 msgstr "Tortni grafikon (naslijeđeno)"
 
@@ -11544,7 +11538,6 @@ msgid "Pivot Table"
 msgstr "Pivot tablica"
 
 #: superset/utils/pandas_postprocessing/pivot.py:70
-#, fuzzy
 msgid "Pivot operation must include at least one aggregate"
 msgstr "Pivot operacija mora uključivati barem jedan agregat"
 
@@ -11557,18 +11550,16 @@ msgid "Pivoted"
 msgstr "Pivotirano"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:73
-#, fuzzy
 msgid "Pixel height of each series"
-msgstr "Visina piksela svake serije"
+msgstr "Visina piksela svakog podat. niza"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:130
 msgid "Pixels"
 msgstr "Pikseli"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:70
-#, fuzzy
 msgid "Plain"
-msgstr "Običan"
+msgstr "Jednostavan"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:735
 msgid "Please DO NOT overwrite the \"filter_scopes\" key."
@@ -11617,9 +11608,8 @@ msgstr ""
 "Zatim pokušajte ponovno pokrenuti upit."
 
 #: superset/viz.py:2640
-#, fuzzy
 msgid "Please choose at least one groupby"
-msgstr "Odaberite barem jednan grouby"
+msgstr "Odaberite barem jednu grupiraj-po vrijednost"
 
 #: superset-frontend/src/features/charts/ChartCard.tsx:78
 #: superset-frontend/src/features/home/DashboardTable.tsx:246
@@ -11746,7 +11736,6 @@ msgstr "Jedinica točke"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:53
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:65
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:310
-#, fuzzy
 msgid "Point to your spatial columns"
 msgstr "Pokažite na svoje prostorne stupce"
 
@@ -11826,9 +11815,8 @@ msgid "Position of child node label on tree"
 msgstr "Položaj oznake podređenog čvora na stablu"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:395
-#, fuzzy
 msgid "Position of column level subtotal"
-msgstr "Položaj podzbroja na razini stupca"
+msgstr "Položaj međuzbroja na razini stupca"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:161
 msgid "Position of intermediate node label on tree"
@@ -11873,14 +11861,12 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:71
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:62
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:62
-#, fuzzy
 msgid "Predictive"
-msgstr "Prediktivni"
+msgstr "Predviđajući"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:37
-#, fuzzy
 msgid "Predictive Analytics"
-msgstr "Prediktivna analitika"
+msgstr "Predviđajuća analitika"
 
 #: superset-frontend/src/explore/components/controls/CurrencyControl/CurrencyControl.tsx:63
 msgid "Prefix"
@@ -12011,14 +11997,12 @@ msgid "Put some positive value greater than 0"
 msgstr "Stavite neku pozitivnu vrijednost veću od 0"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:182
-#, fuzzy
 msgid "Put the labels outside of the pie?"
-msgstr "Staviti oznake izvan pite?"
+msgstr "Staviti oznake izvan torte?"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:110
-#, fuzzy
 msgid "Put the labels outside the pie?"
-msgstr "Staviti oznake izvan pite?"
+msgstr "Staviti oznake izvan torte?"
 
 #: superset-frontend/src/explore/controlPanels/Separator.js:47
 msgid "Put your code here"
@@ -12030,7 +12014,7 @@ msgstr "Python uzorak niza datuma i vremena"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1629
 msgid "QUERY DATA IN SQL LAB"
-msgstr "UPIT PODATAKA U SQL LAB"
+msgstr "UPIT NAD PODACIMA U SQL LAB-u"
 
 #: superset/db_engine_specs/base.py:124
 msgid "Quarter"
@@ -12225,7 +12209,7 @@ msgid "Radius in miles"
 msgstr "Radijus u miljama"
 
 #: superset-frontend/src/features/home/SavedQueries.tsx:281
-#, fuzzy, python-format
+#, python-format
 msgid "Ran %s"
 msgstr "Pokrenuto %s"
 
@@ -12332,21 +12316,19 @@ msgid "Redo the action"
 msgstr "Ponovi radnju"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:337
-#, fuzzy
 msgid "Reduce X ticks"
-msgstr "Smanjite X kvačica"
+msgstr "Smanjite broj oznaka na X osi"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:340
-#, fuzzy
 msgid ""
 "Reduces the number of X-axis ticks to be rendered. If true, the x-axis will "
 "not overflow and labels may be missing. If false, a minimum width will be "
 "applied to columns and the width may overflow into an horizontal scroll."
 msgstr ""
-"Smanjuje broj oznaka X-osi koje treba prikazati. Ako je točno, x-os se neće "
-"prelijevati i oznake mogu nedostajati. Ako je postavljeno na lažno, "
-"minimalna širina primjenjivat će se na stupce i širina se može preliti u "
-"vodoravno pomicanje."
+"Smanjuje broj oznaka na X osi koje treba prikazati. Ako je označeno, x-os se "
+"neće prelijevati i oznake mogu nedostajati. Ako nije označeno, minimalna "
+"širina primjenjivat će se na stupce i širina se može preliti u vodoravno "
+"pomicanje."
 
 #: superset-frontend/src/features/databases/DatabaseModal/SqlAlchemyForm.tsx:89
 msgid "Refer to the"
@@ -12418,13 +12400,11 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/index.ts:35
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:46
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:45
-#, fuzzy
 msgid "Relational"
 msgstr "Relacijska"
 
 #: superset-frontend/plugins/legacy-plugin-chart-chord/src/index.js:32
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/index.js:35
-#, fuzzy
 msgid "Relationships between community channels"
 msgstr "Odnosi između kanala zajednice"
 
@@ -12451,7 +12431,6 @@ msgid "Remove"
 msgstr "Ukloni"
 
 #: superset-frontend/src/components/Chart/ChartContextMenu/ChartContextMenu.tsx:207
-#, fuzzy
 msgid "Remove cross-filter"
 msgstr "Uklonite poprečni filter"
 
@@ -12765,16 +12744,14 @@ msgid "Right to Left"
 msgstr "Zdesna na lijevo"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:160
-#, fuzzy
 msgid "Right value"
-msgstr "Prava vrijednost"
+msgstr "Desna vrijednost"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailMenuItems.tsx:56
-#, fuzzy
 msgid "Right-click on a dimension value to drill to detail by that value."
 msgstr ""
-"Kliknite desnom tipkom miša na vrijednost dimenzije za bušenje do detalja "
-"prema toj vrijednosti."
+"Kliknite desnom tipkom miša na vrijednost dimenzije za raščlanjivanje do "
+"detalja prema toj vrijednosti."
 
 #: superset/dashboards/filters.py:193
 msgid "Role"
@@ -12814,29 +12791,25 @@ msgstr ""
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:137
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:404
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:183
-#, fuzzy
 msgid "Rolling Function"
-msgstr "Funkcija kotrljanja"
+msgstr "Funkcija rotacije"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:245
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:129
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:396
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:175
-#, fuzzy
 msgid "Rolling Window"
-msgstr "Rolling Window"
+msgstr "Okvir rotacije"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:42
 #: superset-frontend/src/explore/controlPanels/sections.tsx:138
-#, fuzzy
 msgid "Rolling function"
-msgstr "Funkcija kotrljanja"
+msgstr "Funkcija rotacije"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:36
 #: superset-frontend/src/explore/controlPanels/sections.tsx:130
-#, fuzzy
 msgid "Rolling window"
-msgstr "Rolo prozor"
+msgstr "Okvir rotacije"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:390
 #: superset/views/database/mixins.py:199
@@ -12848,9 +12821,8 @@ msgid "Root node id"
 msgstr "ID korijenskog čvora"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:96
-#, fuzzy
 msgid "Rose Type"
-msgstr "Tip ruže"
+msgstr "Vrsta ruže"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:253
 msgid "Rotate x axis label"
@@ -12865,9 +12837,8 @@ msgid "Rotation to apply to words in the cloud"
 msgstr "Rotacija za primjenu na riječi u oblaku"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:267
-#, fuzzy
 msgid "Round cap"
-msgstr "Okrugla kapa"
+msgstr "Zaobljena kapa"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:51
 #: superset-frontend/src/dashboard/components/gridComponents/new/NewRow.jsx:31
@@ -12907,7 +12878,6 @@ msgid "Rows per page, 0 means no pagination"
 msgstr "Redovi po stranici, 0 znači da nema straničenja"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:370
-#, fuzzy
 msgid "Rows subtotal position"
 msgstr "Pozicija međuzbroja redaka"
 
@@ -12982,9 +12952,9 @@ msgid "Running"
 msgstr "Pokrenuto"
 
 #: superset/sql_lab.py:498
-#, fuzzy, python-format
+#, python-format
 msgid "Running statement %(statement_num)s out of %(statement_count)s"
-msgstr "Pokretanje izjave %(statement_num)s od %(statement_count)s"
+msgstr "Pokretanje naredbe %(statement_num)s od %(statement_count)s"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:87
 msgid "SAT"
@@ -13073,9 +13043,8 @@ msgid "SQLAlchemy URI"
 msgstr "SQLAlchemy URI"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:68
-#, fuzzy
 msgid "SSH Host"
-msgstr "SSH Host"
+msgstr "SSH poslužitelj"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:148
 msgid "SSH Password"
@@ -13179,9 +13148,8 @@ msgstr "Satelit"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:222
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:380
-#, fuzzy
 msgid "Satellite Streets"
-msgstr "Satelitske ulice"
+msgstr "Satelitski s ulicama"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:62
 msgid "Saturday"
@@ -13319,7 +13287,6 @@ msgid "Saved expressions"
 msgstr "Spremljeni izrazi"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:384
-#, fuzzy
 msgid "Saved metric"
 msgstr "Spremljena mjera"
 
@@ -13349,7 +13316,6 @@ msgstr "Skalirajte i premjestite"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:166
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:273
-#, fuzzy
 msgid "Scale only"
 msgstr "Samo skaliraj"
 
@@ -13365,7 +13331,6 @@ msgid "Scatter"
 msgstr "Raspršeni"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Scatter/index.ts:68
-#, fuzzy
 msgid "Scatter Plot"
 msgstr "Dijagram raspršenosti"
 
@@ -13375,8 +13340,8 @@ msgid ""
 "connected in order. It shows a statistical relationship between two "
 "variables."
 msgstr ""
-"Scatter Plot ima vodoravnu os u linearnim jedinicama, a točke su povezane "
-"redom. Pokazuje statistički odnos između dvije varijable."
+"Dijagram raspršenosti ima vodoravnu os u linearnim jedinicama, a točke su "
+"povezane redom. Pokazuje statistički odnos između dvije varijable."
 
 #: superset-frontend/src/SqlLab/components/ScheduleQueryButton/index.tsx:241
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:358
@@ -13395,13 +13360,12 @@ msgid "Schedule email report"
 msgstr "Zakažite izvješće e-poštom"
 
 #: superset-frontend/src/SqlLab/components/ScheduleQueryButton/index.tsx:231
-#, fuzzy
 msgid "Schedule query"
-msgstr "Raspored upita"
+msgstr "Zakaži upit"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.tsx:638
 msgid "Schedule the query periodically"
-msgstr "Povremeno zakažite upit"
+msgstr "Periodično zakazivanje upita"
 
 #: superset-frontend/src/features/alerts/components/AlertReportCronScheduler.tsx:82
 #: superset-frontend/src/features/alerts/components/AlertReportCronScheduler.tsx:87
@@ -13420,9 +13384,8 @@ msgid "Scheduled at (UTC)"
 msgstr "Planirano u (UTC)"
 
 #: superset/tasks/exceptions.py:24
-#, fuzzy
 msgid "Scheduled task executor not found"
-msgstr "Planirani izvršitelj zadatka nije pronađen"
+msgstr "Izvršitelj zadatka za zakazane obrade nije pronađen"
 
 #: superset-frontend/src/components/DatabaseSelector/index.tsx:411
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:227
@@ -13491,7 +13454,6 @@ msgid "Search %s records"
 msgstr "Pretraži %s zapisa"
 
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:300
-#, fuzzy
 msgid "Search / Filter"
 msgstr "Pretraživanje / Filter"
 
@@ -13561,15 +13523,13 @@ msgid "Seconds value"
 msgstr "Vrijednost sekundi"
 
 #: superset/views/database/mixins.py:198
-#, fuzzy
 msgid "Secure Extra"
-msgstr "Sigurno dodatno"
+msgstr "Dodatno osiguraj"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:365
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:370
-#, fuzzy
 msgid "Secure extra"
-msgstr "Osigurajte extra"
+msgstr "Dodatno osiguraj"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:358
 #: superset/initialization/__init__.py:360
@@ -13623,9 +13583,8 @@ msgid "Select Tags"
 msgstr "Odaberite oznake"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/FastVizSwitcher.tsx:94
-#, fuzzy
 msgid "Select Viz Type"
-msgstr "Odaberite Viz tip"
+msgstr "Odaberite Viz vrstu"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/ColumnSelect.tsx:131
 msgid "Select a column"
@@ -13676,12 +13635,11 @@ msgid "Select a metric to display on the right axis"
 msgstr "Odaberite mjeru za prikaz na desnoj osi"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:174
-#, fuzzy
 msgid ""
 "Select a metric to display. You can use an aggregation function on a column "
 "or write custom SQL to create a metric."
 msgstr ""
-"Odaberite mjeru za prikaz. Možete koristiti funkciju združivanja na stupcu "
+"Odaberite mjeru za prikaz. Možete koristiti agregacijsku funkciju na stupcu "
 "ili napisati prilagođeni SQL da biste stvorili mjeru."
 
 #: superset-frontend/src/features/databases/UploadDataModel/index.tsx:679
@@ -13697,20 +13655,18 @@ msgid "Select a sheet name from the uploaded file"
 msgstr "Odaberite naziv lista iz učitane datoteke"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:196
-#, fuzzy
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval "
 "represented by a single point on the chart."
 msgstr ""
-"Odaberite vremensko zrno za vizualizaciju. Zrno je vremenski interval "
-"predstavljen jednom točkom na grafikonu."
+"Odaberite vremensku granulaciju za vizualizaciju. Granulacijski korak je "
+"vremenski interval predstavljen jednom točkom na grafikonu."
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:133
 msgid "Select a visualization type"
 msgstr "Odaberite vrstu vizualizacije"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:331
-#, fuzzy
 msgid "Select aggregate options"
 msgstr "Odaberite agregatne opcije"
 
@@ -13888,9 +13844,8 @@ msgid "Select scheme"
 msgstr "Odaberite shemu"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:331
-#, fuzzy
 msgid "Select subject"
-msgstr "Odaberite temu"
+msgstr "Odaberite naslov"
 
 #: superset-frontend/src/components/TableSelector/index.tsx:321
 #: superset-frontend/src/components/TableSelector/index.tsx:332
@@ -13971,7 +13926,6 @@ msgid "Send as text"
 msgstr "Pošalji kao tekst"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/controlPanel.ts:62
-#, fuzzy
 msgid "Send range filter events to other charts"
 msgstr "Pošaljite događaje filtera raspona drugim grafikonima"
 
@@ -13985,50 +13939,49 @@ msgid "Sequential"
 msgstr "Sekvencijalni"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:52
-#, fuzzy
 msgid "Series"
-msgstr "Niz"
+msgstr "Podat. niz"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:61
 msgid "Series Height"
-msgstr "Visina serije"
+msgstr "Visina podat. niza"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:54
 msgid "Series Limit Sort By"
-msgstr ""
+msgstr "Ograničenje podat. niza, poredaj po"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:73
 msgid "Series Limit Sort Descending"
-msgstr ""
+msgstr "Ograničenje podat. niza, poredaj silazno"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:266
 msgid "Series Order"
-msgstr ""
+msgstr "Redoslijed podat. niza"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:77
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:78
 msgid "Series Style"
-msgstr ""
+msgstr "Stil podat. niza"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:156
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:87
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:90
 msgid "Series chart type (line, bar etc)"
-msgstr ""
+msgstr "Vrsta grafikona podat. niza (linijski, stupčasti itd.)"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Waterfall/controlPanel.tsx:64
 msgid "Series colors"
-msgstr ""
+msgstr "Boje podat. niza"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:256
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:272
 #: superset-frontend/src/explore/controls.jsx:350
 msgid "Series limit"
-msgstr ""
+msgstr "Ograničenje podat. niza"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:144
 msgid "Series type"
-msgstr ""
+msgstr "Vrsta podat. niza"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/pagination.tsx:46
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:313
@@ -14041,7 +13994,6 @@ msgid "Server pagination"
 msgstr "Straničenje poslužitelja"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/EncryptedField.tsx:114
-#, fuzzy
 msgid "Service Account"
 msgstr "Račun usluge"
 
@@ -14085,9 +14037,8 @@ msgid "Settings"
 msgstr "Postavke"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:125
-#, fuzzy
 msgid "Settings for time series"
-msgstr "Postavke za vremenske serije"
+msgstr "Postavke za vremenski niz"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:278
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:830
@@ -17289,7 +17240,7 @@ msgstr "Površinski grafikon vremenske serije (naslijeđeno)"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:36
 msgid "Time-series Bar Chart (legacy)"
-msgstr "Trakasti grafikon vremenske serije (naslijeđeno)"
+msgstr "Kronološki stupčasti grafikon (naslijeđeno)"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:39
 msgid "Time-series Line Chart (legacy)"
@@ -18972,13 +18923,13 @@ msgid "Whether to populate autocomplete filters options"
 msgstr "Treba li popuniti opcije filtara za samodovršavanje"
 
 #: superset/connectors/sqla/views.py:367
-#, fuzzy
 msgid ""
 "Whether to populate the filter's dropdown in the explore view's filter "
 "section with a list of distinct values fetched from the backend on the fly"
 msgstr ""
 "Treba li popuniti padajući izbornik filtra u odjeljku filtra prikaza "
-"istraživanja s popisom različitih vrijednosti dohvaćenih iz pozadine u hodu"
+"istraživanja s popisom različitih vrijednosti dohvaćenih iz pozadinskog "
+"sustava u hodu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:104
 msgid "Whether to show as Nightingale chart."
@@ -19120,14 +19071,12 @@ msgid "Write a handlebars template to render the data"
 msgstr "Napišite predložak upravljača za prikaz podataka"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:58
-#, fuzzy
 msgid "X AXIS TITLE BOTTOM MARGIN"
-msgstr "NASLOV OS X DONJA MARGINA"
+msgstr "X AXIS TITLE BOTTOM MARGIN"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:143
-#, fuzzy
 msgid "X AXIS TITLE MARGIN"
-msgstr "NASLOVNA MARGA OSI X"
+msgstr "X AXIS TITLE MARGIN"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:38
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:215
@@ -19211,9 +19160,8 @@ msgid "Y 2 bounds"
 msgstr "Y 2 granice"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Bubble/controlPanel.tsx:215
-#, fuzzy
 msgid "Y AXIS TITLE MARGIN"
-msgstr "NASLOVNA MARGINA OSI Y"
+msgstr "Y AXIS TITLE MARGIN"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/chartTitle.tsx:66
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:224
@@ -19632,38 +19580,41 @@ msgstr "Vaš upit nije bilo moguće zakazati"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:894
 msgid "Your query could not be updated"
-msgstr ""
+msgstr "Vaš upit nije moguće ažurirati"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:181
 msgid ""
 "Your query has been scheduled. To see details of your query, navigate to "
 "Saved queries"
 msgstr ""
+"Vaš upit je zakazan. Da biste vidjeli detalje svog upita, idite na "
+"Spremljeni upiti"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:874
 msgid "Your query was not properly saved"
-msgstr ""
+msgstr "Vaš upit nije ispravno spremljen"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:877
 msgid "Your query was saved"
-msgstr ""
+msgstr "Vaš upit je spremljen"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:890
 msgid "Your query was updated"
-msgstr ""
+msgstr "Vaš upit je ažuriran"
 
 #: superset-frontend/src/features/reports/ReportModal/actions.js:154
 msgid "Your report could not be deleted"
-msgstr ""
+msgstr "Vaše izvješće nije bilo moguće izbrisati"
 
 #: superset/commands/database/uploaders/columnar_reader.py:96
 msgid "ZIP file contains multiple file types"
-msgstr ""
+msgstr "ZIP datoteka sadrži više vrsta datoteka"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:188
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:263
+#, fuzzy
 msgid "Zero imputation"
-msgstr ""
+msgstr "Nulta imputacija"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:303
 msgid "Zoom"
@@ -19671,39 +19622,41 @@ msgstr "Uvećanje"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:307
 msgid "Zoom level of the map"
-msgstr ""
+msgstr "Razina zumiranja karte"
 
 #: superset-frontend/src/dashboard/actions/dashboardState.js:256
 msgid "[ untitled dashboard ]"
-msgstr ""
+msgstr "[ nadzorna ploča bez naziva ]"
 
 #: superset/viz.py:1731
+#, fuzzy
 msgid "[Longitude] and [Latitude] columns must be present in [Group By]"
-msgstr ""
+msgstr "Stupci [Longitude] i [Latitude] moraju biti prisutni u [Group By]"
 
 #: superset/viz.py:1681
 msgid "[Longitude] and [Latitude] must be set"
-msgstr ""
+msgstr "[Dužina] i [Širina] moraju biti postavljeni"
 
 #: superset/commands/explore/get.py:119 superset/views/core.py:472
 msgid "[Missing Dataset]"
-msgstr ""
+msgstr "[Nedostaje skup podataka]"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:85
 msgid "[Untitled]"
-msgstr ""
+msgstr "[Bez naziva]"
 
 #: superset/connectors/sqla/models.py:354 superset/models/sql_lab.py:241
 msgid "[asc]"
-msgstr ""
+msgstr "[uzlazno]"
 
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:190
 msgid "[dashboard name]"
-msgstr ""
+msgstr "[naziv nadzorne ploče]"
 
 #: superset/connectors/sqla/models.py:357 superset/models/sql_lab.py:244
+#, fuzzy
 msgid "[desc]"
-msgstr ""
+msgstr "[desc]"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:165
 msgid ""
@@ -19711,76 +19664,87 @@ msgid ""
 "against the primary metric. When omitted, the color is categorical and based "
 "on labels"
 msgstr ""
+"[opcionalno] ova sekundarna mjera koristi se za definiranje boje kao omjera "
+"u odnosu na primarnu metriku. Kada je izostavljena, boja je kategorična i "
+"temelji se na oznakama"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx:306
 msgid "[untitled]"
-msgstr ""
+msgstr "[bez naslova]"
 
 #: superset/utils/pandas_postprocessing/compare.py:53
 msgid "`compare_columns` must have the same length as `source_columns`."
-msgstr ""
+msgstr "`compare_columns` moraju imati istu duljinu kao `source_columns`."
 
 #: superset/utils/pandas_postprocessing/compare.py:57
 msgid "`compare_type` must be `difference`, `percentage` or `ratio`"
-msgstr ""
+msgstr "\"vrsta_usporedbe\" mora biti \"razlika\", \"postotak\" ili \"omjer\""
 
 #: superset/charts/schemas.py:641
 msgid "`confidence_interval` must be between 0 and 1 (exclusive)"
-msgstr ""
+msgstr "`confidence_interval` mora biti između 0 i 1 (isključivo)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:153
+#, fuzzy
 msgid ""
 "`count` is COUNT(*) if a group by is used. Numerical columns will be "
 "aggregated with the aggregator. Non-numerical columns will be used to label "
 "points. Leave empty to get a count of points in each cluster."
 msgstr ""
+"`count` je COUNT(*) ako se koristi grupa prema. Brojčani stupci će se "
+"združiti s agregatorom. Nenumerički stupci koristit će se za označavanje "
+"točaka. Ostavite prazno da biste dobili broj bodova u svakoj grupi."
 
 #: superset/common/query_object.py:435
 msgid "`operation` property of post processing object undefined"
-msgstr ""
+msgstr "svojstvo `operation` objekta naknadne obrade nije definirano"
 
 #: superset/utils/pandas_postprocessing/prophet.py:65
 msgid "`prophet` package not installed"
-msgstr ""
+msgstr "paket `prophet` nije instaliran"
 
 #: superset/utils/pandas_postprocessing/contribution.py:77
 msgid ""
 "`rename_columns` must have the same length as `columns` + "
 "`time_shift_columns`."
 msgstr ""
+"`rename_columns` mora imati istu duljinu kao `columns` + "
+"`time_shift_columns`."
 
 #: superset/charts/schemas.py:1268
 msgid "`row_limit` must be greater than or equal to 0"
-msgstr ""
+msgstr "\"row_limit\" mora biti veće ili jednako 0"
 
 #: superset/charts/schemas.py:1275
 msgid "`row_offset` must be greater than or equal to 0"
-msgstr ""
+msgstr "\"row_offset\" mora biti veći ili jednak 0"
 
 #: superset/charts/schemas.py:1095
 msgid "`width` must be greater or equal to 0"
-msgstr ""
+msgstr "`width` mora biti veća ili jednaka 0"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:455
 msgid "aggregate"
-msgstr ""
+msgstr "Izračun skupnih vrijednosti"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:43
 #: superset-frontend/src/pages/AlertReportList/index.tsx:112
+#, fuzzy
 msgid "alert"
-msgstr ""
+msgstr "uzbuna"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:366
 msgid "alert condition"
-msgstr ""
+msgstr "Uvjet upozorenja"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:46
+#, fuzzy
 msgid "alert dark"
-msgstr ""
+msgstr "uzbuna mrak"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:113
 msgid "alerts"
-msgstr ""
+msgstr "upozorenja"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:156
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailMenuItems.tsx:243
@@ -19790,27 +19754,28 @@ msgstr "svi"
 
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:200
 msgid "also copy (duplicate) charts"
-msgstr ""
+msgstr "također kopirajte (duplicirajte) grafikone"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:192
+#, fuzzy
 msgid "ancestor"
-msgstr ""
+msgstr "predak"
 
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:106
 #: superset-frontend/src/pages/AnnotationList/index.tsx:83
 msgid "annotation"
-msgstr ""
+msgstr "Zabilješka"
 
 #: superset-frontend/src/features/annotationLayers/AnnotationLayerModal.tsx:104
 msgid "annotation_layer"
-msgstr ""
+msgstr "annotation_layer"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:380
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:264
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:536
 #: superset-frontend/src/explore/controlPanels/sections.tsx:262
 msgid "asfreq"
-msgstr ""
+msgstr "asfreq"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:48
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:50
@@ -19830,39 +19795,40 @@ msgstr "automatski"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:129
 msgid "auto (Smooth)"
-msgstr ""
+msgstr "automatski (glatko)"
 
 #: superset-frontend/src/dashboard/components/menu/BackgroundStyleDropdown.tsx:79
 msgid "background"
-msgstr ""
+msgstr "pozadina"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:125
 msgid "basis"
-msgstr ""
+msgstr "osnova"
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:69
 msgid "below (example:"
-msgstr ""
+msgstr "ispod (primjer:"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js:260
 msgid "between {down} and {up} {name}"
-msgstr ""
+msgstr "između {down} i {up} {name}"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:381
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:265
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:537
 #: superset-frontend/src/explore/controlPanels/sections.tsx:263
 msgid "bfill"
-msgstr ""
+msgstr "bfill"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ControlHeader.tsx:74
 #: superset-frontend/src/explore/components/ControlHeader.tsx:122
+#, fuzzy
 msgid "bolt"
-msgstr ""
+msgstr "vijak"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ColumnTypeLabel/ColumnTypeLabel.tsx:65
 msgid "boolean type icon"
-msgstr ""
+msgstr "ikona boolean tipa"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:159
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:177
@@ -19871,19 +19837,20 @@ msgstr "dno"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tabs.jsx:222
 msgid "button (cmd + z) until you save your changes."
-msgstr ""
+msgstr "gumb (cmd + z) dok ne spremite promjene."
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:72
 msgid "by using"
-msgstr ""
+msgstr "korištenjem"
 
 #: superset-frontend/packages/superset-ui-core/src/validator/validateNonEmpty.ts:29
 msgid "cannot be empty"
-msgstr ""
+msgstr "ne može biti prazno"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:126
+#, fuzzy
 msgid "cardinal"
-msgstr ""
+msgstr "kardinal"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:85
 msgid "change"
@@ -19894,19 +19861,19 @@ msgstr "promijeni"
 #: superset-frontend/src/pages/ChartList/index.tsx:180
 #: superset-frontend/src/pages/ChartList/index.tsx:855
 msgid "chart"
-msgstr ""
+msgstr "grafikon"
 
 #: superset-frontend/src/features/home/EmptyState.tsx:28
 msgid "charts"
-msgstr ""
+msgstr "grafikoni"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSqlTabContent/index.jsx:99
 msgid "choose WHERE or HAVING..."
-msgstr ""
+msgstr "odaberite WHERE ili HAVING…"
 
 #: superset-frontend/src/components/ListView/ListView.tsx:455
 msgid "clear all filters"
-msgstr ""
+msgstr "poništi sve filtere"
 
 #: superset-frontend/src/components/Chart/Chart.jsx:327
 #: superset-frontend/src/explore/components/ExploreChartPanel/index.jsx:353
@@ -19915,61 +19882,63 @@ msgstr "kliknite ovdje"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:44
 msgid "code ISO 3166-1 alpha-2 (cca2)"
-msgstr ""
+msgstr "kod ISO 3166-1 alfa-2 (cca2)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:45
 msgid "code ISO 3166-1 alpha-3 (cca3)"
-msgstr ""
+msgstr "kod ISO 3166-1 alpha-3 (cca3)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:43
 msgid "code International Olympic Committee (cioc)"
-msgstr ""
+msgstr "kod Međunarodni olimpijski odbor (cioc)"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberPeriodOverPeriod/controlPanel.ts:93
 msgid "color scheme for comparison"
-msgstr ""
+msgstr "shema boja za usporedbu"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:444
 msgid "column"
-msgstr ""
+msgstr "stupac"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ModalHeader.tsx:152
 #, python-format
 msgid "connecting to %(dbModelName)s"
-msgstr ""
+msgstr "povezivanje s %(dbModelName)s"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:363
 msgid "content type"
-msgstr ""
+msgstr "vrsta sadržaja"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/Histogram.jsx:117
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:77
+#, fuzzy
 msgid "count"
-msgstr ""
+msgstr "računati"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:397
+#, fuzzy
 msgid "create"
-msgstr "kreiraj"
+msgstr "stvori"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:205
 msgid "create a new chart"
-msgstr ""
+msgstr "stvoriti novi grafikon"
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/MessageContent.tsx:46
 msgid "create dataset from SQL query"
-msgstr ""
+msgstr "stvoriti skup podataka iz SQL upita"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:367
 msgid "crontab"
-msgstr ""
+msgstr "crontab"
 
 #: superset-frontend/src/features/cssTemplates/CssTemplateModal.tsx:253
 msgid "css"
-msgstr ""
+msgstr "css"
 
 #: superset-frontend/src/features/cssTemplates/CssTemplateModal.tsx:91
 msgid "css_template"
-msgstr ""
+msgstr "css_template"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:260
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:144
@@ -19977,29 +19946,29 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:190
 #: superset-frontend/src/explore/controlPanels/sections.tsx:145
 msgid "cumsum"
-msgstr ""
+msgstr "cumsum"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/Histogram.jsx:121
 msgid "cumulative"
-msgstr ""
+msgstr "kumulativni"
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:128
 #: superset-frontend/src/features/home/DashboardTable.tsx:77
 #: superset-frontend/src/pages/DashboardList/index.tsx:157
 #: superset-frontend/src/pages/DashboardList/index.tsx:804
 msgid "dashboard"
-msgstr "dashboard"
+msgstr "nadzorna ploča"
 
 #: superset-frontend/src/features/home/EmptyState.tsx:29
 msgid "dashboards"
-msgstr ""
+msgstr "nadzorne ploče"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:364
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:553
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:766
 #: superset-frontend/src/pages/DatabaseList/index.tsx:119
 msgid "database"
-msgstr ""
+msgstr "baza podataka"
 
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:121
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:75
@@ -20007,12 +19976,12 @@ msgstr ""
 #: superset-frontend/src/pages/DatasetList/index.tsx:159
 #: superset-frontend/src/pages/DatasetList/index.tsx:873
 msgid "dataset"
-msgstr ""
+msgstr "skup podataka"
 
 #: superset-frontend/src/features/datasets/AddDataset/Header/index.tsx:83
 #: superset-frontend/src/pages/AllEntities/index.tsx:122
 msgid "dataset name"
-msgstr ""
+msgstr "naziv skupa podataka"
 
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:302
 msgid "date"
@@ -20026,59 +19995,60 @@ msgstr "dan"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:30
 msgid "day of the month"
-msgstr "dan u mjesecu kao decimalni broj, prazno podstavljen (' 1'.\" 31')"
+msgstr "dan u mjesecu"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:32
 msgid "day of the week"
-msgstr "-dan u tjednu-"
+msgstr "dan u tjednu"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/index.ts:32
 msgid "deck.gl 3D Hexagon"
-msgstr ""
+msgstr "deck.gl 3D šesterokut"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/index.ts:31
 msgid "deck.gl Arc"
-msgstr ""
+msgstr "deck.gl Luk"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Contour/index.ts:32
 msgid "deck.gl Contour"
-msgstr ""
+msgstr "deck.gl Kontura"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Geojson/index.ts:32
 msgid "deck.gl Geojson"
-msgstr ""
+msgstr "deck.gl Geojson"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Grid/index.ts:31
 msgid "deck.gl Grid"
-msgstr ""
+msgstr "deck.gl Mreža"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Heatmap/index.ts:32
 msgid "deck.gl Heatmap"
-msgstr ""
+msgstr "deck.gl Toplinska karta"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/index.ts:30
 msgid "deck.gl Multiple Layers"
-msgstr ""
+msgstr "deck.gl Višestruki slojevi"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/index.ts:29
 msgid "deck.gl Path"
-msgstr ""
+msgstr "deck.gl Put"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/index.ts:31
 msgid "deck.gl Polygon"
-msgstr ""
+msgstr "deck.gl Poligon"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/index.ts:31
+#, fuzzy
 msgid "deck.gl Scatterplot"
-msgstr ""
+msgstr "deck.gl Scatterplot"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/index.ts:31
 msgid "deck.gl Screen Grid"
-msgstr ""
+msgstr "deck.gl prikaz rešetke"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.ts:36
 msgid "deck.gl charts"
-msgstr ""
+msgstr "deck.gl grafikoni"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/index.ts:33
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/index.ts:35
@@ -20092,36 +20062,37 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/index.ts:36
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/index.ts:35
 msgid "deckGL"
-msgstr ""
+msgstr "deckGL"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:89
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:108
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:127
 msgid "default"
-msgstr "zadana vrijednost"
+msgstr "zadano"
 
 #: superset-frontend/src/components/DeleteModal/index.tsx:84
 msgid "delete"
 msgstr "obriši"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:193
+#, fuzzy
 msgid "descendant"
-msgstr ""
+msgstr "potomak"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ControlHeader.tsx:64
 #: superset-frontend/src/components/Datasource/CollectionTable.tsx:332
 #: superset-frontend/src/features/annotationLayers/AnnotationLayerModal.tsx:261
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:326
 msgid "description"
-msgstr ""
+msgstr "opis"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:79
 msgid "deviation"
-msgstr ""
+msgstr "devijacija"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SqlAlchemyForm.tsx:83
 msgid "dialect+driver://username:password@host:port/database"
-msgstr ""
+msgstr "dialect+driver://username:password@host:port/database"
 
 #: superset-frontend/src/features/dashboards/DashboardCard.tsx:157
 msgid "draft"
@@ -20129,73 +20100,73 @@ msgstr "skica"
 
 #: superset/views/log/__init__.py:32
 msgid "dttm"
-msgstr ""
+msgstr "dttm"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:217
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:152
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:200
 msgid "e.g. ********"
-msgstr ""
+msgstr "npr. ********"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:45
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:73
 msgid "e.g. 127.0.0.1"
-msgstr ""
+msgstr "npr. 127.0.0.1"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:68
 msgid "e.g. 5432"
-msgstr ""
+msgstr "npr. 5432"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:36
 msgid "e.g. AccountAdmin"
-msgstr ""
+msgstr "npr. AccountAdmin"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:196
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:105
 msgid "e.g. Analytics"
-msgstr ""
+msgstr "npr. Analitika"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:32
 msgid "e.g. compute_wh"
-msgstr ""
+msgstr "npr. compute_wh"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:153
 msgid "e.g. default"
-msgstr ""
+msgstr "npr. zadana vrijednost"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:133
 msgid "e.g. hive_metastore"
-msgstr ""
+msgstr "npr. hive_metastore"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:289
 msgid "e.g. param1=value1&param2=value2"
-msgstr ""
+msgstr "npr. param1=vrijednost1&param2=vrijednost2"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:91
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:175
 msgid "e.g. sql/protocolv1/o/12345"
-msgstr ""
+msgstr "npr. sql/protocolv1/o/12345"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:113
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:692
 msgid "e.g. world_population"
-msgstr ""
+msgstr "npr. world_population"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:29
 msgid "e.g. xy12345.us-east-2.aws"
-msgstr ""
+msgstr "npr. xy12345.us-east-2.aws"
 
 #: superset-frontend/plugins/legacy-plugin-chart-event-flow/src/controlPanel.tsx:123
 msgid "e.g., a \"user id\" column"
-msgstr ""
+msgstr "npr. stupac \"user id\"."
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:217
 msgid "edit mode"
-msgstr ""
+msgstr "način uređivanja"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:370
 msgid "email subject"
-msgstr ""
+msgstr "predmet e-pošte"
 
 #: superset-frontend/plugins/plugin-chart-table/src/DataTable/components/SelectPageSize.tsx:58
 msgid "entries"
@@ -20206,47 +20177,48 @@ msgid "error"
 msgstr "greška"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:47
+#, fuzzy
 msgid "error dark"
-msgstr ""
+msgstr "greška tamna"
 
 #: superset/models/helpers.py:1838
 msgid "error_message"
-msgstr ""
+msgstr "error_message"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:27
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:35
 msgid "every"
-msgstr ""
+msgstr "svaki"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:29
 msgid "every day of the month"
-msgstr ""
+msgstr "svaki dan u mjesecu"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:31
 msgid "every day of the week"
-msgstr ""
+msgstr "svaki dan u tjednu"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:33
 msgid "every hour"
-msgstr ""
+msgstr "svaki sat"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:34
 msgid "every minute"
-msgstr ""
+msgstr "svaka minuta"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:28
 msgid "every month"
-msgstr ""
+msgstr "svaki mjesec"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/controlPanel.ts:57
 #: superset-frontend/src/explore/fixtures.tsx:63
 msgid "expand"
-msgstr ""
+msgstr "proširiti"
 
 #: superset-frontend/src/SqlLab/components/ExploreCtasResultsButton/index.tsx:89
 #: superset-frontend/src/SqlLab/components/ExploreResultsButton/index.tsx:47
 msgid "explore"
-msgstr ""
+msgstr "istražiti"
 
 #: superset-frontend/src/SqlLab/constants.ts:34
 #: superset-frontend/src/SqlLab/constants.ts:52
@@ -20255,42 +20227,46 @@ msgstr "neuspješno"
 
 #: superset-frontend/src/SqlLab/constants.ts:36
 msgid "fetching"
-msgstr ""
+msgstr "dohvaćanje"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:382
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:266
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:538
 #: superset-frontend/src/explore/controlPanels/sections.tsx:264
+#, fuzzy
 msgid "ffill"
-msgstr ""
+msgstr "ispuniti"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:220
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:118
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:85
+#, fuzzy
 msgid "flat"
-msgstr ""
+msgstr "stan"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SqlAlchemyForm.tsx:97
 msgid "for more information on how to structure your URI."
-msgstr ""
+msgstr "za više informacija o tome kako strukturirati svoj URI."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ColumnTypeLabel/ColumnTypeLabel.tsx:59
 msgid "function type icon"
-msgstr ""
+msgstr "ikona tipa funkcije"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:353
+#, fuzzy
 msgid "geohash (square)"
-msgstr ""
+msgstr "geohash (kvadrat)"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:146
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:79
 msgid "heatmap"
-msgstr ""
+msgstr "Toplinska karta"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:162
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:96
 msgid "heatmap: values are normalized across the entire heatmap"
 msgstr ""
+"toplinska karta: vrijednosti su normalizirane na cijeloj toplinskoj karti"
 
 #: superset-frontend/src/components/EmptyState/index.tsx:231
 #: superset-frontend/src/components/ImportModal/ErrorAlert.tsx:60
@@ -20312,46 +20288,51 @@ msgid ""
 "image-rendering CSS attribute of the canvas object that defines how the "
 "browser scales up the image"
 msgstr ""
+"CSS atribut za prikaz slike u objektu platna koji definira kako preglednik "
+"povećava veličinu slike"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:44
 msgid "in"
 msgstr "u"
 
 #: superset-frontend/src/explore/components/controls/TextAreaControl.jsx:145
+#, fuzzy
 msgid "in modal"
-msgstr ""
+msgstr "u modalnom"
 
 #: superset-frontend/packages/superset-ui-core/src/validator/validateMapboxStylesUrl.ts:35
 msgid "is expected to be a Mapbox URL"
-msgstr ""
+msgstr "očekuje se da bude Mapbox URL"
 
 #: superset-frontend/packages/superset-ui-core/src/validator/legacyValidateNumber.ts:28
 #: superset-frontend/packages/superset-ui-core/src/validator/validateNumber.ts:32
 msgid "is expected to be a number"
-msgstr ""
+msgstr "očekuje se da bude broj"
 
 #: superset-frontend/packages/superset-ui-core/src/validator/legacyValidateInteger.ts:31
 #: superset-frontend/packages/superset-ui-core/src/validator/validateInteger.ts:32
 msgid "is expected to be an integer"
-msgstr ""
+msgstr "očekuje se da bude cijeli broj"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:318
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:346
 msgid "key a-z"
-msgstr ""
+msgstr "tipka a-z"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:319
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:347
 msgid "key z-a"
 msgstr ""
+"tipka\n"
+" z-a"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:151
 msgid "label"
-msgstr ""
+msgstr "oznaka"
 
 #: superset-frontend/src/SqlLab/components/TableElement/index.tsx:205
 msgid "latest partition:"
-msgstr ""
+msgstr "najnovija particija:"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:156
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:174
@@ -20360,27 +20341,30 @@ msgstr "lijevo"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js:259
 msgid "less than {min} {name}"
-msgstr ""
+msgstr "manje od {min} {name}"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:124
 msgid "linear"
-msgstr ""
+msgstr "linearni"
 
 #: superset-frontend/src/pages/ExecutionLogList/index.tsx:70
+#, fuzzy
 msgid "log"
-msgstr ""
+msgstr "log"
 
 #: superset/charts/schemas.py:722
 msgid ""
 "lower percentile must be greater than 0 and less than 100. Must be lower "
 "than upper percentile."
 msgstr ""
+"donji percentil mora biti veći od 0 i manji od 100. Mora biti niži od "
+"gornjeg percentila."
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:176
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Contour/controlPanel.ts:84
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:74
 msgid "max"
-msgstr "Max"
+msgstr "maks. "
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:174
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:257
@@ -20396,7 +20380,7 @@ msgstr "Max"
 #: superset-frontend/src/explore/controlPanels/sections.tsx:142
 #: superset-frontend/src/explore/controlPanels/sections.tsx:266
 msgid "mean"
-msgstr ""
+msgstr "srednja vrijednost"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:383
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:267
@@ -20404,18 +20388,18 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:539
 #: superset-frontend/src/explore/controlPanels/sections.tsx:265
 msgid "median"
-msgstr ""
+msgstr "medijan"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Geojson/controlPanel.ts:71
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/controlPanel.ts:76
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:112
 msgid "meters"
-msgstr ""
+msgstr "metri"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/TableRenderers.jsx:28
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:136
 msgid "metric"
-msgstr ""
+msgstr "mjera"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:63
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:175
@@ -20430,11 +20414,11 @@ msgstr "minuta"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:51
 msgid "minute(s)"
-msgstr ""
+msgstr "minuta(e)"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:127
 msgid "monotone"
-msgstr ""
+msgstr "monoton"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:169
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:50
@@ -20446,31 +20430,31 @@ msgstr "mjesec"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js:261
 msgid "more than {max} {name}"
-msgstr ""
+msgstr "više od {max} {name}"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/columns.tsx:46
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:112
 msgid "must have a value"
-msgstr ""
+msgstr "mora imati vrijednost"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/Polygon.tsx:72
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:73
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:361
 msgid "name"
-msgstr "ime"
+msgstr "naziv"
 
 #: superset/commands/database/exceptions.py:168
 msgid "no SQL validator is configured"
-msgstr ""
+msgstr "nijedan SQL validator nije konfiguriran"
 
 #: superset/commands/database/validate_sql.py:101
 #, python-format
 msgid "no SQL validator is configured for %(engine_spec)s"
-msgstr ""
+msgstr "nijedan SQL validator nije konfiguriran za %(engine_spec)s"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ColumnTypeLabel/ColumnTypeLabel.tsx:63
 msgid "numeric type icon"
-msgstr ""
+msgstr "ikona numeričkog tipa"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:54
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:46
@@ -20482,17 +20466,17 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/index.js:31
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/TimePivot/index.js:29
 msgid "nvd3"
-msgstr ""
+msgstr "nvd3"
 
 #: superset-frontend/src/SqlLab/constants.ts:33
 #: superset-frontend/src/SqlLab/constants.ts:54
 msgid "offline"
-msgstr ""
+msgstr "izvan mreže"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:45
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:46
 msgid "on"
-msgstr "uklj"
+msgstr "uključeno"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:47
 #: superset-frontend/src/pages/ChartCreation/index.tsx:298
@@ -20501,52 +20485,55 @@ msgstr "ili"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:207
 msgid "or use existing ones from the panel on the right"
-msgstr ""
+msgstr "ili upotrijebite postojeće s ploče s desne strane"
 
 #: superset/charts/schemas.py:1297
 msgid "orderby column must be populated"
-msgstr ""
+msgstr "stupac orderby mora biti popunjen"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:84
 msgid "overall"
-msgstr ""
+msgstr "sveukupno"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:362
 msgid "owners"
-msgstr ""
+msgstr "vlasnici"
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:76
 msgid "p-value precision"
-msgstr ""
+msgstr "p-vrijednost preciznost"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:80
 msgid "p1"
-msgstr ""
+msgstr "p1"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:81
 msgid "p5"
-msgstr ""
+msgstr "p5"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:82
 msgid "p95"
-msgstr ""
+msgstr "p95"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:83
 msgid "p99"
-msgstr ""
+msgstr "p99"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/consts.ts:24
 #: superset-frontend/plugins/plugin-chart-table/src/consts.ts:26
+#, fuzzy
 msgid "page_size.all"
-msgstr ""
+msgstr "veličina_stranice.sve"
 
 #: superset-frontend/plugins/plugin-chart-table/src/TableChart.tsx:205
+#, fuzzy
 msgid "page_size.entries"
-msgstr ""
+msgstr "veličina_stranice.unosi"
 
 #: superset-frontend/plugins/plugin-chart-table/src/TableChart.tsx:185
+#, fuzzy
 msgid "page_size.show"
-msgstr ""
+msgstr "veličina_stranice.pokaži"
 
 #: superset-frontend/src/SqlLab/constants.ts:35
 #: superset-frontend/src/SqlLab/constants.ts:55
@@ -20555,92 +20542,94 @@ msgstr "na čekanju"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/Histogram.jsx:125
 msgid "percentile (exclusive)"
-msgstr ""
+msgstr "percentil (isključivo)"
 
 #: superset/utils/pandas_postprocessing/boxplot.py:88
 msgid ""
 "percentiles must be a list or tuple with two numeric values, of which the "
 "first is lower than the second value"
 msgstr ""
+"percentili moraju biti popis ili korka s dvije numeričke vrijednosti, od "
+"kojih je prva niža od druge vrijednosti"
 
 #: superset/views/core.py:840
 msgid "permalink state not found"
-msgstr ""
+msgstr "Stanje stalne veze nije pronađeno"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:128
 msgid "pixelated (Sharp)"
-msgstr ""
+msgstr "pikselizirano (oštro)"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Geojson/controlPanel.ts:72
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/controlPanel.ts:77
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:113
 msgid "pixels"
-msgstr ""
+msgstr "pikseli"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:53
 msgid "previous calendar month"
-msgstr ""
+msgstr "prethodni kalendarski mjesec"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:50
 msgid "previous calendar week"
-msgstr ""
+msgstr "prethodni kalendarski tjedan"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:55
 msgid "previous calendar year"
-msgstr ""
+msgstr "prethodna kalendarska godina"
 
 #: superset-frontend/src/features/dashboards/DashboardCard.tsx:157
 msgid "published"
-msgstr "Objavljeno"
+msgstr "objavljeno"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:170
 #: superset-frontend/src/explore/controls.jsx:268
 msgid "quarter"
-msgstr ""
+msgstr "četvrtina"
 
 #: superset-frontend/src/pages/SavedQueryList/index.tsx:611
 msgid "queries"
-msgstr ""
+msgstr "upiti"
 
 #: superset-frontend/src/features/home/SavedQueries.tsx:132
 msgid "query"
-msgstr ""
+msgstr "upit"
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:84
 msgid "random"
-msgstr ""
+msgstr "nasumičan"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:42
 msgid "reboot"
-msgstr ""
+msgstr "ponovno pokretanje"
 
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:76
 msgid "recent"
-msgstr ""
+msgstr "nedavni"
 
 #: superset-frontend/src/features/home/EmptyState.tsx:30
 msgid "recents"
-msgstr ""
+msgstr "nedavni"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:369
 msgid "recipients"
-msgstr ""
+msgstr "primatelji"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:599
 #: superset-frontend/src/pages/AlertReportList/index.tsx:112
 msgid "report"
-msgstr ""
+msgstr "izvješće"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:113
 #: superset-frontend/src/pages/AlertReportList/index.tsx:140
 #: superset-frontend/src/pages/AlertReportList/index.tsx:149
 #: superset-frontend/src/pages/ExecutionLogList/index.tsx:79
 msgid "reports"
-msgstr ""
+msgstr "izvješća"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:622
 msgid "restore zoom"
-msgstr ""
+msgstr "vratiti zum"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:158
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:176
@@ -20648,8 +20637,9 @@ msgid "right"
 msgstr "desno"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:151
+#, fuzzy
 msgid "rowlevelsecurity"
-msgstr ""
+msgstr "sigurnost razine redaka"
 
 #: superset-frontend/src/SqlLab/constants.ts:37
 #: superset-frontend/src/SqlLab/constants.ts:53
@@ -20658,7 +20648,7 @@ msgstr "radi"
 
 #: superset-frontend/src/features/home/EmptyState.tsx:31
 msgid "saved queries"
-msgstr ""
+msgstr "spremljeni upiti"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1693
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:1707
@@ -20667,35 +20657,40 @@ msgstr "sekundi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:83
 msgid "series"
-msgstr ""
+msgstr "niz"
 
 #: superset-frontend/plugins/legacy-plugin-chart-horizon/src/controlPanel.ts:88
 msgid ""
 "series: Treat each series independently; overall: All series use the same "
 "scale; change: Show changes compared to the first data point in each series"
 msgstr ""
+"niz: Tretirajte svaki niz zasebno; ukupno: Sve serije koriste istu "
+"ljestvicu; promjena: Prikaži promjene u usporedbi s prvom podatkovnom točkom "
+"u svakom nizu"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/timeComparison.tsx:97
+#, fuzzy
 msgid "shift start date"
-msgstr ""
+msgstr "datum početka smjene"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:365
 msgid "sql"
-msgstr ""
+msgstr "sql"
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:86
 msgid "square"
-msgstr ""
+msgstr "kvadrat"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/controlPanel.ts:55
 #: superset-frontend/src/explore/fixtures.tsx:61
 msgid "stack"
-msgstr ""
+msgstr "stog"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:222
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:121
+#, fuzzy
 msgid "staggered"
-msgstr ""
+msgstr "raspoređen"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:177
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:259
@@ -20704,38 +20699,40 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:189
 #: superset-frontend/src/explore/controlPanels/sections.tsx:144
 msgid "std"
-msgstr ""
+msgstr "std"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:129
 msgid "step-after"
-msgstr ""
+msgstr "korak-poslije"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:128
 msgid "step-before"
-msgstr ""
+msgstr "korak-prije"
 
 #: superset-frontend/src/SqlLab/constants.ts:38
 msgid "stopped"
-msgstr ""
+msgstr "zaustavljeno"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/controlPanel.ts:56
 #: superset-frontend/src/explore/fixtures.tsx:62
+#, fuzzy
 msgid "stream"
-msgstr ""
+msgstr "potok"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ColumnTypeLabel/ColumnTypeLabel.tsx:61
 msgid "string type icon"
-msgstr ""
+msgstr "ikona tipa niza"
 
 #: superset-frontend/src/SqlLab/constants.ts:39
 #: superset-frontend/src/SqlLab/constants.ts:51
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:42
 msgid "success"
-msgstr ""
+msgstr "uspjeh"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:45
+#, fuzzy
 msgid "success dark"
-msgstr ""
+msgstr "uspjeh mrak"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:173
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:258
@@ -20751,11 +20748,11 @@ msgstr ""
 #: superset-frontend/src/explore/controlPanels/sections.tsx:143
 #: superset-frontend/src/explore/controlPanels/sections.tsx:267
 msgid "sum"
-msgstr ""
+msgstr "zbroj"
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:80
 msgid "syntax."
-msgstr ""
+msgstr "sintaksa."
 
 #: superset-frontend/src/pages/Tags/index.tsx:86
 msgid "tag"
@@ -20763,15 +20760,15 @@ msgstr "oznaka"
 
 #: superset-frontend/src/features/tags/BulkTagModal.tsx:123
 msgid "tags"
-msgstr ""
+msgstr "oznake"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ColumnTypeLabel/ColumnTypeLabel.tsx:67
 msgid "temporal type icon"
-msgstr ""
+msgstr "ikona vremenskog tipa"
 
 #: superset-frontend/src/explore/components/controls/TextAreaControl.jsx:115
 msgid "textarea"
-msgstr ""
+msgstr "tekstualno područje"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/Histogram.jsx:114
 msgid "to"
@@ -20784,55 +20781,57 @@ msgstr "vrh"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tabs.jsx:221
 msgid "undo"
-msgstr ""
+msgstr "poništiti"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ColumnTypeLabel/ColumnTypeLabel.tsx:55
 msgid "unknown type icon"
-msgstr ""
+msgstr "ikona nepoznatog tipa"
 
 #: superset/charts/schemas.py:737
 msgid ""
 "upper percentile must be greater than 0 and less than 100. Must be higher "
 "than lower percentile."
 msgstr ""
+"gornji percentil mora biti veći od 0 i manji od 100. Mora biti viši od "
+"donjeg percentila."
 
 #: superset-frontend/src/explore/constants.ts:83
 msgid "use latest_partition template"
-msgstr ""
+msgstr "koristite predložak latest_partition"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:320
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:348
 msgid "value ascending"
-msgstr ""
+msgstr "vrijednost uzlazno"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:321
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:349
 msgid "value descending"
-msgstr ""
+msgstr "vrijednost silazno"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:178
 msgid "var"
-msgstr ""
+msgstr "var"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:78
 msgid "variance"
-msgstr ""
+msgstr "varijanca"
 
 #: superset-frontend/src/pages/ChartCreation/index.tsx:292
 msgid "view instructions"
-msgstr ""
+msgstr "pogledajte upute"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1089
 msgid "virtual"
-msgstr ""
+msgstr "virtualni"
 
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:74
 msgid "viz type"
-msgstr ""
+msgstr "viz tip"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:538
 msgid "was created"
-msgstr ""
+msgstr "kreirano"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:166
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:49
@@ -20845,12 +20844,12 @@ msgstr "tjedan"
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:168
 #: superset-frontend/src/explore/controls.jsx:266
 msgid "week ending Saturday"
-msgstr ""
+msgstr "tjedan koji završava u subotu"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:167
 #: superset-frontend/src/explore/controls.jsx:265
 msgid "week starting Sunday"
-msgstr ""
+msgstr "tjedan koji počinje u nedjelju"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:368
 msgid "working timeout"
@@ -20864,17 +20863,17 @@ msgstr "x"
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:159
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:93
 msgid "x: values are normalized within each column"
-msgstr ""
+msgstr "x: vrijednosti su normalizirane unutar svakog stupca"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:148
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:81
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:160
 #: superset-frontend/plugins/plugin-chart-echarts/src/Heatmap/controlPanel.tsx:94
 msgid "y: values are normalized within each row"
-msgstr ""
+msgstr "y: vrijednosti su normalizirane unutar svakog retka"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:171
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:51
@@ -20885,4 +20884,4 @@ msgstr "godina"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:621
 msgid "zoom area"
-msgstr ""
+msgstr "područje zumiranja"
